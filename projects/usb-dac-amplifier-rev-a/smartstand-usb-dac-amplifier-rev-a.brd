@@ -1001,7 +1001,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <rectangle x1="-1.778" y1="-1.016" x2="-1.27" y2="1.016" layer="21"/>
 <wire x1="1.524" y1="1.016" x2="1.524" y2="-1.016" width="0.127" layer="21"/>
 </package>
-<package name="R-PDSO-G8">
+<package name="R-PDSO-G8-DCU">
 <smd name="1" x="-0.75" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
 <smd name="2" x="-0.25" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
 <smd name="3" x="0.25" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
@@ -2041,21 +2041,25 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="J3" library="neutrik" package="NRJ6HH" value="NRJ6HH" x="77.216" y="46.609" smashed="yes">
 <attribute name="NAME" x="67.056" y="56.769" size="1.27" layer="21"/>
+<attribute name="PN" value="NRJ6HH" x="77.216" y="46.609" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP2" library="pinhead" package="2X10" value="" x="-15.621" y="22.352" smashed="yes">
 <attribute name="PN" value="N2520-5002RB" x="-15.621" y="22.352" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-2.159" y="21.971" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-28.321" y="17.907" size="1.27" layer="27"/>
 </element>
-<element name="J4" library="switchcraft" package="PJRAN2X1U" value="PJRAN2XIU01AUX" x="88.646" y="16.51" smashed="yes" rot="R90">
+<element name="J4" library="switchcraft" package="PJRAN2X1U" value="PJRAN2X1U01AUX" x="88.646" y="16.51" smashed="yes" rot="R90">
 <attribute name="VALUE" x="78.646" y="0.51" size="1.27" layer="27" rot="R90"/>
 <attribute name="NAME" x="80.202" y="1.78" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="PJRAN2X1U01AUX" x="88.646" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="rcl" package="TDK-VLP8040" value="2.2uH" x="20.066" y="-46.863" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.86" y="-52.832" size="1.27" layer="25"/>
+<attribute name="PN" value="VLP8040T-2R2N" x="20.066" y="-46.863" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L2" library="rcl" package="TDK-VLP8040" value="1.5uH" x="45.974" y="-46.863" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.514" y="-52.832" size="1.27" layer="25"/>
+<attribute name="PN" value="VLP8040T-1R5N" x="45.974" y="-46.863" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R22" library="rcl" package="R0402" value="470, 0.1%" x="-8.382" y="-17.653" smashed="yes" rot="R180">
 <attribute name="NAME" x="-9.652" y="-16.891" size="1.27" layer="25" rot="R180"/>
@@ -2119,6 +2123,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="RL1" library="panasonic" package="TQ2" value="TQ2-12V" x="-19.939" y="-16.51" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-25.654" y="-24.13" size="1.27" layer="27" rot="R90"/>
 <attribute name="NAME" x="-26.67" y="-8.89" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="TQ2-12V" x="-19.939" y="-16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R46" library="rcl" package="R0402" value="10K, 0.1%" x="49.276" y="65.405" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.721" y="66.04" size="1.27" layer="25" rot="R180"/>
@@ -2250,6 +2255,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="RL2" library="panasonic" package="TQ2" value="TQ2-12V" x="48.133" y="59.055" smashed="yes" rot="R180">
 <attribute name="VALUE" x="55.753" y="53.34" size="1.27" layer="27" rot="R180"/>
 <attribute name="NAME" x="38.862" y="64.262" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="TQ2-12V" x="48.133" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R9" library="rcl" package="R0402" value="66.5K" x="49.657" y="23.368" smashed="yes">
 <attribute name="NAME" x="50.165" y="24.13" size="1.27" layer="25"/>
@@ -2262,70 +2268,89 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U4" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A8300RGW" x="29.718" y="-35.306" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.781" y="-38.989" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="TPS7A8300RGWR" x="29.718" y="-35.306" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U16" library="texas-instruments" package="R-PDSO-G6-DBV" value="TS5A3159DBV" x="29.591" y="-19.939" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.4" y="-18.995" size="1.27" layer="25"/>
+<attribute name="PN" value="TS5A3159DBVR" x="29.591" y="-19.939" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U10" library="texas-instruments" package="R-PDSO-G6-DBV" value="TPS3702" x="50.419" y="-24.511" smashed="yes">
 <attribute name="PN" value="TPS3702CX10DDC" x="50.419" y="-24.511" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.078" y="-27.146" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="48.419" y="-21.511" size="1.27" layer="27"/>
 </element>
-<element name="U2" library="texas-instruments" package="R-PUSON-N10" value="TPD4E02B04" x="75.692" y="-30.988" smashed="yes" rot="R90">
+<element name="U2" library="texas-instruments" package="R-PUSON-N10" value="TPD4E02B04DQA" x="75.692" y="-30.988" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.327" y="-35.179" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="TPD4E02B04DQAR" x="75.692" y="-30.988" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U17" library="texas-instruments" package="R-PDSO-G8" value="SN74LVC3G34" x="62.484" y="-13.208" smashed="yes">
+<element name="U17" library="texas-instruments" package="R-PDSO-G8-DCU" value="SN74LVC3G34DCU" x="62.484" y="-13.208" smashed="yes">
 <attribute name="NAME" x="60.833" y="-15.494" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="SN74LVC3G34DCUT" x="62.484" y="-13.208" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="texas-instruments" package="R-PDSO-G6-DBV" value="TPS563200DDC" x="36.322" y="-49.022" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.171" y="-47.911" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="TPS563200DDCR" x="36.322" y="-49.022" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U5" library="texas-instruments" package="R-PDSO-G6-DBV" value="TPS563200DDC" x="62.23" y="-49.022" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.079" y="-47.911" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="TPS563200DDCR" x="62.23" y="-49.022" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A8300RGW" x="51.689" y="-33.401" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.879" y="-37.338" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="TPS7A8300RGWR" x="51.689" y="-33.401" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U7" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A8300RGW" x="13.335" y="-35.306" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.525" y="-38.862" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="TPS7A8300RGWR" x="13.335" y="-35.306" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U12" library="on-semiconductor" package="SOT-457" value="SZNUD3124" x="-52.832" y="-18.415" smashed="yes">
 <attribute name="VALUE" x="-54.61" y="-15.875" size="1.27" layer="27"/>
 <attribute name="NAME" x="-54.61" y="-16.256" size="1.27" layer="25"/>
+<attribute name="PN" value="SZNUD3124DMT1G" x="-52.832" y="-18.415" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U8" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A4701RGW" x="44.958" y="23.622" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.751" y="22.225" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="TPS7A4701RGWR" x="44.958" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U11" library="texas-instruments" package="R-PDSO-G20" value="PCM5102A" x="3.429" y="-17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.128" y="-21.844" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="PCM5102APWR" x="3.429" y="-17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U9" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A3301RGW" x="57.658" y="23.749" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.721" y="20.066" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="TPS7A3301RGWR" x="57.658" y="23.749" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U13" library="njr" package="DMP8" value="NJM2068M" x="-19.812" y="3.683" smashed="yes" rot="R270">
 <attribute name="NAME" x="-15.113" y="0.127" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="NJM2068M-TE1" x="-19.812" y="3.683" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U14" library="njr" package="DMP8" value="NJM4556AM" x="26.035" y="38.862" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.209" y="39.497" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="NJM4556AM-TE1" x="26.035" y="38.862" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U15" library="njr" package="DMP8" value="NJM4556AM" x="39.243" y="38.735" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.339" y="34.671" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="NJM4556AM-TE1" x="39.243" y="38.735" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="xmos" package="TQFP-64-EXPOSED-PAD" value="XUF208-256-TQ64" x="33.655" y="-3.556" smashed="yes">
 <attribute name="PN" value="XUF208-256-TQ64-C10" x="33.655" y="-3.556" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.155" y="4.444" size="1.27" layer="27"/>
 <attribute name="NAME" x="39.109" y="4.293" size="1.27" layer="25"/>
 </element>
-<element name="VR1" library="alps" package="RK14K" value="RK14K" x="-58.223" y="0" rot="MR90"/>
+<element name="VR1" library="alps" package="RK14K" value="RK14K" x="-58.223" y="0" rot="MR90">
+<attribute name="PN" value="RK14K1240A4S" x="-58.223" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="X1" library="crystals" package="KC2520C" value="24MHz" x="19.05" y="-5.334" smashed="yes">
 <attribute name="PN" value="KC2520C24.0000C2LE00" x="19.05" y="-5.334" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.637" y="-5.842" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="X2" library="crystals" package="KC2520C" value="22.5792MHz" x="34.163" y="-22.733" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.814" y="-25.019" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="KC2520K22.5792C1GE00" x="34.163" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X3" library="crystals" package="KC2520C" value="24.576MHz" x="34.163" y="-18.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.814" y="-14.351" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="KC2520K24.5760C1GE00" x="34.163" y="-18.034" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C42" library="rcl" package="C0402" value="100nF" x="49.276" y="21.717" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.308" y="19.177" size="1.27" layer="25" rot="R90"/>
@@ -2384,6 +2409,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J5" library="samtec" package="T1M-SINGLE-5POS" value="T1M-5POS" x="52.832" y="-12.573" smashed="yes">
 <attribute name="NAME" x="55.118" y="-9.906" size="1.27" layer="25"/>
 <attribute name="VALUE" x="48.768" y="-9.779" size="1.27" layer="27"/>
+<attribute name="PN" value="T1M-05-T-S-RA-TR" x="52.832" y="-12.573" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="pinhead" package="2X03" value="" x="-19.812" y="-4.699"/>
 <element name="C76" library="rcl" package="C0402" value="100nF" x="37.211" y="-12.192" smashed="yes" rot="R270">
@@ -2428,10 +2454,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U18" library="texas-instruments" package="R-PDSO-G3" value="TPD2E007DCK" x="59.944" y="58.801" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.166" y="55.88" size="1.27" layer="25"/>
 <attribute name="VALUE" x="61.976" y="60.071" size="1.27" layer="27" rot="R270"/>
+<attribute name="PN" value="TPD2E007DCKR" x="59.944" y="58.801" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U19" library="texas-instruments" package="R-PDSO-G3" value="TPD2E007DCK" x="75.819" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.041" y="10.414" size="1.27" layer="25"/>
 <attribute name="VALUE" x="77.851" y="10.16" size="1.27" layer="27" rot="R270"/>
+<attribute name="PN" value="TPD2E007DCKR" x="75.819" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>

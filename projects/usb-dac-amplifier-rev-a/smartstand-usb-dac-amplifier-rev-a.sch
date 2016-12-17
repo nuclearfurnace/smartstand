@@ -403,6 +403,42 @@
 <text x="-1.27" y="3.556" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="2.032" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="R-PDSO-G8-DCU">
+<smd name="1" x="-0.75" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0.75" y="1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0.25" y="1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-0.25" y="1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="1.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-1" y1="1.15" x2="1" y2="1.15" width="0.127" layer="51"/>
+<wire x1="1" y1="1.15" x2="1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.15" x2="-1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="51"/>
+<rectangle x1="0.645" y1="1.15" x2="0.855" y2="1.55" layer="51"/>
+<rectangle x1="0.145" y1="1.15" x2="0.355" y2="1.55" layer="51"/>
+<rectangle x1="-0.855" y1="1.15" x2="-0.645" y2="1.55" layer="51"/>
+<rectangle x1="-0.855" y1="-1.55" x2="-0.645" y2="-1.15" layer="51"/>
+<rectangle x1="-0.355" y1="1.15" x2="-0.145" y2="1.55" layer="51"/>
+<rectangle x1="-0.355" y1="-1.55" x2="-0.145" y2="-1.15" layer="51"/>
+<rectangle x1="0.145" y1="-1.55" x2="0.355" y2="-1.15" layer="51"/>
+<rectangle x1="0.645" y1="-1.55" x2="0.855" y2="-1.15" layer="51"/>
+<wire x1="-1.27" y1="2.286" x2="1.27" y2="2.286" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.286" x2="-0.889" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-2.286" x2="-1.016" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.27" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.286" x2="-1.27" y2="-2.032" width="0.127" layer="21"/>
+<text x="-1.524" y="4.318" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.524" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.27" y1="-2.032" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.032" x2="-1.143" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.143" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="-1.143" y1="-2.159" x2="-1.27" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.889" y2="-2.286" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PCM5102A">
@@ -760,7 +796,7 @@
 <gate name="G$1" symbol="TPD4E02B04" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="R-PUSON-N10">
+<device name="DQA" package="R-PUSON-N10">
 <connects>
 <connect gate="G$1" pin="GND" pad="P$3 P$8"/>
 <connect gate="G$1" pin="IO1" pad="P$1 P$10"/>
@@ -784,6 +820,21 @@
 </gates>
 <devices>
 <device name="" package="R-PDSO-G8">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="Y" pad="7"/>
+<connect gate="B" pin="A" pad="3"/>
+<connect gate="B" pin="Y" pad="5"/>
+<connect gate="C" pin="A" pad="6"/>
+<connect gate="C" pin="Y" pad="2"/>
+<connect gate="PWR" pin="GND" pad="4"/>
+<connect gate="PWR" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DCU" package="R-PDSO-G8-DCU">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="Y" pad="7"/>
@@ -12288,7 +12339,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </classes>
 <parts>
 <part name="SHEET6" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="U11" library="texas-instruments" deviceset="PCM5102A" device=""/>
+<part name="U11" library="texas-instruments" deviceset="PCM5102A" device="">
+<attribute name="PN" value="PCM5102APWR"/>
+</part>
 <part name="C82" library="rcl" deviceset="CAPACITOR" device="-0603" value="2.2uF">
 <attribute name="PN" value="GRM188R61C225KE15D"/>
 </part>
@@ -12368,13 +12421,17 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND13" library="supply1" deviceset="AGND" device=""/>
 <part name="DVDD1" library="supply1" deviceset="DVDD" device=""/>
 <part name="AVDD1" library="supply1" deviceset="AVDD" device=""/>
-<part name="U8" library="texas-instruments" deviceset="TPS7A4701" device="RGW"/>
+<part name="U8" library="texas-instruments" deviceset="TPS7A4701" device="RGW">
+<attribute name="PN" value="TPS7A4701RGWR"/>
+</part>
 <part name="C49" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
 <part name="R9" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="66.5K"/>
 <part name="R10" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="9.76K"/>
-<part name="U9" library="texas-instruments" deviceset="TPS7A33" device="01RGW"/>
+<part name="U9" library="texas-instruments" deviceset="TPS7A33" device="01RGW">
+<attribute name="PN" value="TPS7A3301RGWR"/>
+</part>
 <part name="R11" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="1.15M"/>
 <part name="R12" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="137K"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
@@ -12385,7 +12442,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AVDD3" library="supply1" deviceset="AVDD" device=""/>
 <part name="AGND27" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET7" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="U13" library="njr" deviceset="NJM2068" device="M"/>
+<part name="U13" library="njr" deviceset="NJM2068" device="M">
+<attribute name="PN" value="NJM2068M-TE1"/>
+</part>
 <part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="243, 0.1%">
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
@@ -12429,7 +12488,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND33" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND34" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET8" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="U14" library="njr" deviceset="NJM4556A" device="M"/>
+<part name="U14" library="njr" deviceset="NJM4556A" device="M">
+<attribute name="PN" value="NJM4556AM-TE1"/>
+</part>
 <part name="C101" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-KEMET-5MM-6.0-7.2" value="2.2uF">
 <attribute name="PN" value="RSBCC4220Z310K"/>
 </part>
@@ -12448,7 +12509,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R40" library="rcl" deviceset="R-US_" device="R1206" value="1, 1%">
 <attribute name="PN" value="MCA12060C1008FP500"/>
 </part>
-<part name="U15" library="njr" deviceset="NJM4556A" device="M"/>
+<part name="U15" library="njr" deviceset="NJM4556A" device="M">
+<attribute name="PN" value="NJM4556AM-TE1"/>
+</part>
 <part name="R36" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="40.2K, 0.1%">
 <attribute name="PN" value="RG1005P-4022-B-T5"/>
 </part>
@@ -12461,7 +12524,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="P-6" library="supply1" deviceset="V-" device=""/>
 <part name="P+13" library="supply1" deviceset="V+" device=""/>
 <part name="P-7" library="supply1" deviceset="V-" device=""/>
-<part name="RL1" library="panasonic" deviceset="TQ2" device="-12V"/>
+<part name="RL1" library="panasonic" deviceset="TQ2" device="-12V">
+<attribute name="PN" value="TQ2-12V"/>
+</part>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="AGND30" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET10" library="frames" deviceset="A4L-NODOC" device=""/>
@@ -12478,7 +12543,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
 <part name="AGND35" library="supply1" deviceset="AGND" device=""/>
-<part name="J3" library="neutrik" deviceset="NRJ6HH" device=""/>
+<part name="J3" library="neutrik" deviceset="NRJ6HH" device="">
+<attribute name="PN" value="NRJ6HH"/>
+</part>
 <part name="SHEET4" library="frames" deviceset="A4L-NODOC" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="U1" library="xmos" deviceset="XUF208-256-TQ64" device="">
@@ -12612,7 +12679,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND54" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND55" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND62" library="supply1" deviceset="AGND" device=""/>
-<part name="U2" library="texas-instruments" deviceset="TPD4E02B04" device=""/>
+<part name="U2" library="texas-instruments" deviceset="TPD4E02B04" device="DQA">
+<attribute name="PN" value="TPD4E02B04DQAR"/>
+</part>
 <part name="AGND10" library="supply1" deviceset="AGND" device=""/>
 <part name="D6" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
@@ -12631,7 +12700,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND59" library="supply1" deviceset="AGND" device=""/>
 <part name="DVDD16" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND58" library="supply1" deviceset="AGND" device=""/>
-<part name="U17" library="texas-instruments" deviceset="SN74LVC3G34" device=""/>
+<part name="U17" library="texas-instruments" deviceset="SN74LVC3G34" device="DCU" value="SN74LVC3G34DCU">
+<attribute name="PN" value="SN74LVC3G34DCUT"/>
+</part>
 <part name="R17" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7K"/>
 <part name="R18" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7K"/>
 <part name="SHEET2" library="frames" deviceset="A4L-NODOC" device=""/>
@@ -12644,7 +12715,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET3" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="U3" library="texas-instruments" deviceset="TPS563200" device="DDC"/>
+<part name="U3" library="texas-instruments" deviceset="TPS563200" device="DDC">
+<attribute name="PN" value="TPS563200DDCR"/>
+</part>
 <part name="C10" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF"/>
 <part name="C11" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C8" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF"/>
@@ -12653,7 +12726,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C13" library="rcl" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
 </part>
-<part name="L1" library="rcl" deviceset="L-US" device="VLP8040" value="2.2uH"/>
+<part name="L1" library="rcl" deviceset="L-US" device="VLP8040" value="2.2uH">
+<attribute name="PN" value="VLP8040T-2R2N"/>
+</part>
 <part name="C12" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="+4V01" library="supply1" deviceset="+4V0" device=""/>
@@ -12662,7 +12737,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C15" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C16" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
-<part name="U5" library="texas-instruments" deviceset="TPS563200" device="DDC"/>
+<part name="U5" library="texas-instruments" deviceset="TPS563200" device="DDC">
+<attribute name="PN" value="TPS563200DDCR"/>
+</part>
 <part name="C23" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF"/>
 <part name="C24" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C21" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF"/>
@@ -12671,7 +12748,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C26" library="rcl" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
 </part>
-<part name="L2" library="rcl" deviceset="L-US" device="VLP8040" value="1.5uH"/>
+<part name="L2" library="rcl" deviceset="L-US" device="VLP8040" value="1.5uH">
+<attribute name="PN" value="VLP8040T-1R5N"/>
+</part>
 <part name="C25" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="C33" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
@@ -12679,14 +12758,18 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C28" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C29" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="+1V01" library="supply1" deviceset="+1V0" device=""/>
-<part name="U6" library="texas-instruments" deviceset="TPS7A8300" device="RGW"/>
+<part name="U6" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
+<attribute name="PN" value="TPS7A8300RGWR"/>
+</part>
 <part name="C22" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
 <part name="R5" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
 <part name="C30" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
 <part name="C31" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
 <part name="C32" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
 <part name="AGND14" library="supply1" deviceset="AGND" device=""/>
-<part name="U4" library="texas-instruments" deviceset="TPS7A8300" device="RGW"/>
+<part name="U4" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
+<attribute name="PN" value="TPS7A8300RGWR"/>
+</part>
 <part name="C20" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
 <part name="C9" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
 <part name="R2" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
@@ -12698,7 +12781,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C35" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
 <part name="C36" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C37" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="U7" library="texas-instruments" deviceset="TPS7A8300" device="RGW"/>
+<part name="U7" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
+<attribute name="PN" value="TPS7A8300RGWR"/>
+</part>
 <part name="C41" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
 <part name="C34" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
 <part name="R8" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
@@ -12737,8 +12822,12 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="DVDD2" library="supply1" deviceset="DVDD" device=""/>
 <part name="+4V04" library="supply1" deviceset="+4V0" device=""/>
 <part name="DVDD3" library="supply1" deviceset="DVDD" device=""/>
-<part name="U12" library="on-semiconductor" deviceset="SZNUD3124" device=""/>
-<part name="RL2" library="panasonic" deviceset="TQ2" device="-12V"/>
+<part name="U12" library="on-semiconductor" deviceset="SZNUD3124" device="">
+<attribute name="PN" value="SZNUD3124DMT1G"/>
+</part>
+<part name="RL2" library="panasonic" deviceset="TQ2" device="-12V">
+<attribute name="PN" value="TQ2-12V"/>
+</part>
 <part name="AGND50" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND51" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND47" library="supply1" deviceset="AGND" device=""/>
@@ -12752,23 +12841,31 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C122" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="DVDD14" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND48" library="supply1" deviceset="AGND" device=""/>
-<part name="VR1" library="alps" deviceset="RK14K" device=""/>
+<part name="VR1" library="alps" deviceset="RK14K" device="">
+<attribute name="PN" value="RK14K1240A4S"/>
+</part>
 <part name="AGND37" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND38" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET9" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="X2" library="crystals" deviceset="KC2520K" device="" value="22.5792MHz"/>
+<part name="X2" library="crystals" deviceset="KC2520K" device="" value="22.5792MHz">
+<attribute name="PN" value="KC2520K22.5792C1GE00"/>
+</part>
 <part name="C115" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C116" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="DVDD11" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND44" library="supply1" deviceset="AGND" device=""/>
 <part name="C117" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
-<part name="X3" library="crystals" deviceset="KC2520K" device="" value="24.576MHz"/>
+<part name="X3" library="crystals" deviceset="KC2520K" device="" value="24.576MHz">
+<attribute name="PN" value="KC2520K24.5760C1GE00"/>
+</part>
 <part name="C118" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C119" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="DVDD12" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND45" library="supply1" deviceset="AGND" device=""/>
 <part name="C120" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
-<part name="U16" library="texas-instruments" deviceset="TS5A3159" device="DBV"/>
+<part name="U16" library="texas-instruments" deviceset="TS5A3159" device="DBV">
+<attribute name="PN" value="TS5A3159DBVR"/>
+</part>
 <part name="R43" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="100K"/>
 <part name="DVDD13" library="supply1" deviceset="DVDD" device=""/>
 <part name="C121" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
@@ -12785,7 +12882,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="P+16" library="supply1" deviceset="V+" device=""/>
 <part name="P-8" library="supply1" deviceset="V-" device=""/>
 <part name="+1V41" library="supply1" deviceset="+1V4" device=""/>
-<part name="J4" library="switchcraft" deviceset="PJRAN2XIU0" device="1AUX"/>
+<part name="J4" library="switchcraft" deviceset="PJRAN2XIU0" device="1AUX" value="PJRAN2X1U01AUX">
+<attribute name="PN" value="PJRAN2X1U01AUX"/>
+</part>
 <part name="AGND53" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND52" library="supply1" deviceset="AGND" device=""/>
 <part name="C42" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
@@ -12815,7 +12914,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND43" library="supply1" deviceset="AGND" device=""/>
 <part name="C112" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="C114" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="J5" library="samtec" deviceset="T1M-5POS" device=""/>
+<part name="J5" library="samtec" deviceset="T1M-5POS" device="">
+<attribute name="PN" value="T1M-05-T-S-RA-TR"/>
+</part>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="C76" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
@@ -12841,8 +12942,12 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND69" library="supply1" deviceset="AGND" device=""/>
 <part name="+1V07" library="supply1" deviceset="+1V0" device=""/>
 <part name="J2" library="te-connectivity" deviceset="292304" device="-1"/>
-<part name="U18" library="texas-instruments" deviceset="TPD2E007" device="DCK"/>
-<part name="U19" library="texas-instruments" deviceset="TPD2E007" device="DCK"/>
+<part name="U18" library="texas-instruments" deviceset="TPD2E007" device="DCK">
+<attribute name="PN" value="TPD2E007DCKR"/>
+</part>
+<part name="U19" library="texas-instruments" deviceset="TPD2E007" device="DCK">
+<attribute name="PN" value="TPD2E007DCKR"/>
+</part>
 <part name="AGND74" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND75" library="supply1" deviceset="AGND" device=""/>
 </parts>
@@ -12902,7 +13007,9 @@ wide rails.</text>
 <instance part="C7" gate="G$1" x="135.89" y="36.83">
 <attribute name="PN" x="135.89" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U2" gate="G$1" x="88.9" y="30.48"/>
+<instance part="U2" gate="G$1" x="88.9" y="30.48">
+<attribute name="PN" x="88.9" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND10" gate="VR1" x="88.9" y="20.32"/>
 <instance part="C5" gate="G$1" x="177.8" y="118.11">
 <attribute name="PN" x="177.8" y="118.11" size="5.08" layer="96" display="off"/>
@@ -13094,7 +13201,9 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="SHEET2" gate="G$1" x="0" y="0"/>
 <instance part="AGND13" gate="VR1" x="190.5" y="86.36"/>
 <instance part="DVDD1" gate="G$1" x="241.3" y="137.16"/>
-<instance part="U3" gate="G$1" x="53.34" y="127"/>
+<instance part="U3" gate="G$1" x="53.34" y="127">
+<attribute name="PN" x="53.34" y="127" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C10" gate="G$1" x="12.7" y="113.03"/>
 <instance part="C11" gate="G$1" x="25.4" y="113.03"/>
 <instance part="C8" gate="G$1" x="78.74" y="121.92"/>
@@ -13103,7 +13212,9 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="C13" gate="G$1" x="118.11" y="111.76">
 <attribute name="PN" x="118.11" y="111.76" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="L1" gate="G$1" x="93.98" y="124.46"/>
+<instance part="L1" gate="G$1" x="93.98" y="124.46">
+<attribute name="PN" x="93.98" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C12" gate="G$1" x="36.83" y="113.03"/>
 <instance part="P+2" gate="1" x="12.7" y="138.43"/>
 <instance part="+4V01" gate="G$1" x="118.11" y="137.16"/>
@@ -13112,7 +13223,9 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="C15" gate="G$1" x="144.78" y="111.76"/>
 <instance part="C16" gate="G$1" x="156.21" y="111.76"/>
 <instance part="AGND12" gate="VR1" x="63.5" y="86.36"/>
-<instance part="U5" gate="G$1" x="54.61" y="57.15"/>
+<instance part="U5" gate="G$1" x="54.61" y="57.15">
+<attribute name="PN" x="54.61" y="57.15" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C23" gate="G$1" x="12.7" y="41.91"/>
 <instance part="C24" gate="G$1" x="25.4" y="41.91"/>
 <instance part="C21" gate="G$1" x="80.01" y="52.07"/>
@@ -13121,7 +13234,9 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="C26" gate="G$1" x="119.38" y="40.64">
 <attribute name="PN" x="119.38" y="40.64" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="L2" gate="G$1" x="95.25" y="54.61"/>
+<instance part="L2" gate="G$1" x="95.25" y="54.61">
+<attribute name="PN" x="95.25" y="54.61" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C25" gate="G$1" x="36.83" y="41.91"/>
 <instance part="P+3" gate="1" x="12.7" y="68.58"/>
 <instance part="C33" gate="G$1" x="207.01" y="30.48"/>
@@ -13129,14 +13244,18 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="C28" gate="G$1" x="143.51" y="40.64"/>
 <instance part="C29" gate="G$1" x="156.21" y="40.64"/>
 <instance part="+1V01" gate="G$1" x="242.57" y="67.31"/>
-<instance part="U6" gate="G$1" x="173.99" y="57.15"/>
+<instance part="U6" gate="G$1" x="173.99" y="57.15">
+<attribute name="PN" x="173.99" y="57.15" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C22" gate="G$1" x="205.74" y="50.8"/>
 <instance part="R5" gate="G$1" x="208.28" y="64.77"/>
 <instance part="C30" gate="G$1" x="217.17" y="39.37"/>
 <instance part="C31" gate="G$1" x="229.87" y="39.37"/>
 <instance part="C32" gate="G$1" x="242.57" y="39.37"/>
 <instance part="AGND14" gate="VR1" x="127" y="12.7"/>
-<instance part="U4" gate="G$1" x="172.72" y="127"/>
+<instance part="U4" gate="G$1" x="172.72" y="127">
+<attribute name="PN" x="172.72" y="127" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C20" gate="G$1" x="204.47" y="101.6"/>
 <instance part="C9" gate="G$1" x="204.47" y="120.65"/>
 <instance part="R2" gate="G$1" x="207.01" y="134.62"/>
@@ -13611,13 +13730,17 @@ volume control, gain and output stages.</text>
 </plain>
 <instances>
 <instance part="SHEET3" gate="G$1" x="0" y="0"/>
-<instance part="U8" gate="G$1" x="166.37" y="104.14"/>
+<instance part="U8" gate="G$1" x="166.37" y="104.14">
+<attribute name="PN" x="166.37" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C49" gate="G$1" x="162.56" y="87.63"/>
 <instance part="P+5" gate="1" x="125.73" y="114.3"/>
 <instance part="AGND16" gate="VR1" x="180.34" y="63.5"/>
 <instance part="R9" gate="G$1" x="191.77" y="93.98"/>
 <instance part="R10" gate="G$1" x="191.77" y="78.74"/>
-<instance part="U9" gate="G$1" x="166.37" y="52.07"/>
+<instance part="U9" gate="G$1" x="166.37" y="52.07">
+<attribute name="PN" x="166.37" y="52.07" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R11" gate="G$1" x="191.77" y="41.91"/>
 <instance part="R12" gate="G$1" x="191.77" y="25.4"/>
 <instance part="P+4" gate="1" x="241.3" y="115.57"/>
@@ -13628,7 +13751,9 @@ volume control, gain and output stages.</text>
 <instance part="C35" gate="G$1" x="125.73" y="140.97"/>
 <instance part="C36" gate="G$1" x="138.43" y="140.97"/>
 <instance part="C37" gate="G$1" x="149.86" y="140.97"/>
-<instance part="U7" gate="G$1" x="166.37" y="156.21"/>
+<instance part="U7" gate="G$1" x="166.37" y="156.21">
+<attribute name="PN" x="166.37" y="156.21" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C41" gate="G$1" x="198.12" y="130.81"/>
 <instance part="C34" gate="G$1" x="198.12" y="149.86"/>
 <instance part="R8" gate="G$1" x="200.66" y="161.29"/>
@@ -14719,7 +14844,9 @@ normal filter latency, and no deemphasis.</text>
 </plain>
 <instances>
 <instance part="SHEET6" gate="G$1" x="0" y="0"/>
-<instance part="U11" gate="G$1" x="115.57" y="100.33"/>
+<instance part="U11" gate="G$1" x="115.57" y="100.33">
+<attribute name="PN" x="115.57" y="100.33" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C82" gate="G$1" x="83.82" y="91.44">
 <attribute name="PN" x="83.82" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
@@ -15047,7 +15174,9 @@ the gain stage, to allow line-level outputs.</text>
 <instances>
 <instance part="SHEET7" gate="G$1" x="0" y="0"/>
 <instance part="U13" gate="A" x="185.42" y="78.74"/>
-<instance part="U13" gate="B" x="185.42" y="120.65"/>
+<instance part="U13" gate="B" x="185.42" y="120.65">
+<attribute name="PN" x="185.42" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U13" gate="PWR" x="190.5" y="30.48"/>
 <instance part="R28" gate="G$1" x="114.3" y="81.28">
 <attribute name="PN" x="114.3" y="81.28" size="1.778" layer="96" display="off"/>
@@ -15085,10 +15214,14 @@ the gain stage, to allow line-level outputs.</text>
 </instance>
 <instance part="P+9" gate="1" x="190.5" y="40.64"/>
 <instance part="P-3" gate="1" x="190.5" y="20.32"/>
-<instance part="RL1" gate="G$1" x="81.28" y="101.6"/>
+<instance part="RL1" gate="G$1" x="81.28" y="101.6">
+<attribute name="PN" x="81.28" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+7" gate="1" x="71.12" y="120.65"/>
 <instance part="AGND30" gate="VR1" x="71.12" y="71.12"/>
-<instance part="U12" gate="A" x="71.12" y="82.55"/>
+<instance part="U12" gate="A" x="71.12" y="82.55">
+<attribute name="PN" x="71.12" y="82.55" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R33" gate="G$1" x="50.8" y="31.75">
 <attribute name="PN" x="50.8" y="31.75" size="1.778" layer="96" display="off"/>
 </instance>
@@ -15477,10 +15610,14 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="R40" gate="G$1" x="186.69" y="62.23">
 <attribute name="PN" x="186.69" y="62.23" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U14" gate="A" x="165.1" y="128.27"/>
+<instance part="U14" gate="A" x="165.1" y="128.27">
+<attribute name="PN" x="165.1" y="128.27" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U14" gate="B" x="165.1" y="107.95"/>
 <instance part="U15" gate="A" x="165.1" y="82.55"/>
-<instance part="U15" gate="B" x="165.1" y="62.23"/>
+<instance part="U15" gate="B" x="165.1" y="62.23">
+<attribute name="PN" x="165.1" y="62.23" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U15" gate="PWR" x="175.26" y="30.48"/>
 <instance part="R36" gate="G$1" x="132.08" y="111.76">
 <attribute name="PN" x="132.08" y="111.76" size="1.778" layer="96" display="off"/>
@@ -15494,7 +15631,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="P-6" gate="1" x="74.93" y="20.32"/>
 <instance part="P+13" gate="1" x="175.26" y="40.64"/>
 <instance part="P-7" gate="1" x="175.26" y="20.32"/>
-<instance part="VR1" gate="G$1" x="91.44" y="96.52"/>
+<instance part="VR1" gate="G$1" x="91.44" y="96.52">
+<attribute name="PN" x="91.44" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND37" gate="VR1" x="78.74" y="82.55"/>
 <instance part="AGND38" gate="VR1" x="104.14" y="82.55"/>
 <instance part="C104" gate="G$1" x="48.26" y="33.02"/>
@@ -15832,19 +15971,25 @@ Our volume control is also in between the stages, which apparently provides lowe
 </plain>
 <instances>
 <instance part="SHEET9" gate="G$1" x="0" y="0"/>
-<instance part="X2" gate="G$1" x="68.58" y="123.19"/>
+<instance part="X2" gate="G$1" x="68.58" y="123.19">
+<attribute name="PN" x="68.58" y="123.19" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C115" gate="G$1" x="25.4" y="115.57"/>
 <instance part="C116" gate="G$1" x="36.83" y="115.57"/>
 <instance part="DVDD11" gate="G$1" x="25.4" y="132.08"/>
 <instance part="AGND44" gate="VR1" x="44.45" y="102.87"/>
 <instance part="C117" gate="G$1" x="49.53" y="115.57"/>
-<instance part="X3" gate="G$1" x="185.42" y="123.19"/>
+<instance part="X3" gate="G$1" x="185.42" y="123.19">
+<attribute name="PN" x="185.42" y="123.19" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C118" gate="G$1" x="142.24" y="115.57"/>
 <instance part="C119" gate="G$1" x="153.67" y="115.57"/>
 <instance part="DVDD12" gate="G$1" x="142.24" y="132.08"/>
 <instance part="AGND45" gate="VR1" x="161.29" y="102.87"/>
 <instance part="C120" gate="G$1" x="166.37" y="115.57"/>
-<instance part="U16" gate="G$1" x="135.89" y="78.74"/>
+<instance part="U16" gate="G$1" x="135.89" y="78.74">
+<attribute name="PN" x="135.89" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R43" gate="G$1" x="106.68" y="63.5"/>
 <instance part="DVDD13" gate="G$1" x="119.38" y="88.9"/>
 <instance part="C121" gate="G$1" x="119.38" y="64.77"/>
@@ -16036,9 +16181,13 @@ Our volume control is also in between the stages, which apparently provides lowe
 </plain>
 <instances>
 <instance part="SHEET10" gate="G$1" x="0" y="0"/>
-<instance part="J3" gate="G$1" x="12.7" y="129.54"/>
+<instance part="J3" gate="G$1" x="12.7" y="129.54">
+<attribute name="PN" x="12.7" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U12" gate="B" x="182.88" y="104.14"/>
-<instance part="RL2" gate="G$1" x="193.04" y="120.65"/>
+<instance part="RL2" gate="G$1" x="193.04" y="120.65">
+<attribute name="PN" x="193.04" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND50" gate="VR1" x="182.88" y="88.9"/>
 <instance part="AGND51" gate="VR1" x="208.28" y="88.9"/>
 <instance part="AGND47" gate="VR1" x="34.29" y="88.9"/>
@@ -16052,12 +16201,18 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="C122" gate="G$1" x="59.69" y="99.06"/>
 <instance part="DVDD14" gate="G$1" x="43.18" y="142.24"/>
 <instance part="AGND48" gate="VR1" x="59.69" y="88.9"/>
-<instance part="J4" gate="LEFT" x="22.86" y="57.15"/>
+<instance part="J4" gate="LEFT" x="22.86" y="57.15">
+<attribute name="PN" x="22.86" y="57.15" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J4" gate="RIGHT" x="22.86" y="25.4"/>
 <instance part="AGND53" gate="VR1" x="29.21" y="16.51"/>
 <instance part="AGND52" gate="VR1" x="29.21" y="48.26"/>
-<instance part="U18" gate="G$1" x="160.02" y="71.12"/>
-<instance part="U19" gate="G$1" x="121.92" y="33.02"/>
+<instance part="U18" gate="G$1" x="160.02" y="71.12">
+<attribute name="PN" x="160.02" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U19" gate="G$1" x="121.92" y="33.02">
+<attribute name="PN" x="121.92" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND74" gate="VR1" x="165.1" y="53.34"/>
 <instance part="AGND75" gate="VR1" x="127" y="15.24"/>
 </instances>
@@ -16262,8 +16417,8 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="D5" gate="G$1" x="181.61" y="97.79">
 <attribute name="PN" x="181.61" y="97.79" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="D4" gate="G$1" x="104.14" y="132.08">
-<attribute name="PN" x="104.14" y="132.08" size="5.08" layer="96" display="off"/>
+<instance part="D4" gate="G$1" x="107.95" y="132.08">
+<attribute name="PN" x="107.95" y="132.08" size="5.08" layer="96" display="off"/>
 </instance>
 <instance part="R48" gate="G$1" x="187.96" y="125.73">
 <attribute name="PN" x="187.96" y="125.73" size="5.08" layer="96" display="off"/>
@@ -16271,29 +16426,31 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="R50" gate="G$1" x="187.96" y="90.17">
 <attribute name="PN" x="187.96" y="90.17" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="R49" gate="G$1" x="110.49" y="124.46">
-<attribute name="PN" x="110.49" y="124.46" size="5.08" layer="96" display="off"/>
+<instance part="R49" gate="G$1" x="114.3" y="124.46">
+<attribute name="PN" x="114.3" y="124.46" size="5.08" layer="96" display="off"/>
 </instance>
 <instance part="AGND56" gate="VR1" x="187.96" y="80.01"/>
 <instance part="AGND54" gate="VR1" x="187.96" y="115.57"/>
-<instance part="AGND55" gate="VR1" x="110.49" y="114.3"/>
-<instance part="D6" gate="G$1" x="104.14" y="96.52">
-<attribute name="PN" x="104.14" y="96.52" size="5.08" layer="96" display="off"/>
+<instance part="AGND55" gate="VR1" x="114.3" y="114.3"/>
+<instance part="D6" gate="G$1" x="107.95" y="96.52">
+<attribute name="PN" x="107.95" y="96.52" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="R51" gate="G$1" x="110.49" y="88.9">
-<attribute name="PN" x="110.49" y="88.9" size="5.08" layer="96" display="off"/>
+<instance part="R51" gate="G$1" x="114.3" y="88.9">
+<attribute name="PN" x="114.3" y="88.9" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="AGND57" gate="VR1" x="110.49" y="78.74"/>
-<instance part="D7" gate="G$1" x="104.14" y="60.96">
-<attribute name="PN" x="104.14" y="60.96" size="5.08" layer="96" display="off"/>
+<instance part="AGND57" gate="VR1" x="114.3" y="78.74"/>
+<instance part="D7" gate="G$1" x="107.95" y="60.96">
+<attribute name="PN" x="107.95" y="60.96" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="R52" gate="G$1" x="110.49" y="53.34">
-<attribute name="PN" x="110.49" y="53.34" size="5.08" layer="96" display="off"/>
+<instance part="R52" gate="G$1" x="114.3" y="53.34">
+<attribute name="PN" x="114.3" y="53.34" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="AGND59" gate="VR1" x="110.49" y="43.18"/>
+<instance part="AGND59" gate="VR1" x="114.3" y="43.18"/>
 <instance part="DVDD16" gate="G$1" x="135.89" y="97.79"/>
 <instance part="AGND58" gate="VR1" x="135.89" y="77.47"/>
-<instance part="U17" gate="A" x="67.31" y="132.08"/>
+<instance part="U17" gate="A" x="67.31" y="132.08">
+<attribute name="PN" x="67.31" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U17" gate="B" x="67.31" y="96.52"/>
 <instance part="U17" gate="C" x="67.31" y="60.96"/>
 <instance part="U17" gate="PWR" x="135.89" y="87.63"/>
@@ -16332,17 +16489,17 @@ Our volume control is also in between the stages, which apparently provides lowe
 <segment>
 <pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="AGND55" gate="VR1" pin="AGND"/>
-<wire x1="110.49" y1="119.38" x2="110.49" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="AGND57" gate="VR1" pin="AGND"/>
-<wire x1="110.49" y1="83.82" x2="110.49" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="83.82" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="AGND59" gate="VR1" pin="AGND"/>
-<wire x1="110.49" y1="48.26" x2="110.49" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="48.26" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND58" gate="VR1" pin="AGND"/>
@@ -16373,7 +16530,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <net name="N$40" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="132.08" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="132.08" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U17" gate="A" pin="Y"/>
 </segment>
 </net>
@@ -16381,8 +16538,8 @@ Our volume control is also in between the stages, which apparently provides lowe
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="132.08" x2="110.49" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="132.08" x2="110.49" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="132.08" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUDIO_STREAMING" class="0">
@@ -16396,7 +16553,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <net name="N$42" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U17" gate="B" pin="Y"/>
 </segment>
 </net>
@@ -16404,8 +16561,8 @@ Our volume control is also in between the stages, which apparently provides lowe
 <segment>
 <pinref part="D6" gate="G$1" pin="C"/>
 <pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="96.52" x2="110.49" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="96.52" x2="110.49" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="96.52" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_CONNECTED" class="0">
@@ -16418,7 +16575,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <net name="N$44" class="0">
 <segment>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U17" gate="C" pin="Y"/>
 </segment>
 </net>
@@ -16426,8 +16583,8 @@ Our volume control is also in between the stages, which apparently provides lowe
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
 <pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="60.96" x2="110.49" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="60.96" x2="110.49" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LINE_OUT_SEL" class="0">
@@ -16499,7 +16656,9 @@ connection for taking xSCOPE measurements.</text>
 <instance part="P+16" gate="1" x="19.05" y="41.91"/>
 <instance part="P-8" gate="1" x="43.18" y="41.91" rot="R180"/>
 <instance part="AGND70" gate="VR1" x="170.18" y="35.56"/>
-<instance part="J5" gate="G$1" x="181.61" y="50.8"/>
+<instance part="J5" gate="G$1" x="181.61" y="50.8">
+<attribute name="PN" x="181.61" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="TP2" gate="G$1" x="25.4" y="125.73"/>
 <instance part="TP3" gate="G$1" x="48.26" y="125.73"/>
 <instance part="TP7" gate="G$1" x="25.4" y="63.5"/>
