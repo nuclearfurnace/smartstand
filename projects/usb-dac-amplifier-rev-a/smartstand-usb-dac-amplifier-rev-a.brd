@@ -2275,7 +2275,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PN" value="TS5A3159DBVR" x="29.591" y="-19.939" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U10" library="texas-instruments" package="R-PDSO-G6-DBV" value="TPS3702" x="50.419" y="-24.511" smashed="yes">
-<attribute name="PN" value="TPS3702CX10DDC" x="50.419" y="-24.511" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="TPS3702CX10DDCT" x="50.419" y="-24.511" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.078" y="-27.146" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="48.419" y="-21.511" size="1.27" layer="27"/>
 </element>
@@ -2411,7 +2411,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="48.768" y="-9.779" size="1.27" layer="27"/>
 <attribute name="PN" value="T1M-05-T-S-RA-TR" x="52.832" y="-12.573" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="2X03" value="" x="-19.812" y="-4.699"/>
+<element name="JP1" library="pinhead" package="2X03" value="" x="-19.812" y="-4.699">
+<attribute name="PN" value="961206-6404-AR" x="-19.812" y="-4.699" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C76" library="rcl" package="C0402" value="100nF" x="37.211" y="-12.192" smashed="yes" rot="R270">
 <attribute name="PN" value="GRM155R71C104KA88D" x="37.211" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.18" y="-11.43" size="1.27" layer="25" rot="R270"/>
@@ -2450,6 +2452,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J2" library="te-connectivity" package="292304" value="292304-1" x="89.281" y="-30.734" smashed="yes" rot="R90">
 <attribute name="VALUE" x="76.581" y="-38.354" size="1.27" layer="27" rot="R90"/>
 <attribute name="NAME" x="77.343" y="-38.354" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="292304-1" x="89.281" y="-30.734" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U18" library="texas-instruments" package="R-PDSO-G3" value="TPD2E007DCK" x="59.944" y="58.801" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.166" y="55.88" size="1.27" layer="25"/>

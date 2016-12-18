@@ -12575,7 +12575,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="U10" library="texas-instruments" deviceset="TPS3702" device="CX10DDC" value="TPS3702">
-<attribute name="PN" value="TPS3702CX10DDC"/>
+<attribute name="PN" value="TPS3702CX10DDCT"/>
 </part>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="+1V02" library="supply1" deviceset="+1V0" device=""/>
@@ -12917,7 +12917,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="J5" library="samtec" deviceset="T1M-5POS" device="">
 <attribute name="PN" value="T1M-05-T-S-RA-TR"/>
 </part>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device="">
+<attribute name="PN" value="961206-6404-AR"/>
+</part>
 <part name="C76" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
@@ -12941,7 +12943,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="TP8" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
 <part name="AGND69" library="supply1" deviceset="AGND" device=""/>
 <part name="+1V07" library="supply1" deviceset="+1V0" device=""/>
-<part name="J2" library="te-connectivity" deviceset="292304" device="-1"/>
+<part name="J2" library="te-connectivity" deviceset="292304" device="-1">
+<attribute name="PN" value="292304-1"/>
+</part>
 <part name="U18" library="texas-instruments" deviceset="TPD2E007" device="DCK">
 <attribute name="PN" value="TPD2E007DCKR"/>
 </part>
@@ -13019,7 +13023,9 @@ wide rails.</text>
 </instance>
 <instance part="AGND5" gate="VR1" x="177.8" y="106.68"/>
 <instance part="AGND6" gate="VR1" x="190.5" y="106.68"/>
-<instance part="J2" gate="G$1" x="53.34" y="52.07"/>
+<instance part="J2" gate="G$1" x="53.34" y="52.07">
+<attribute name="PN" x="53.34" y="52.07" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15245,7 +15251,9 @@ the gain stage, to allow line-level outputs.</text>
 <instance part="C97" gate="G$1" x="175.26" y="33.02"/>
 <instance part="C98" gate="G$1" x="205.74" y="33.02"/>
 <instance part="C100" gate="G$1" x="233.68" y="33.02"/>
-<instance part="JP1" gate="A" x="71.12" y="36.83"/>
+<instance part="JP1" gate="A" x="71.12" y="36.83">
+<attribute name="PN" x="71.12" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
