@@ -578,7 +578,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <packages>
 <package name="PJ-002A">
 <pad name="3" x="0" y="0" drill="3"/>
-<pad name="1" x="-3" y="-4.7" drill="3"/>
+<pad name="1" x="-3" y="-4.7" drill="3.5"/>
 <pad name="2" x="3" y="-4.7" drill="3"/>
 <wire x1="-3.7" y1="-0.2" x2="10.7" y2="-0.2" width="0.254" layer="51"/>
 <wire x1="10.7" y1="-0.2" x2="10.7" y2="-9.2" width="0.254" layer="51"/>
@@ -878,8 +878,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <library name="test">
 <packages>
 <package name="TESTPOINT-1.5-WITH-GND">
-<smd name="S" x="-1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
-<smd name="G" x="1.27" y="0" dx="1.27" dy="1.27" layer="1"/>
+<smd name="S" x="-1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<smd name="G" x="1.27" y="0" dx="1.27" dy="1.27" layer="1" cream="no"/>
 <wire x1="-2.286" y1="1.016" x2="2.286" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="-1.27" y2="-1.016" width="0.127" layer="21"/>
