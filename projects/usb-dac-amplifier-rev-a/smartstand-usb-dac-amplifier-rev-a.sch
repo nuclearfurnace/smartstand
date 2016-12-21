@@ -7672,6 +7672,21 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="RESISTOR-HORIZONTAL">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="-3.5814" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.842" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -7687,7 +7702,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="R-US-VERTICAL">
+<symbol name="RESISTOR">
 <wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.2032" layer="94"/>
 <wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.2032" layer="94"/>
 <wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.2032" layer="94"/>
@@ -9401,6 +9416,58 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RESISTOR-HORIZONTAL" prefix="R">
+<gates>
+<gate name="G$1" symbol="RESISTOR-HORIZONTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1210" package="R1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="R-US_" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
@@ -9499,12 +9566,12 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R-US-VERTICAL" prefix="R">
+<deviceset name="RESISTOR" prefix="R">
 <gates>
-<gate name="G$1" symbol="R-US-VERTICAL" x="0" y="0"/>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="R0201" package="R0201">
+<device name="-0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9513,7 +9580,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0402" package="R0402">
+<device name="-0603" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9522,7 +9589,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603">
+<device name="-0805" package="R0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9531,7 +9598,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0805" package="R0805">
+<device name="-1206" package="R1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9540,34 +9607,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1206" package="R1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1210" package="R1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R2010" package="R2010">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R2012" package="R2012">
+<device name="-1210" package="R1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -12349,28 +12389,28 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM188R61C225KE15D"/>
 </part>
 <part name="C89" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
-<attribute name="PN" value="GRM155R71C104KA88D"/>
+<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="C85" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
-<attribute name="PN" value="GRM155R71C104KA88D"/>
+<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="C87" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
-<attribute name="PN" value="GRM155R71C104KA88D"/>
+<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="C79" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
-<attribute name="PN" value="GRM155R71C104KA88D"/>
+<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="C90" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="PN" value="EEE-1CA100SR"/>
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C86" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="PN" value="EEE-1CA100SR"/>
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C88" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="PN" value="EEE-1CA100SR"/>
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C80" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="PN" value="EEE-1CA100SR"/>
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
 <part name="C83" library="rcl" deviceset="CAPACITOR" device="-0402" value="2.2nF, C0G">
@@ -12379,10 +12419,10 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C84" library="rcl" deviceset="CAPACITOR" device="-0402" value="2.2nF, C0G">
 <attribute name="PN" value="C0402C222J3GACTU"/>
 </part>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="470, 0.1%">
+<part name="R22" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="470, 0.1%">
 <attribute name="PN" value="RG1005P-471-B-T5"/>
 </part>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="470, 0.1%">
+<part name="R23" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="470, 0.1%">
 <attribute name="PN" value="RG1005P-471-B-T5"/>
 </part>
 <part name="AGND25" library="supply1" deviceset="AGND" device=""/>
@@ -12424,16 +12464,26 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U8" library="texas-instruments" deviceset="TPS7A4701" device="RGW">
 <attribute name="PN" value="TPS7A4701RGWR"/>
 </part>
-<part name="C49" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C49" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
-<part name="R9" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="66.5K"/>
-<part name="R10" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="9.76K"/>
+<part name="R9" library="rcl" deviceset="RESISTOR" device="-0402" value="66.5K">
+<attribute name="PN" value="RK73H1ETTP6652F"/>
+</part>
+<part name="R10" library="rcl" deviceset="RESISTOR" device="-0402" value="9.76K">
+<attribute name="PN" value="RC0402FR-079K76L"/>
+</part>
 <part name="U9" library="texas-instruments" deviceset="TPS7A33" device="01RGW">
 <attribute name="PN" value="TPS7A3301RGWR"/>
 </part>
-<part name="R11" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="1.15M"/>
-<part name="R12" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="137K"/>
+<part name="R11" library="rcl" deviceset="RESISTOR" device="-0402" value="1.15M">
+<attribute name="PN" value="RK73H1ETTP1154F"/>
+</part>
+<part name="R12" library="rcl" deviceset="RESISTOR" device="-0402" value="137K">
+<attribute name="PN" value="RC0402FR-07137KL"/>
+</part>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P-1" library="supply1" deviceset="V-" device=""/>
 <part name="DVDD9" library="supply1" deviceset="DVDD" device=""/>
@@ -12445,10 +12495,10 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U13" library="njr" deviceset="NJM2068" device="M">
 <attribute name="PN" value="NJM2068M-TE1"/>
 </part>
-<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="243, 0.1%">
+<part name="R28" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0402" value="243, 0.1%">
+<part name="R24" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
 <part name="C93" library="rcl" deviceset="CAPACITOR" device="-0402" value="220pF, C0G">
@@ -12457,20 +12507,20 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C91" library="rcl" deviceset="CAPACITOR" device="-0402" value="220pF, C0G">
 <attribute name="PN" value="GRM1555C1H221JA01J"/>
 </part>
-<part name="R29" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K, 0.1%">
+<part name="R29" library="rcl" deviceset="RESISTOR" device="-0402" value="10K, 0.1%">
 <attribute name="PN" value="ERA-2AEB103X"/>
 </part>
-<part name="R25" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K, 0.1%">
+<part name="R25" library="rcl" deviceset="RESISTOR" device="-0402" value="10K, 0.1%">
 <attribute name="PN" value="ERA-2AEB103X"/>
 </part>
 <part name="AGND32" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND31" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND29" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND28" library="supply1" deviceset="AGND" device=""/>
-<part name="R30" library="rcl" deviceset="R-US_" device="R0402" value="1.5K, 0.1%">
+<part name="R30" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="1.5K, 0.1%">
 <attribute name="PN" value="RG1005P-152-B-T5"/>
 </part>
-<part name="R26" library="rcl" deviceset="R-US_" device="R0402" value="1.5K, 0.1%">
+<part name="R26" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="1.5K, 0.1%">
 <attribute name="PN" value="RG1005P-152-B-T5"/>
 </part>
 <part name="C94" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0402" value="220pF, C0G">
@@ -12479,8 +12529,12 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C92" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0402" value="220pF, C0G">
 <attribute name="PN" value="GRM1555C1H221JA01J"/>
 </part>
-<part name="C99" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="C96" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
+<part name="C99" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="C96" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="P-2" library="supply1" deviceset="V-" device=""/>
 <part name="P+9" library="supply1" deviceset="V+" device=""/>
@@ -12497,25 +12551,25 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C102" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-KEMET-5MM-6.0-7.2" value="2.2uF">
 <attribute name="PN" value="RSBCC4220Z310K"/>
 </part>
-<part name="R35" library="rcl" deviceset="R-US_" device="R1206" value="1, 1%">
+<part name="R35" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-1206" value="1, 1%">
 <attribute name="PN" value="MCA12060C1008FP500"/>
 </part>
-<part name="R37" library="rcl" deviceset="R-US_" device="R1206" value="1, 1%">
+<part name="R37" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-1206" value="1, 1%">
 <attribute name="PN" value="MCA12060C1008FP500"/>
 </part>
-<part name="R38" library="rcl" deviceset="R-US_" device="R1206" value="1, 1%">
+<part name="R38" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-1206" value="1, 1%">
 <attribute name="PN" value="MCA12060C1008FP500"/>
 </part>
-<part name="R40" library="rcl" deviceset="R-US_" device="R1206" value="1, 1%">
+<part name="R40" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-1206" value="1, 1%">
 <attribute name="PN" value="MCA12060C1008FP500"/>
 </part>
 <part name="U15" library="njr" deviceset="NJM4556A" device="M">
 <attribute name="PN" value="NJM4556AM-TE1"/>
 </part>
-<part name="R36" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="40.2K, 0.1%">
+<part name="R36" library="rcl" deviceset="RESISTOR" device="-0402" value="40.2K, 0.1%">
 <attribute name="PN" value="RG1005P-4022-B-T5"/>
 </part>
-<part name="R39" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="40.2K, 0.1%">
+<part name="R39" library="rcl" deviceset="RESISTOR" device="-0402" value="40.2K, 0.1%">
 <attribute name="PN" value="RG1005P-4022-B-T5"/>
 </part>
 <part name="AGND39" library="supply1" deviceset="AGND" device=""/>
@@ -12530,16 +12584,16 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="AGND30" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET10" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="R33" library="rcl" deviceset="R-US_" device="R0402" value="715, 0.1%">
+<part name="R33" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="715, 0.1%">
 <attribute name="PN" value="ERA-2AEB7150X"/>
 </part>
-<part name="R32" library="rcl" deviceset="R-US_" device="R0402" value="243, 0.1%">
+<part name="R32" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
-<part name="R34" library="rcl" deviceset="R-US_" device="R0402" value="715, 0.1%">
+<part name="R34" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="715, 0.1%">
 <attribute name="PN" value="ERA-2AEB7150X"/>
 </part>
-<part name="R31" library="rcl" deviceset="R-US_" device="R0402" value="243, 0.1%">
+<part name="R31" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
 <attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
 <part name="AGND35" library="supply1" deviceset="AGND" device=""/>
@@ -12555,14 +12609,14 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="N2520-5002RB"/>
 </part>
 <part name="AGND11" library="supply1" deviceset="AGND" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0402" value="43.2">
+<part name="R1" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="43.2">
 <attribute name="PN" value="RK73B1ETTP430J"/>
 </part>
 <part name="AGND65" library="supply1" deviceset="AGND" device=""/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<part name="R20" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="33">
 <attribute name="PN" value="RK73B1ETTP330J"/>
 </part>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<part name="R19" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="33">
 <attribute name="PN" value="RK73B1ETTP330J"/>
 </part>
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
@@ -12579,10 +12633,10 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="+1V02" library="supply1" deviceset="+1V0" device=""/>
-<part name="R13" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K">
+<part name="R13" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="PN" value="RK73B1ETTP103J"/>
 </part>
-<part name="R14" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7">
+<part name="R14" library="rcl" deviceset="RESISTOR" device="-0402" value="4.7">
 <attribute name="PN" value="SG73P1ETTP4R7J"/>
 </part>
 <part name="C78" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
@@ -12666,13 +12720,13 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="D4" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
-<part name="R48" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="330">
+<part name="R48" library="rcl" deviceset="RESISTOR" device="-0402" value="330">
 <attribute name="PN" value="ERJ-PA2J331X"/>
 </part>
-<part name="R50" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R50" library="rcl" deviceset="RESISTOR" device="-0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
-<part name="R49" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R49" library="rcl" deviceset="RESISTOR" device="-0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
 <part name="AGND56" library="supply1" deviceset="AGND" device=""/>
@@ -12686,7 +12740,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="D6" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
-<part name="R51" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R51" library="rcl" deviceset="RESISTOR" device="-0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
 <part name="AGND57" library="supply1" deviceset="AGND" device=""/>
@@ -12694,7 +12748,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="D7" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
-<part name="R52" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R52" library="rcl" deviceset="RESISTOR" device="-0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
 <part name="AGND59" library="supply1" deviceset="AGND" device=""/>
@@ -12703,8 +12757,12 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U17" library="texas-instruments" deviceset="SN74LVC3G34" device="DCU" value="SN74LVC3G34DCU">
 <attribute name="PN" value="SN74LVC3G34DCUT"/>
 </part>
-<part name="R17" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7K"/>
-<part name="R18" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7K"/>
+<part name="R17" library="rcl" deviceset="RESISTOR" device="-0402" value="4.7K">
+<attribute name="PN" value="RC0402FR-074K7L"/>
+</part>
+<part name="R18" library="rcl" deviceset="RESISTOR" device="-0402" value="4.7K">
+<attribute name="PN" value="RC0402FR-074K7L"/>
+</part>
 <part name="SHEET2" library="frames" deviceset="A4L-NODOC" device=""/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="CHEMICON_F55" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
@@ -12718,93 +12776,197 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U3" library="texas-instruments" deviceset="TPS563200" device="DDC">
 <attribute name="PN" value="TPS563200DDCR"/>
 </part>
-<part name="C10" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF"/>
-<part name="C11" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C8" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF"/>
-<part name="R3" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="40.2K"/>
-<part name="R4" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
+<part name="C10" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF">
+<attribute name="PN" value="12063D226KAT2A"/>
+</part>
+<part name="C11" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C8" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF">
+<attribute name="PN" value="C0805C104K5RACTU"/>
+</part>
+<part name="R3" library="rcl" deviceset="RESISTOR" device="-0402" value="40.2K">
+<attribute name="PN" value="RK73H1ETTP4022F"/>
+</part>
+<part name="R4" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RK73B1ETTP103J"/>
+</part>
 <part name="C13" library="rcl" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
 </part>
 <part name="L1" library="rcl" deviceset="L-US" device="VLP8040" value="2.2uH">
 <attribute name="PN" value="VLP8040T-2R2N"/>
 </part>
-<part name="C12" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C12" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="+4V01" library="supply1" deviceset="+4V0" device=""/>
 <part name="+4V02" library="supply1" deviceset="+4V0" device=""/>
-<part name="C14" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C15" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C16" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C14" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C15" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C16" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
 <part name="U5" library="texas-instruments" deviceset="TPS563200" device="DDC">
 <attribute name="PN" value="TPS563200DDCR"/>
 </part>
-<part name="C23" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF"/>
-<part name="C24" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C21" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF"/>
-<part name="R6" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="8.45K"/>
-<part name="R7" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
+<part name="C23" library="rcl" deviceset="CAPACITOR" device="-1206" value="22uF">
+<attribute name="PN" value="12063D226KAT2A"/>
+</part>
+<part name="C24" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C21" library="rcl" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="100nF">
+<attribute name="PN" value="C0805C104K5RACTU"/>
+</part>
+<part name="R6" library="rcl" deviceset="RESISTOR" device="-0402" value="8.45K">
+<attribute name="PN" value="RC0402FR-078K45L"/>
+</part>
+<part name="R7" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RK73B1ETTP103J"/>
+</part>
 <part name="C26" library="rcl" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
 </part>
 <part name="L2" library="rcl" deviceset="L-US" device="VLP8040" value="1.5uH">
 <attribute name="PN" value="VLP8040T-1R5N"/>
 </part>
-<part name="C25" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C25" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
-<part name="C33" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="C27" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C28" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C29" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C33" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="C27" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C28" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C29" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="+1V01" library="supply1" deviceset="+1V0" device=""/>
 <part name="U6" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
 <attribute name="PN" value="TPS7A8300RGWR"/>
 </part>
-<part name="C22" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="R5" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
-<part name="C30" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C31" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C32" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
+<part name="C22" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="R5" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RK73B1ETTP103J"/>
+</part>
+<part name="C30" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C31" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C32" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
 <part name="AGND14" library="supply1" deviceset="AGND" device=""/>
 <part name="U4" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
 <attribute name="PN" value="TPS7A8300RGWR"/>
 </part>
-<part name="C20" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="C9" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="R2" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
-<part name="C17" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C18" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C19" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
+<part name="C20" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="C9" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="R2" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RK73B1ETTP103J"/>
+</part>
+<part name="C17" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C18" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C19" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
 <part name="AGND15" library="supply1" deviceset="AGND" device=""/>
 <part name="+4V03" library="supply1" deviceset="+4V0" device=""/>
-<part name="C35" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C36" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C37" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C35" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C36" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C37" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="U7" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
 <attribute name="PN" value="TPS7A8300RGWR"/>
 </part>
-<part name="C41" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="C34" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
-<part name="R8" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K"/>
-<part name="C38" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C39" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C40" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C43" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C44" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C45" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C46" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C47" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C48" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C57" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C41" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="C34" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
+<part name="R8" library="rcl" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RK73B1ETTP103J"/>
+</part>
+<part name="C38" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C39" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C40" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C43" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C44" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C45" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C46" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C47" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C48" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C57" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
-<part name="C51" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C52" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C53" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C54" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="C55" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C56" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C51" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C52" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C53" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C54" library="rcl" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61E106KA73L"/>
+</part>
+<part name="C55" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C56" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="DVDD4" library="supply1" deviceset="DVDD" device=""/>
 <part name="DVDD5" library="supply1" deviceset="DVDD" device=""/>
 <part name="DVDD8" library="supply1" deviceset="DVDD" device=""/>
@@ -12814,7 +12976,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="D8" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
-<part name="R53" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R53" library="rcl" deviceset="RESISTOR" device="-0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
 <part name="AGND60" library="supply1" deviceset="AGND" device=""/>
@@ -12832,13 +12994,19 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND51" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND47" library="supply1" deviceset="AGND" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
-<part name="R46" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K, 0.1%">
+<part name="R46" library="rcl" deviceset="RESISTOR" device="-0402" value="10K, 0.1%">
 <attribute name="PN" value="ERA-2AEB103X"/>
 </part>
 <part name="AGND49" library="supply1" deviceset="AGND" device=""/>
-<part name="R45" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="100K"/>
-<part name="R47" library="rcl" deviceset="R-US_" device="R0402" value="49.9K"/>
-<part name="C122" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="R45" library="rcl" deviceset="RESISTOR" device="-0402" value="100K">
+<attribute name="PN" value="RK73H1ETTP1003F"/>
+</part>
+<part name="R47" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="49.9K">
+<attribute name="PN" value="RC0402FR-0749K9L"/>
+</part>
+<part name="C122" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="DVDD14" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND48" library="supply1" deviceset="AGND" device=""/>
 <part name="VR1" library="alps" deviceset="RK14K" device="">
@@ -12850,30 +13018,54 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="X2" library="crystals" deviceset="KC2520K" device="" value="22.5792MHz">
 <attribute name="PN" value="KC2520K22.5792C1GE00"/>
 </part>
-<part name="C115" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C116" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C115" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C116" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="DVDD11" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND44" library="supply1" deviceset="AGND" device=""/>
-<part name="C117" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
+<part name="C117" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="X3" library="crystals" deviceset="KC2520K" device="" value="24.576MHz">
 <attribute name="PN" value="KC2520K24.5760C1GE00"/>
 </part>
-<part name="C118" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C119" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C118" library="rcl" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GCM188R71E105KA64D"/>
+</part>
+<part name="C119" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="DVDD12" library="supply1" deviceset="DVDD" device=""/>
 <part name="AGND45" library="supply1" deviceset="AGND" device=""/>
-<part name="C120" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
+<part name="C120" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="U16" library="texas-instruments" deviceset="TS5A3159" device="DBV">
 <attribute name="PN" value="TS5A3159DBVR"/>
 </part>
-<part name="R43" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="100K"/>
+<part name="R43" library="rcl" deviceset="RESISTOR" device="-0402" value="100K">
+<attribute name="PN" value="RK73H1ETTP1003F"/>
+</part>
 <part name="DVDD13" library="supply1" deviceset="DVDD" device=""/>
-<part name="C121" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C121" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="AGND46" library="supply1" deviceset="AGND" device=""/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="0"/>
-<part name="R41" library="rcl" deviceset="R-US_" device="R0402" value="0"/>
-<part name="R42" library="rcl" deviceset="R-US_" device="R0402" value="0"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="0"/>
+<part name="R15" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="0">
+<attribute name="PN" value="ERJ-2GE0R00X"/>
+</part>
+<part name="R41" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="0">
+<attribute name="PN" value="ERJ-2GE0R00X"/>
+</part>
+<part name="R42" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="0">
+<attribute name="PN" value="ERJ-2GE0R00X"/>
+</part>
+<part name="R21" library="rcl" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="0">
+<attribute name="PN" value="ERJ-2GE0R00X"/>
+</part>
 <part name="P+15" library="supply1" deviceset="+12V" device=""/>
 <part name="+4V05" library="supply1" deviceset="+4V0" device=""/>
 <part name="+1V42" library="supply1" deviceset="+1V4" device=""/>
@@ -12887,33 +13079,69 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND53" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND52" library="supply1" deviceset="AGND" device=""/>
-<part name="C42" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C50" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
+<part name="C42" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C50" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="AGND70" library="supply1" deviceset="AGND" device=""/>
-<part name="C95" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C97" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="C98" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C100" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="C104" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
+<part name="C95" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C97" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
+<part name="C98" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C100" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
+<part name="C104" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
 <part name="AGND40" library="supply1" deviceset="AGND" device=""/>
-<part name="C103" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C105" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="C110" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
+<part name="C103" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C105" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
+<part name="C110" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="P-4" library="supply1" deviceset="V-" device=""/>
 <part name="AGND42" library="supply1" deviceset="AGND" device=""/>
-<part name="C109" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C111" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="C107" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
+<part name="C109" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C111" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
+<part name="C107" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="P+12" library="supply1" deviceset="V+" device=""/>
 <part name="AGND41" library="supply1" deviceset="AGND" device=""/>
-<part name="C106" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C108" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
-<part name="C113" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF"/>
+<part name="C106" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C108" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
+<part name="C113" library="rcl" deviceset="CAPACITOR" device="-0402" value="10nF">
+<attribute name="PN" value="GRM15XR71C103KA86D"/>
+</part>
 <part name="P-5" library="supply1" deviceset="V-" device=""/>
 <part name="AGND43" library="supply1" deviceset="AGND" device=""/>
-<part name="C112" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C114" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF"/>
+<part name="C112" library="rcl" deviceset="CAPACITOR" device="-0402" value="100nF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C114" library="rcl" deviceset="CAPACITOR" device="-0402" value="33pF">
+<attribute name="PN" value="GRM1555C1H330JA01D"/>
+</part>
 <part name="J5" library="samtec" deviceset="T1M-5POS" device="">
 <attribute name="PN" value="T1M-05-T-S-RA-TR"/>
 </part>
@@ -13210,64 +13438,124 @@ an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rail
 <instance part="U3" gate="G$1" x="53.34" y="127">
 <attribute name="PN" x="53.34" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="12.7" y="113.03"/>
-<instance part="C11" gate="G$1" x="25.4" y="113.03"/>
-<instance part="C8" gate="G$1" x="78.74" y="121.92"/>
-<instance part="R3" gate="G$1" x="106.68" y="116.84"/>
-<instance part="R4" gate="G$1" x="106.68" y="100.33"/>
+<instance part="C10" gate="G$1" x="12.7" y="113.03">
+<attribute name="PN" x="12.7" y="113.03" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="25.4" y="113.03">
+<attribute name="PN" x="25.4" y="113.03" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="78.74" y="121.92">
+<attribute name="PN" x="78.74" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="106.68" y="116.84">
+<attribute name="PN" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="106.68" y="100.33">
+<attribute name="PN" x="106.68" y="100.33" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C13" gate="G$1" x="118.11" y="111.76">
 <attribute name="PN" x="118.11" y="111.76" size="5.08" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="93.98" y="124.46">
 <attribute name="PN" x="93.98" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="36.83" y="113.03"/>
+<instance part="C12" gate="G$1" x="36.83" y="113.03">
+<attribute name="PN" x="36.83" y="113.03" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+2" gate="1" x="12.7" y="138.43"/>
 <instance part="+4V01" gate="G$1" x="118.11" y="137.16"/>
 <instance part="+4V02" gate="G$1" x="132.08" y="137.16"/>
-<instance part="C14" gate="G$1" x="132.08" y="111.76"/>
-<instance part="C15" gate="G$1" x="144.78" y="111.76"/>
-<instance part="C16" gate="G$1" x="156.21" y="111.76"/>
+<instance part="C14" gate="G$1" x="132.08" y="111.76">
+<attribute name="PN" x="132.08" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="144.78" y="111.76">
+<attribute name="PN" x="144.78" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="156.21" y="111.76">
+<attribute name="PN" x="156.21" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND12" gate="VR1" x="63.5" y="86.36"/>
 <instance part="U5" gate="G$1" x="54.61" y="57.15">
 <attribute name="PN" x="54.61" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C23" gate="G$1" x="12.7" y="41.91"/>
-<instance part="C24" gate="G$1" x="25.4" y="41.91"/>
-<instance part="C21" gate="G$1" x="80.01" y="52.07"/>
-<instance part="R6" gate="G$1" x="106.68" y="45.72"/>
-<instance part="R7" gate="G$1" x="106.68" y="30.48"/>
+<instance part="C23" gate="G$1" x="12.7" y="41.91">
+<attribute name="PN" x="12.7" y="41.91" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C24" gate="G$1" x="25.4" y="41.91">
+<attribute name="PN" x="25.4" y="41.91" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="80.01" y="52.07">
+<attribute name="PN" x="80.01" y="52.07" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="106.68" y="45.72">
+<attribute name="PN" x="106.68" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="106.68" y="30.48">
+<attribute name="PN" x="106.68" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C26" gate="G$1" x="119.38" y="40.64">
 <attribute name="PN" x="119.38" y="40.64" size="5.08" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="95.25" y="54.61">
 <attribute name="PN" x="95.25" y="54.61" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C25" gate="G$1" x="36.83" y="41.91"/>
+<instance part="C25" gate="G$1" x="36.83" y="41.91">
+<attribute name="PN" x="36.83" y="41.91" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="12.7" y="68.58"/>
-<instance part="C33" gate="G$1" x="207.01" y="30.48"/>
-<instance part="C27" gate="G$1" x="130.81" y="40.64"/>
-<instance part="C28" gate="G$1" x="143.51" y="40.64"/>
-<instance part="C29" gate="G$1" x="156.21" y="40.64"/>
+<instance part="C33" gate="G$1" x="207.01" y="30.48">
+<attribute name="PN" x="207.01" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C27" gate="G$1" x="130.81" y="40.64">
+<attribute name="PN" x="130.81" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C28" gate="G$1" x="143.51" y="40.64">
+<attribute name="PN" x="143.51" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C29" gate="G$1" x="156.21" y="40.64">
+<attribute name="PN" x="156.21" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+1V01" gate="G$1" x="242.57" y="67.31"/>
 <instance part="U6" gate="G$1" x="173.99" y="57.15">
 <attribute name="PN" x="173.99" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="205.74" y="50.8"/>
-<instance part="R5" gate="G$1" x="208.28" y="64.77"/>
-<instance part="C30" gate="G$1" x="217.17" y="39.37"/>
-<instance part="C31" gate="G$1" x="229.87" y="39.37"/>
-<instance part="C32" gate="G$1" x="242.57" y="39.37"/>
+<instance part="C22" gate="G$1" x="205.74" y="50.8">
+<attribute name="PN" x="205.74" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="208.28" y="64.77">
+<attribute name="PN" x="208.28" y="64.77" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C30" gate="G$1" x="217.17" y="39.37">
+<attribute name="PN" x="217.17" y="39.37" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C31" gate="G$1" x="229.87" y="39.37">
+<attribute name="PN" x="229.87" y="39.37" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C32" gate="G$1" x="242.57" y="39.37">
+<attribute name="PN" x="242.57" y="39.37" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND14" gate="VR1" x="127" y="12.7"/>
 <instance part="U4" gate="G$1" x="172.72" y="127">
 <attribute name="PN" x="172.72" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="204.47" y="101.6"/>
-<instance part="C9" gate="G$1" x="204.47" y="120.65"/>
-<instance part="R2" gate="G$1" x="207.01" y="134.62"/>
-<instance part="C17" gate="G$1" x="215.9" y="111.76"/>
-<instance part="C18" gate="G$1" x="228.6" y="111.76"/>
-<instance part="C19" gate="G$1" x="241.3" y="111.76"/>
+<instance part="C20" gate="G$1" x="204.47" y="101.6">
+<attribute name="PN" x="204.47" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="204.47" y="120.65">
+<attribute name="PN" x="204.47" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="207.01" y="134.62">
+<attribute name="PN" x="207.01" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="215.9" y="111.76">
+<attribute name="PN" x="215.9" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="228.6" y="111.76">
+<attribute name="PN" x="228.6" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C19" gate="G$1" x="241.3" y="111.76">
+<attribute name="PN" x="241.3" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+1V41" gate="G$1" x="119.38" y="68.58"/>
 </instances>
 <busses>
@@ -13739,50 +14027,108 @@ volume control, gain and output stages.</text>
 <instance part="U8" gate="G$1" x="166.37" y="104.14">
 <attribute name="PN" x="166.37" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C49" gate="G$1" x="162.56" y="87.63"/>
+<instance part="C49" gate="G$1" x="162.56" y="87.63">
+<attribute name="PN" x="162.56" y="87.63" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+5" gate="1" x="125.73" y="114.3"/>
 <instance part="AGND16" gate="VR1" x="180.34" y="63.5"/>
-<instance part="R9" gate="G$1" x="191.77" y="93.98"/>
-<instance part="R10" gate="G$1" x="191.77" y="78.74"/>
+<instance part="R9" gate="G$1" x="191.77" y="93.98">
+<attribute name="PN" x="191.77" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="191.77" y="78.74">
+<attribute name="PN" x="191.77" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U9" gate="G$1" x="166.37" y="52.07">
 <attribute name="PN" x="166.37" y="52.07" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="191.77" y="41.91"/>
-<instance part="R12" gate="G$1" x="191.77" y="25.4"/>
+<instance part="R11" gate="G$1" x="191.77" y="41.91">
+<attribute name="PN" x="191.77" y="41.91" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="191.77" y="25.4">
+<attribute name="PN" x="191.77" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+4" gate="1" x="241.3" y="115.57"/>
 <instance part="P-1" gate="1" x="242.57" y="63.5" rot="R180"/>
 <instance part="AVDD1" gate="G$1" x="234.95" y="166.37"/>
 <instance part="AGND15" gate="VR1" x="181.61" y="115.57"/>
 <instance part="+4V03" gate="G$1" x="125.73" y="166.37"/>
-<instance part="C35" gate="G$1" x="125.73" y="140.97"/>
-<instance part="C36" gate="G$1" x="138.43" y="140.97"/>
-<instance part="C37" gate="G$1" x="149.86" y="140.97"/>
+<instance part="C35" gate="G$1" x="125.73" y="140.97">
+<attribute name="PN" x="125.73" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C36" gate="G$1" x="138.43" y="140.97">
+<attribute name="PN" x="138.43" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C37" gate="G$1" x="149.86" y="140.97">
+<attribute name="PN" x="149.86" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U7" gate="G$1" x="166.37" y="156.21">
 <attribute name="PN" x="166.37" y="156.21" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C41" gate="G$1" x="198.12" y="130.81"/>
-<instance part="C34" gate="G$1" x="198.12" y="149.86"/>
-<instance part="R8" gate="G$1" x="200.66" y="161.29"/>
-<instance part="C38" gate="G$1" x="209.55" y="140.97"/>
-<instance part="C39" gate="G$1" x="222.25" y="140.97"/>
-<instance part="C40" gate="G$1" x="234.95" y="140.97"/>
-<instance part="C43" gate="G$1" x="125.73" y="88.9"/>
-<instance part="C44" gate="G$1" x="138.43" y="88.9"/>
-<instance part="C45" gate="G$1" x="149.86" y="88.9"/>
-<instance part="C46" gate="G$1" x="217.17" y="88.9"/>
-<instance part="C47" gate="G$1" x="229.87" y="88.9"/>
-<instance part="C48" gate="G$1" x="241.3" y="88.9"/>
-<instance part="C57" gate="G$1" x="162.56" y="35.56"/>
+<instance part="C41" gate="G$1" x="198.12" y="130.81">
+<attribute name="PN" x="198.12" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C34" gate="G$1" x="198.12" y="149.86">
+<attribute name="PN" x="198.12" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="200.66" y="161.29">
+<attribute name="PN" x="200.66" y="161.29" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C38" gate="G$1" x="209.55" y="140.97">
+<attribute name="PN" x="209.55" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C39" gate="G$1" x="222.25" y="140.97">
+<attribute name="PN" x="222.25" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C40" gate="G$1" x="234.95" y="140.97">
+<attribute name="PN" x="234.95" y="140.97" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C43" gate="G$1" x="125.73" y="88.9">
+<attribute name="PN" x="125.73" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C44" gate="G$1" x="138.43" y="88.9">
+<attribute name="PN" x="138.43" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C45" gate="G$1" x="149.86" y="88.9">
+<attribute name="PN" x="149.86" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C46" gate="G$1" x="217.17" y="88.9">
+<attribute name="PN" x="217.17" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C47" gate="G$1" x="229.87" y="88.9">
+<attribute name="PN" x="229.87" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C48" gate="G$1" x="241.3" y="88.9">
+<attribute name="PN" x="241.3" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C57" gate="G$1" x="162.56" y="35.56">
+<attribute name="PN" x="162.56" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+6" gate="1" x="125.73" y="62.23"/>
 <instance part="AGND17" gate="VR1" x="181.61" y="11.43"/>
-<instance part="C51" gate="G$1" x="125.73" y="36.83"/>
-<instance part="C52" gate="G$1" x="138.43" y="36.83"/>
-<instance part="C53" gate="G$1" x="149.86" y="36.83"/>
-<instance part="C54" gate="G$1" x="217.17" y="36.83"/>
-<instance part="C55" gate="G$1" x="229.87" y="36.83"/>
-<instance part="C56" gate="G$1" x="242.57" y="36.83"/>
-<instance part="C42" gate="G$1" x="204.47" y="95.25"/>
-<instance part="C50" gate="G$1" x="204.47" y="43.18"/>
+<instance part="C51" gate="G$1" x="125.73" y="36.83">
+<attribute name="PN" x="125.73" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C52" gate="G$1" x="138.43" y="36.83">
+<attribute name="PN" x="138.43" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C53" gate="G$1" x="149.86" y="36.83">
+<attribute name="PN" x="149.86" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C54" gate="G$1" x="217.17" y="36.83">
+<attribute name="PN" x="217.17" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C55" gate="G$1" x="229.87" y="36.83">
+<attribute name="PN" x="229.87" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C56" gate="G$1" x="242.57" y="36.83">
+<attribute name="PN" x="242.57" y="36.83" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C42" gate="G$1" x="204.47" y="95.25">
+<attribute name="PN" x="204.47" y="95.25" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C50" gate="G$1" x="204.47" y="43.18">
+<attribute name="PN" x="204.47" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14495,14 +14841,20 @@ to the processor.</text>
 <instance part="+1V04" gate="G$1" x="25.4" y="143.51"/>
 <instance part="+1V05" gate="G$1" x="63.5" y="143.51"/>
 <instance part="+1V06" gate="G$1" x="80.01" y="143.51"/>
-<instance part="R17" gate="G$1" x="52.07" y="54.61"/>
-<instance part="R18" gate="G$1" x="62.23" y="54.61"/>
+<instance part="R17" gate="G$1" x="52.07" y="54.61">
+<attribute name="PN" x="52.07" y="54.61" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="62.23" y="54.61">
+<attribute name="PN" x="62.23" y="54.61" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="DVDD4" gate="G$1" x="19.05" y="143.51"/>
 <instance part="DVDD5" gate="G$1" x="69.85" y="143.51"/>
 <instance part="DVDD8" gate="G$1" x="33.02" y="68.58"/>
 <instance part="DVDD6" gate="G$1" x="152.4" y="138.43"/>
 <instance part="DVDD7" gate="G$1" x="181.61" y="138.43"/>
-<instance part="R15" gate="G$1" x="189.23" y="124.46"/>
+<instance part="R15" gate="G$1" x="189.23" y="124.46">
+<attribute name="PN" x="189.23" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14902,7 +15254,9 @@ normal filter latency, and no deemphasis.</text>
 <instance part="DVDD10" gate="G$1" x="48.26" y="48.26"/>
 <instance part="AVDD3" gate="G$1" x="109.22" y="49.53"/>
 <instance part="AGND27" gate="VR1" x="109.22" y="17.78"/>
-<instance part="R21" gate="G$1" x="165.1" y="104.14"/>
+<instance part="R21" gate="G$1" x="165.1" y="104.14">
+<attribute name="PN" x="165.1" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15241,16 +15595,28 @@ the gain stage, to allow line-level outputs.</text>
 <attribute name="PN" x="50.8" y="41.91" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND35" gate="VR1" x="72.39" y="20.32"/>
-<instance part="C99" gate="G$1" x="219.71" y="33.02"/>
-<instance part="C96" gate="G$1" x="161.29" y="33.02"/>
+<instance part="C99" gate="G$1" x="219.71" y="33.02">
+<attribute name="PN" x="219.71" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C96" gate="G$1" x="161.29" y="33.02">
+<attribute name="PN" x="161.29" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+8" gate="1" x="161.29" y="40.64"/>
 <instance part="P-2" gate="1" x="219.71" y="40.64" rot="R180"/>
 <instance part="AGND33" gate="VR1" x="161.29" y="21.59"/>
 <instance part="AGND34" gate="VR1" x="219.71" y="21.59"/>
-<instance part="C95" gate="G$1" x="147.32" y="33.02"/>
-<instance part="C97" gate="G$1" x="175.26" y="33.02"/>
-<instance part="C98" gate="G$1" x="205.74" y="33.02"/>
-<instance part="C100" gate="G$1" x="233.68" y="33.02"/>
+<instance part="C95" gate="G$1" x="147.32" y="33.02">
+<attribute name="PN" x="147.32" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C97" gate="G$1" x="175.26" y="33.02">
+<attribute name="PN" x="175.26" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C98" gate="G$1" x="205.74" y="33.02">
+<attribute name="PN" x="205.74" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C100" gate="G$1" x="233.68" y="33.02">
+<attribute name="PN" x="233.68" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="JP1" gate="A" x="71.12" y="36.83">
 <attribute name="PN" x="71.12" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
@@ -15644,26 +16010,50 @@ Our volume control is also in between the stages, which apparently provides lowe
 </instance>
 <instance part="AGND37" gate="VR1" x="78.74" y="82.55"/>
 <instance part="AGND38" gate="VR1" x="104.14" y="82.55"/>
-<instance part="C104" gate="G$1" x="48.26" y="33.02"/>
+<instance part="C104" gate="G$1" x="48.26" y="33.02">
+<attribute name="PN" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+10" gate="1" x="48.26" y="40.64"/>
 <instance part="AGND40" gate="VR1" x="48.26" y="21.59"/>
-<instance part="C103" gate="G$1" x="33.02" y="33.02"/>
-<instance part="C105" gate="G$1" x="62.23" y="33.02"/>
-<instance part="C110" gate="G$1" x="102.87" y="31.75"/>
+<instance part="C103" gate="G$1" x="33.02" y="33.02">
+<attribute name="PN" x="33.02" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C105" gate="G$1" x="62.23" y="33.02">
+<attribute name="PN" x="62.23" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C110" gate="G$1" x="102.87" y="31.75">
+<attribute name="PN" x="102.87" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P-4" gate="1" x="102.87" y="39.37" rot="R180"/>
 <instance part="AGND42" gate="VR1" x="102.87" y="20.32"/>
-<instance part="C109" gate="G$1" x="87.63" y="31.75"/>
-<instance part="C111" gate="G$1" x="116.84" y="31.75"/>
-<instance part="C107" gate="G$1" x="148.59" y="33.02"/>
+<instance part="C109" gate="G$1" x="87.63" y="31.75">
+<attribute name="PN" x="87.63" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C111" gate="G$1" x="116.84" y="31.75">
+<attribute name="PN" x="116.84" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C107" gate="G$1" x="148.59" y="33.02">
+<attribute name="PN" x="148.59" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+12" gate="1" x="148.59" y="40.64"/>
 <instance part="AGND41" gate="VR1" x="148.59" y="21.59"/>
-<instance part="C106" gate="G$1" x="133.35" y="33.02"/>
-<instance part="C108" gate="G$1" x="162.56" y="33.02"/>
-<instance part="C113" gate="G$1" x="203.2" y="31.75"/>
+<instance part="C106" gate="G$1" x="133.35" y="33.02">
+<attribute name="PN" x="133.35" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C108" gate="G$1" x="162.56" y="33.02">
+<attribute name="PN" x="162.56" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C113" gate="G$1" x="203.2" y="31.75">
+<attribute name="PN" x="203.2" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P-5" gate="1" x="203.2" y="39.37" rot="R180"/>
 <instance part="AGND43" gate="VR1" x="203.2" y="20.32"/>
-<instance part="C112" gate="G$1" x="187.96" y="31.75"/>
-<instance part="C114" gate="G$1" x="217.17" y="31.75"/>
+<instance part="C112" gate="G$1" x="187.96" y="31.75">
+<attribute name="PN" x="187.96" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C114" gate="G$1" x="217.17" y="31.75">
+<attribute name="PN" x="217.17" y="31.75" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15982,28 +16372,48 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="X2" gate="G$1" x="68.58" y="123.19">
 <attribute name="PN" x="68.58" y="123.19" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C115" gate="G$1" x="25.4" y="115.57"/>
-<instance part="C116" gate="G$1" x="36.83" y="115.57"/>
+<instance part="C115" gate="G$1" x="25.4" y="115.57">
+<attribute name="PN" x="25.4" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C116" gate="G$1" x="36.83" y="115.57">
+<attribute name="PN" x="36.83" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="DVDD11" gate="G$1" x="25.4" y="132.08"/>
 <instance part="AGND44" gate="VR1" x="44.45" y="102.87"/>
-<instance part="C117" gate="G$1" x="49.53" y="115.57"/>
+<instance part="C117" gate="G$1" x="49.53" y="115.57">
+<attribute name="PN" x="49.53" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X3" gate="G$1" x="185.42" y="123.19">
 <attribute name="PN" x="185.42" y="123.19" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C118" gate="G$1" x="142.24" y="115.57"/>
-<instance part="C119" gate="G$1" x="153.67" y="115.57"/>
+<instance part="C118" gate="G$1" x="142.24" y="115.57">
+<attribute name="PN" x="142.24" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C119" gate="G$1" x="153.67" y="115.57">
+<attribute name="PN" x="153.67" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="DVDD12" gate="G$1" x="142.24" y="132.08"/>
 <instance part="AGND45" gate="VR1" x="161.29" y="102.87"/>
-<instance part="C120" gate="G$1" x="166.37" y="115.57"/>
+<instance part="C120" gate="G$1" x="166.37" y="115.57">
+<attribute name="PN" x="166.37" y="115.57" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U16" gate="G$1" x="135.89" y="78.74">
 <attribute name="PN" x="135.89" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R43" gate="G$1" x="106.68" y="63.5"/>
+<instance part="R43" gate="G$1" x="106.68" y="63.5">
+<attribute name="PN" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="DVDD13" gate="G$1" x="119.38" y="88.9"/>
-<instance part="C121" gate="G$1" x="119.38" y="64.77"/>
+<instance part="C121" gate="G$1" x="119.38" y="64.77">
+<attribute name="PN" x="119.38" y="64.77" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND46" gate="VR1" x="119.38" y="49.53"/>
-<instance part="R41" gate="G$1" x="165.1" y="76.2"/>
-<instance part="R42" gate="G$1" x="165.1" y="68.58"/>
+<instance part="R41" gate="G$1" x="165.1" y="76.2">
+<attribute name="PN" x="165.1" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="165.1" y="68.58">
+<attribute name="PN" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16204,9 +16614,15 @@ Our volume control is also in between the stages, which apparently provides lowe
 <attribute name="PN" x="110.49" y="105.41" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND49" gate="VR1" x="110.49" y="88.9"/>
-<instance part="R45" gate="G$1" x="43.18" y="113.03"/>
-<instance part="R47" gate="G$1" x="52.07" y="104.14"/>
-<instance part="C122" gate="G$1" x="59.69" y="99.06"/>
+<instance part="R45" gate="G$1" x="43.18" y="113.03">
+<attribute name="PN" x="43.18" y="113.03" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R47" gate="G$1" x="52.07" y="104.14">
+<attribute name="PN" x="52.07" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C122" gate="G$1" x="59.69" y="99.06">
+<attribute name="PN" x="59.69" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="DVDD14" gate="G$1" x="43.18" y="142.24"/>
 <instance part="AGND48" gate="VR1" x="59.69" y="88.9"/>
 <instance part="J4" gate="LEFT" x="22.86" y="57.15">
@@ -16378,9 +16794,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <label x="59.69" y="29.21" size="2.54" layer="95" xref="yes"/>
 <pinref part="U19" gate="G$1" pin="IO1"/>
 <wire x1="54.61" y1="29.21" x2="59.69" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="38.1" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="40.64" x2="54.61" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="40.64" x2="54.61" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="38.1" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="43.18" x2="54.61" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="43.18" x2="54.61" y2="29.21" width="0.1524" layer="91"/>
 <junction x="54.61" y="29.21"/>
 </segment>
 </net>
@@ -16391,9 +16807,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <wire x1="25.4" y1="60.96" x2="54.61" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U19" gate="G$1" pin="IO2"/>
 <wire x1="54.61" y1="60.96" x2="59.69" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="38.1" x2="129.54" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="44.45" x2="54.61" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="44.45" x2="54.61" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="38.1" x2="129.54" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="46.99" x2="54.61" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="46.99" x2="54.61" y2="60.96" width="0.1524" layer="91"/>
 <junction x="54.61" y="60.96"/>
 </segment>
 </net>

@@ -1624,32 +1624,40 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="-2.921" y="-18.034" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="C80" library="rcl" package="C0805" value="10uF" x="10.287" y="-14.732" smashed="yes" rot="R90">
-<attribute name="PN" value="EEE-1CA100SR" x="10.287" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.922" y="-12.827" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="10.287" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C39" library="rcl" package="C0805" value="10uF" x="19.304" y="-31.75" smashed="yes">
 <attribute name="NAME" x="21.717" y="-30.48" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="19.304" y="-31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C40" library="rcl" package="C0805" value="10uF" x="19.304" y="-29.464" smashed="yes">
 <attribute name="NAME" x="21.717" y="-28.956" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="19.304" y="-29.464" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C53" library="rcl" package="C0402" value="100nF" x="52.197" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.562" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="52.197" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C54" library="rcl" package="C0805" value="10uF" x="59.563" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.928" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="59.563" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C55" library="rcl" package="C0603" value="1uF" x="61.595" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.579" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="61.595" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C56" library="rcl" package="C0402" value="100nF" x="63.119" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.23" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="63.119" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C120" library="rcl" package="C0402" value="10nF" x="36.449" y="-17.907" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="-19.558" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="36.449" y="-17.907" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C121" library="rcl" package="C0402" value="100nF" x="25.781" y="-20.447" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.749" y="-19.431" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="25.781" y="-20.447" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C83" library="rcl" package="C0402" value="2.2nF, C0G" x="-8.382" y="-16.51" smashed="yes">
 <attribute name="NAME" x="-9.652" y="-15.367" size="1.27" layer="25" rot="R180"/>
@@ -1681,12 +1689,15 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C14" library="rcl" package="C0805" value="10uF" x="35.687" y="-36.576" smashed="yes">
 <attribute name="NAME" x="37.846" y="-37.211" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="35.687" y="-36.576" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C43" library="rcl" package="C0805" value="10uF" x="43.053" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.037" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="43.053" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C44" library="rcl" package="C0603" value="1uF" x="41.021" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.386" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="41.021" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C81" library="rcl" package="C0603" value="2.2uF" x="2.413" y="-12.827" smashed="yes">
 <attribute name="PN" value="GRM188R61C225KE15D" x="2.413" y="-12.827" size="1.778" layer="27" display="off"/>
@@ -1694,39 +1705,48 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C20" library="rcl" package="C0402" value="10nF" x="29.21" y="-39.624" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.067" y="-39.116" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="29.21" y="-39.624" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C9" library="rcl" package="C0402" value="10nF" x="30.48" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.972" y="-30.099" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="30.48" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C45" library="rcl" package="C0402" value="100nF" x="39.497" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.735" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="39.497" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C49" library="rcl" package="C0402" value="100nF" x="40.64" y="23.495" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.021" y="24.765" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="40.64" y="23.495" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C46" library="rcl" package="C0805" value="10uF" x="46.863" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.101" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="46.863" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C47" library="rcl" package="C0603" value="1uF" x="48.895" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.752" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="48.895" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C48" library="rcl" package="C0402" value="100nF" x="50.419" y="17.526" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.403" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="50.419" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C122" library="rcl" package="C0402" value="100nF" x="23.622" y="3.556" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.781" y="2.413" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="22.86" y="2.54" size="1.27" layer="27" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="23.622" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C57" library="rcl" package="C0402" value="100nF" x="53.34" y="23.622" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.721" y="24.892" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="53.34" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C93" library="rcl" package="C0402" value="220pF, C0G" x="-26.67" y="4.191" smashed="yes" rot="R180">
 <attribute name="NAME" x="-26.035" y="7.747" size="1.27" layer="25" rot="R180"/>
 <attribute name="PN" value="GRM1555C1H221JA01J" x="-26.67" y="4.191" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C89" library="rcl" package="C0402" value="100nF" x="-1.651" y="-20.32" smashed="yes" rot="R270">
-<attribute name="PN" value="GRM155R71C104KA88D" x="-1.651" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-2.159" y="-21.463" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="-1.651" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C91" library="rcl" package="C0402" value="220pF, C0G" x="-12.954" y="1.778" smashed="yes">
 <attribute name="NAME" x="-9.271" y="1.905" size="1.27" layer="25"/>
@@ -1742,9 +1762,11 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C99" library="rcl" package="C0402" value="10nF" x="-26.162" y="1.27" smashed="yes" rot="R270">
 <attribute name="NAME" x="-30.988" y="2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="-26.162" y="1.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C96" library="rcl" package="C0402" value="10nF" x="-13.462" y="6.096" smashed="yes" rot="R90">
 <attribute name="NAME" x="-13.081" y="7.874" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="-13.462" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C101" library="rcl" package="KEMET-5MM-6.0-7.2" value="2.2uF" x="26.035" y="25.273" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.225" y="19.177" size="1.27" layer="25"/>
@@ -1755,8 +1777,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PN" value="RSBCC4220Z310K" x="34.036" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C85" library="rcl" package="C0402" value="100nF" x="-2.159" y="-13.97" smashed="yes" rot="R180">
-<attribute name="PN" value="GRM155R71C104KA88D" x="-2.159" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-3.302" y="-13.081" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="-2.159" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C77" library="rcl" package="C0402" value="100nF" x="19.05" y="-7.62" smashed="yes" rot="R180">
 <attribute name="PN" value="GRM155R71C104KA88D" x="19.05" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1764,18 +1786,23 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C115" library="rcl" package="C0603" value="1uF" x="39.243" y="-22.733" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.434" y="-21.209" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="39.243" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C117" library="rcl" package="C0402" value="10nF" x="36.449" y="-22.733" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.386" y="-21.209" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="36.449" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C116" library="rcl" package="C0402" value="100nF" x="37.719" y="-22.733" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.91" y="-21.209" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="37.719" y="-22.733" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C118" library="rcl" package="C0603" value="1uF" x="39.243" y="-17.907" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.704" y="-19.558" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="39.243" y="-17.907" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C119" library="rcl" package="C0402" value="100nF" x="37.719" y="-17.907" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.18" y="-19.558" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="37.719" y="-17.907" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C78" library="rcl" package="C0402" value="100nF" x="22.225" y="-1.143" smashed="yes" rot="R90">
 <attribute name="PN" value="GRM155R71C104KA88D" x="22.225" y="-1.143" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1793,8 +1820,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="35.433" y="4.191" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C87" library="rcl" package="C0402" value="100nF" x="8.509" y="-13.462" smashed="yes" rot="R90">
-<attribute name="PN" value="GRM155R71C104KA88D" x="8.509" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.271" y="-12.319" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="8.509" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C73" library="rcl" package="C0402" value="100nF" x="25.019" y="-2.413" smashed="yes" rot="R180">
 <attribute name="PN" value="GRM155R71C104KA88D" x="25.019" y="-2.413" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1847,8 +1874,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="32.004" y="4.191" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C79" library="rcl" package="C0402" value="100nF" x="8.509" y="-15.494" smashed="yes" rot="R90">
-<attribute name="PN" value="GRM155R71C104KA88D" x="8.509" y="-15.494" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.398" y="-20.066" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="8.509" y="-15.494" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C69" library="rcl" package="C0402" value="100nF" x="25.019" y="-0.889" smashed="yes" rot="R180">
 <attribute name="PN" value="GRM155R71C104KA88D" x="25.019" y="-0.889" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1896,16 +1923,19 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C10" library="rcl" package="C1206" value="22uF" x="27.686" y="-49.149" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.337" y="-51.816" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="12063D226KAT2A" x="27.686" y="-49.149" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C90" library="rcl" package="C0805" value="10uF" x="-3.429" y="-20.701" smashed="yes" rot="R270">
-<attribute name="PN" value="EEE-1CA100SR" x="-3.429" y="-20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-6.096" y="-19.05" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="-3.429" y="-20.701" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C11" library="rcl" package="C0603" value="1uF" x="30.48" y="-49.276" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.115" y="-54.229" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="30.48" y="-49.276" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="rcl" package="C0805" value="100nF" x="37.084" y="-45.593" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.385" y="-46.101" size="1.27" layer="25"/>
+<attribute name="PN" value="C0805C104K5RACTU" x="37.084" y="-45.593" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="rcl" package="C1206" value="47uF" x="28.321" y="-43.688" smashed="yes">
 <attribute name="PN" value="EMVA250ADA470MF55G" x="28.321" y="-43.688" size="1.778" layer="27" display="off"/>
@@ -1913,31 +1943,39 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C12" library="rcl" package="C0402" value="100nF" x="32.131" y="-49.403" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.893" y="-53.848" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="32.131" y="-49.403" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C15" library="rcl" package="C0603" value="1uF" x="35.687" y="-38.608" smashed="yes">
 <attribute name="NAME" x="37.846" y="-39.243" size="1.27" layer="25"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="35.687" y="-38.608" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C16" library="rcl" package="C0402" value="100nF" x="35.687" y="-40.132" smashed="yes">
 <attribute name="NAME" x="37.719" y="-41.148" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="35.687" y="-40.132" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C51" library="rcl" package="C0805" value="10uF" x="55.753" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.864" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="55.753" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C52" library="rcl" package="C0603" value="1uF" x="53.721" y="17.653" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.213" y="15.494" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="53.721" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="rcl" package="C1206" value="22uF" x="53.594" y="-49.149" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.118" y="-51.816" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="12063D226KAT2A" x="53.594" y="-49.149" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C24" library="rcl" package="C0603" value="1uF" x="56.388" y="-49.276" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.896" y="-54.356" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="56.388" y="-49.276" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C86" library="rcl" package="C0805" value="10uF" x="-1.143" y="-12.319" smashed="yes" rot="R180">
-<attribute name="PN" value="EEE-1CA100SR" x="-1.143" y="-12.319" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-3.302" y="-11.557" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="-1.143" y="-12.319" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C21" library="rcl" package="C0805" value="100nF" x="62.992" y="-45.593" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.404" y="-46.228" size="1.27" layer="25"/>
+<attribute name="PN" value="C0805C104K5RACTU" x="62.992" y="-45.593" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C26" library="rcl" package="C1206" value="47uF" x="54.229" y="-43.688" smashed="yes">
 <attribute name="PN" value="EMVA250ADA470MF55G" x="54.229" y="-43.688" size="1.778" layer="27" display="off"/>
@@ -1945,61 +1983,79 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C25" library="rcl" package="C0402" value="100nF" x="58.039" y="-49.403" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.547" y="-54.356" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="58.039" y="-49.403" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C33" library="rcl" package="C0402" value="10nF" x="47.371" y="-32.893" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.879" y="-31.623" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="47.371" y="-32.893" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C27" library="rcl" package="C0805" value="10uF" x="50.419" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.926" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="50.419" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C28" library="rcl" package="C0603" value="1uF" x="48.387" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.45" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="48.387" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C29" library="rcl" package="C0402" value="100nF" x="46.863" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.974" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="46.863" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C22" library="rcl" package="C0402" value="10nF" x="56.134" y="-34.163" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.166" y="-35.179" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="56.134" y="-34.163" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C30" library="rcl" package="C0805" value="10uF" x="57.531" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.246" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="57.531" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C31" library="rcl" package="C0805" value="10uF" x="55.245" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.722" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="55.245" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C88" library="rcl" package="C0805" value="10uF" x="5.969" y="-12.573" smashed="yes" rot="R180">
-<attribute name="PN" value="EEE-1CA100SR" x="5.969" y="-12.573" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.191" y="-11.176" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="5.969" y="-12.573" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C32" library="rcl" package="C0805" value="10uF" x="52.959" y="-39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.198" y="-41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="52.959" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C17" library="rcl" package="C0805" value="10uF" x="35.687" y="-34.036" smashed="yes">
 <attribute name="NAME" x="37.846" y="-34.671" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="35.687" y="-34.036" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="rcl" package="C0805" value="10uF" x="35.687" y="-31.75" smashed="yes">
 <attribute name="NAME" x="37.846" y="-32.385" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="35.687" y="-31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C19" library="rcl" package="C0805" value="10uF" x="35.687" y="-29.464" smashed="yes">
 <attribute name="NAME" x="37.846" y="-30.099" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="35.687" y="-29.464" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C35" library="rcl" package="C0805" value="10uF" x="19.304" y="-36.576" smashed="yes">
 <attribute name="NAME" x="21.717" y="-33.528" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="19.304" y="-36.576" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C36" library="rcl" package="C0603" value="1uF" x="19.304" y="-38.608" smashed="yes">
 <attribute name="NAME" x="21.717" y="-35.052" size="1.27" layer="25"/>
+<attribute name="PN" value="GCM188R71E105KA64D" x="19.304" y="-38.608" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C37" library="rcl" package="C0402" value="100nF" x="19.304" y="-40.132" smashed="yes">
 <attribute name="NAME" x="21.717" y="-36.576" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="19.304" y="-40.132" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C41" library="rcl" package="C0402" value="10nF" x="12.827" y="-39.624" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.843" y="-40.386" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="12.827" y="-39.624" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C34" library="rcl" package="C0402" value="10nF" x="14.097" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.383" y="-28.829" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="14.097" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C38" library="rcl" package="C0805" value="10uF" x="19.304" y="-34.036" smashed="yes">
 <attribute name="NAME" x="21.717" y="-32.004" size="1.27" layer="25"/>
+<attribute name="PN" value="GRM21BR61E106KA73L" x="19.304" y="-34.036" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D2" library="diodes" package="SMA" value="13.6V" x="73.533" y="-43.18" smashed="yes" rot="R180">
 <attribute name="PN" value="P4SMA16CA" x="73.533" y="-43.18" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2067,6 +2123,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R12" library="rcl" package="R0402" value="137K" x="61.976" y="25.146" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.865" y="24.257" size="1.27" layer="25"/>
+<attribute name="PN" value="RC0402FR-07137KL" x="61.976" y="25.146" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R28" library="rcl" package="R0402" value="243, 0.1%" x="-25.019" y="3.556" smashed="yes" rot="R270">
 <attribute name="NAME" x="-25.908" y="8.509" size="1.27" layer="25" rot="R270"/>
@@ -2133,6 +2190,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R45" library="rcl" package="R0402" value="100K" x="22.987" y="5.207" smashed="yes">
 <attribute name="NAME" x="20.701" y="5.969" size="1.27" layer="25"/>
 <attribute name="VALUE" x="21.971" y="5.969" size="1.27" layer="27"/>
+<attribute name="PN" value="RK73H1ETTP1003F" x="22.987" y="5.207" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R33" library="rcl" package="R0402" value="715, 0.1%" x="-13.462" y="-5.969" smashed="yes" rot="R180">
 <attribute name="NAME" x="-12.065" y="-6.477" size="1.27" layer="25"/>
@@ -2156,6 +2214,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R2" library="rcl" package="R0402" value="10K" x="28.321" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="-28.829" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="28.321" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="43.2" x="42.291" y="-4.572" smashed="yes" rot="R180">
 <attribute name="PN" value="RK73B1ETTP430J" x="42.291" y="-4.572" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2172,11 +2231,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R47" library="rcl" package="R0402" value="49.9K" x="22.479" y="3.556" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.463" y="2.413" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="23.241" y="4.572" size="1.27" layer="27" rot="R270"/>
+<attribute name="PN" value="RC0402FR-0749K9L" x="22.479" y="3.556" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R13" library="rcl" package="R0402" value="10K" x="50.038" y="-21.209" smashed="yes">
-<attribute name="PN" value="RK73B1ETTP103J" x="50.038" y="-21.209" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.593" y="-21.717" size="1.27" layer="25"/>
 <attribute name="VALUE" x="49.022" y="-20.447" size="1.27" layer="27"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="50.038" y="-21.209" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R14" library="rcl" package="R0402" value="4.7" x="23.368" y="-1.143" smashed="yes" rot="R90">
 <attribute name="PN" value="SG73P1ETTP4R7J" x="23.368" y="-1.143" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2201,6 +2261,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R8" library="rcl" package="R0402" value="10K" x="11.938" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.192" y="-28.829" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="11.938" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R51" library="rcl" package="R0402" value="150" x="69.85" y="-14.605" smashed="yes" rot="R90">
 <attribute name="PN" value="SG73P1ETTP151J" x="69.85" y="-14.605" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2213,28 +2274,36 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R17" library="rcl" package="R0402" value="4.7K" x="53.848" y="-17.78" smashed="yes">
 <attribute name="NAME" x="55.118" y="-18.542" size="1.27" layer="25"/>
 <attribute name="VALUE" x="52.832" y="-17.018" size="1.27" layer="27"/>
+<attribute name="PN" value="RC0402FR-074K7L" x="53.848" y="-17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R18" library="rcl" package="R0402" value="4.7K" x="51.816" y="-17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.8" y="-17.272" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.832" y="-18.542" size="1.27" layer="27" rot="R180"/>
+<attribute name="PN" value="RC0402FR-074K7L" x="51.816" y="-17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R3" library="rcl" package="R0402" value="40.2K" x="37.084" y="-42.164" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.02" y="-42.799" size="1.27" layer="25"/>
+<attribute name="PN" value="RK73H1ETTP4022F" x="37.084" y="-42.164" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="rcl" package="R0402" value="10K" x="37.084" y="-43.434" smashed="yes">
 <attribute name="NAME" x="33.02" y="-44.323" size="1.27" layer="25"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="37.084" y="-43.434" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="rcl" package="R0402" value="8.45K" x="62.992" y="-42.164" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.928" y="-42.799" size="1.27" layer="25"/>
+<attribute name="PN" value="RC0402FR-078K45L" x="62.992" y="-42.164" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="rcl" package="R0402" value="10K" x="62.992" y="-43.434" smashed="yes">
 <attribute name="NAME" x="58.928" y="-44.45" size="1.27" layer="25"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="62.992" y="-43.434" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="rcl" package="R0402" value="10K" x="56.134" y="-32.004" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.896" y="-30.734" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="RK73B1ETTP103J" x="56.134" y="-32.004" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R43" library="rcl" package="R0402" value="100K" x="28.702" y="-22.733" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.083" y="-23.495" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="RK73H1ETTP1003F" x="28.702" y="-22.733" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R53" library="rcl" package="R0402" value="150" x="66.548" y="-14.605" smashed="yes" rot="R90">
 <attribute name="PN" value="SG73P1ETTP151J" x="66.548" y="-14.605" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2242,15 +2311,19 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R15" library="rcl" package="R0402" value="0" x="22.225" y="-4.318" smashed="yes">
 <attribute name="NAME" x="21.336" y="-6.985" size="1.27" layer="25"/>
+<attribute name="PN" value="ERJ-2GE0R00X" x="22.225" y="-4.318" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R41" library="rcl" package="R0402" value="0" x="31.369" y="-22.733" smashed="yes">
 <attribute name="NAME" x="32.766" y="-23.495" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="ERJ-2GE0R00X" x="31.369" y="-22.733" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R42" library="rcl" package="R0402" value="0" x="31.369" y="-17.145" smashed="yes">
 <attribute name="NAME" x="26.797" y="-17.526" size="1.27" layer="25"/>
+<attribute name="PN" value="ERJ-2GE0R00X" x="31.369" y="-17.145" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R21" library="rcl" package="R0402" value="0" x="10.795" y="-19.939" smashed="yes">
 <attribute name="NAME" x="9.779" y="-21.971" size="1.27" layer="25"/>
+<attribute name="PN" value="ERJ-2GE0R00X" x="10.795" y="-19.939" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RL2" library="panasonic" package="TQ2" value="TQ2-12V" x="48.133" y="59.055" smashed="yes" rot="R180">
 <attribute name="VALUE" x="55.753" y="53.34" size="1.27" layer="27" rot="R180"/>
@@ -2259,12 +2332,15 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R9" library="rcl" package="R0402" value="66.5K" x="49.657" y="23.368" smashed="yes">
 <attribute name="NAME" x="50.165" y="24.13" size="1.27" layer="25"/>
+<attribute name="PN" value="RK73H1ETTP6652F" x="49.657" y="23.368" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="rcl" package="R0402" value="9.76K" x="49.276" y="25.019" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.165" y="26.289" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="RC0402FR-079K76L" x="49.276" y="25.019" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="rcl" package="R0402" value="1.15M" x="62.357" y="23.495" smashed="yes">
 <attribute name="NAME" x="62.865" y="26.416" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="RK73H1ETTP1154F" x="62.357" y="23.495" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="texas-instruments" package="S-PVQFN-N20" value="TPS7A8300RGW" x="29.718" y="-35.306" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.781" y="-38.989" size="1.27" layer="25" rot="R90"/>
@@ -2354,57 +2430,75 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C42" library="rcl" package="C0402" value="100nF" x="49.276" y="21.717" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.308" y="19.177" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="49.276" y="21.717" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C50" library="rcl" package="C0402" value="100nF" x="61.976" y="21.844" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.008" y="19.304" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="61.976" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C95" library="rcl" package="C0402" value="100nF" x="-12.319" y="6.096" smashed="yes" rot="R90">
 <attribute name="NAME" x="-11.557" y="7.874" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="-12.319" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C97" library="rcl" package="C0402" value="33pF" x="-14.605" y="6.096" smashed="yes" rot="R90">
 <attribute name="NAME" x="-14.605" y="7.874" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="-14.605" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C98" library="rcl" package="C0402" value="100nF" x="-27.305" y="1.27" smashed="yes" rot="R270">
 <attribute name="NAME" x="-32.512" y="2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="-27.305" y="1.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C100" library="rcl" package="C0402" value="33pF" x="-25.019" y="1.27" smashed="yes" rot="R270">
 <attribute name="NAME" x="-29.464" y="2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="-25.019" y="1.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C104" library="rcl" package="C0402" value="10nF" x="19.685" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.542" y="36.195" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="19.685" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C103" library="rcl" package="C0402" value="100nF" x="18.542" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.018" y="36.195" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="18.542" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C105" library="rcl" package="C0402" value="33pF" x="20.828" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.066" y="36.195" size="1.27" layer="25" rot="R270"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="20.828" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C110" library="rcl" package="C0402" value="10nF" x="32.385" y="40.259" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.274" y="42.545" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="32.385" y="40.259" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C109" library="rcl" package="C0402" value="100nF" x="33.528" y="40.259" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.798" y="42.545" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="33.528" y="40.259" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C111" library="rcl" package="C0402" value="33pF" x="31.242" y="40.259" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.75" y="42.545" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="31.242" y="40.259" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C107" library="rcl" package="C0402" value="10nF" x="32.893" y="37.338" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.147" y="31.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="32.893" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C106" library="rcl" package="C0402" value="100nF" x="31.75" y="37.338" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.623" y="31.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="31.75" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C108" library="rcl" package="C0402" value="33pF" x="34.036" y="37.338" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.671" y="31.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="34.036" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C113" library="rcl" package="C0402" value="10nF" x="45.593" y="40.132" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.863" y="41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM15XR71C103KA86D" x="45.593" y="40.132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C112" library="rcl" package="C0402" value="100nF" x="46.736" y="40.132" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.387" y="41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM155R71H104KE14D" x="46.736" y="40.132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C114" library="rcl" package="C0402" value="33pF" x="44.45" y="40.132" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.339" y="41.148" size="1.27" layer="25" rot="R90"/>
+<attribute name="PN" value="GRM1555C1H330JA01D" x="44.45" y="40.132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J5" library="samtec" package="T1M-SINGLE-5POS" value="T1M-5POS" x="52.832" y="-12.573" smashed="yes">
 <attribute name="NAME" x="55.118" y="-9.906" size="1.27" layer="25"/>
