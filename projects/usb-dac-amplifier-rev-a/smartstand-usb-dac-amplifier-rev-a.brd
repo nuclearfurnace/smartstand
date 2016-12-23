@@ -1829,7 +1829,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="26.035" y="-3.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C60" library="rcl" package="C0402" value="100nF" x="25.019" y="-3.556" smashed="yes" rot="R180">
-<attribute name="PN" value="GRM155R71C104KA88D-X" x="25.019" y="-3.556" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="GRM155R71C104KA88D" x="25.019" y="-3.556" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.035" y="-8.763" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="26.035" y="-4.318" size="1.27" layer="27" rot="R180"/>
 </element>
