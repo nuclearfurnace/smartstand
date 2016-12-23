@@ -1,3 +1,4 @@
+language: python # we need python to run our checks
 install:
   - git clone https://github.com/nuclearfurnace/ecad-tooling.git
 script:
