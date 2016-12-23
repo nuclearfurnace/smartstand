@@ -12657,7 +12657,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="SHEET5" library="frames" deviceset="A4L-NODOC" device=""/>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
-<attribute name="PN" value="GRM155R71C104KA88D"/>
+<attribute name="PN" value="GRM155R71C104KA88D-X"/>
 </part>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
