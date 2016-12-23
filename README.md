@@ -1,6 +1,8 @@
 # smartstand-internals
 The guts of the SmartStand: USB DAC, amplifier, proximity sensor, etc.
 
+[![Build Status](https://travis-ci.org/nuclearfurnace/smartstand-internals.svg?branch=master)](https://travis-ci.org/nuclearfurnace/smartstand-internals)
+
 # What is the SmartStand?
 
 The SmartStand is a headphone stand that features not only a built-in, high-quality USB DAC and headphone amplifier, but the ability to detect when your headphones are in use (off the stand) and automatically switch between headphone output and line out, all while presenting as a normal USB audio device to your computer.
