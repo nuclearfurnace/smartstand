@@ -27,7 +27,7 @@ I'm not sure yet!  I haven't reached a rev A for the final design.  Here's the r
 - relay-based switching between headphone outputs and line outs, as well as relay-based protection on the headphone outputs to avoid pops and thumps
 - Neutrik [NRJ6HH](http://www.neutrik.com/en/audio/plugs-and-jacks/slim-jacks/nrj6hh) 1/4" headphone jack
 - Switchcraft [PJRAN2X1U01AUX](http://www.switchcraft.com/Drawings/pjran2x1u__x_series_cd.pdf) RCA outputs
-- USB type B connector
+- TE USB type B connector [292304-1](http://www.te.com/usa-en/product-292304-1.html)
 - 0.1% precision resistors, and NP0/C0G capacitors in the audio path
 
 # What's in this repository?
