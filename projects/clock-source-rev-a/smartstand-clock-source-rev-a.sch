@@ -101,7 +101,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
+<library name="pin-headers">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -380,7 +380,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supplies">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -433,7 +433,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="rcl">
+<library name="passives">
 <description>&lt;strong&gt;Resistors, Capacitors and Inductors&lt;/strong&gt;
 
 &lt;br /&gt;
@@ -622,7 +622,7 @@
 </classes>
 <parts>
 <part name="U$1" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X5" device="">
+<part name="JP1" library="pin-headers" deviceset="PINHD-1X5" device="">
 <attribute name="PN" value="90120-0125"/>
 </part>
 <part name="J1" library="taoglas" deviceset="RECE-20279-001E-01" device="">
@@ -631,17 +631,17 @@
 <part name="X1" library="crystals" deviceset="KC2520K" device="">
 <attribute name="PN" value="KC3225K24.5760C1GE00"/>
 </part>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="AGND4" library="supply1" deviceset="AGND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="+3V1" library="supplies" deviceset="+3V3" device=""/>
+<part name="AGND1" library="supplies" deviceset="AGND" device=""/>
+<part name="+3V2" library="supplies" deviceset="+3V3" device=""/>
+<part name="AGND2" library="supplies" deviceset="AGND" device=""/>
+<part name="AGND3" library="supplies" deviceset="AGND" device=""/>
+<part name="+3V3" library="supplies" deviceset="+3V3" device=""/>
+<part name="AGND4" library="supplies" deviceset="AGND" device=""/>
+<part name="C1" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
+<part name="C2" library="passives" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="PN" value="GRM188R61C105KA93D"/>
 </part>
 </parts>

@@ -360,7 +360,7 @@ smaller than the standard SOT23).&lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supplies">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -718,7 +718,7 @@ smaller than the standard SOT23).&lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
+<library name="pin-headers">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -1217,7 +1217,7 @@ smaller than the standard SOT23).&lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="rcl">
+<library name="passives">
 <description>&lt;strong&gt;Resistors, Capacitors and Inductors&lt;/strong&gt;
 
 &lt;br /&gt;
@@ -2363,166 +2363,166 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="U1" library="st-microelectronics" deviceset="USBUF" device="" value="USBUF01W6">
 <attribute name="PN" value="USBUF01W6"/>
 </part>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="P+1" library="supplies" deviceset="+5V" device=""/>
+<part name="AGND1" library="supplies" deviceset="AGND" device=""/>
 <part name="U2" library="xmos" deviceset="XUF208-256-TQ64" device="">
 <attribute name="PN" value="XUF208-256-TQ64-C10"/>
 </part>
-<part name="J4" library="pinhead" deviceset="PINHD-2X10" device="">
+<part name="J4" library="pin-headers" deviceset="PINHD-2X10" device="">
 <attribute name="PN" value="N2520-5002RB"/>
 </part>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0402" value="43.2">
+<part name="P+3" library="supplies" deviceset="+5V" device=""/>
+<part name="AGND3" library="supplies" deviceset="AGND" device=""/>
+<part name="R1" library="passives" deviceset="R-US_" device="R0402" value="43.2">
 <attribute name="PN" value="RK73B1ETTP430J"/>
 </part>
-<part name="AGND4" library="supply1" deviceset="AGND" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<part name="AGND4" library="supplies" deviceset="AGND" device=""/>
+<part name="R2" library="passives" deviceset="R-US_" device="R0402" value="33">
 <attribute name="PN" value="RK73B1ETTP330J"/>
 </part>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<part name="R3" library="passives" deviceset="R-US_" device="R0402" value="33">
 <attribute name="PN" value="RK73B1ETTP330J"/>
 </part>
-<part name="AGND5" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND5" library="supplies" deviceset="AGND" device=""/>
 <part name="X1" library="crystals" deviceset="KC2520C" device="" value="24MHz">
 <attribute name="PN" value="KC2520C24.0000C2LE00"/>
 </part>
-<part name="AGND6" library="supply1" deviceset="AGND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="AGND6" library="supplies" deviceset="AGND" device=""/>
+<part name="C1" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="AGND7" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND7" library="supplies" deviceset="AGND" device=""/>
 <part name="U3" library="texas-instruments" deviceset="LP5912" device="-3.3DRV" value="LP5912-3.3">
 <attribute name="PN" value="LP5912-3.3DRVR"/>
 </part>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
+<part name="P+2" library="supplies" deviceset="+5V" device=""/>
+<part name="AGND2" library="supplies" deviceset="AGND" device=""/>
+<part name="C2" library="passives" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="PN" value="GRM188R61C105KA93D"/>
 </part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
+<part name="C3" library="passives" deviceset="C-EU" device="C0603" value="10uF">
 <attribute name="PN" value="GRM188R60J106ME47D"/>
 </part>
-<part name="AGND8" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND8" library="supplies" deviceset="AGND" device=""/>
 <part name="U4" library="texas-instruments" deviceset="LP3879" device="MR-1.0">
 <attribute name="PN" value="LP3879MR-1.0/NOPB"/>
 </part>
-<part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="AGND9" library="supply1" deviceset="AGND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF">
+<part name="P+4" library="supplies" deviceset="+5V" device=""/>
+<part name="AGND9" library="supplies" deviceset="AGND" device=""/>
+<part name="C4" library="passives" deviceset="C-EU" device="C0603" value="4.7uF">
 <attribute name="PN" value="GRM188R61A475KE15D"/>
 </part>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
+<part name="C5" library="passives" deviceset="C-EU" device="C0603" value="10uF">
 <attribute name="PN" value="GRM188R60J106ME47D"/>
 </part>
-<part name="AGND10" library="supply1" deviceset="AGND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="10nF">
+<part name="AGND10" library="supplies" deviceset="AGND" device=""/>
+<part name="C6" library="passives" deviceset="C-EU" device="C0402" value="10nF">
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
-<part name="R4" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K">
+<part name="R4" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="10K">
 <attribute name="PN" value="RK73B1ETTP103J"/>
 </part>
 <part name="U5" library="texas-instruments" deviceset="TPS3702" device="CX10DDC" value="TPS3702">
 <attribute name="PN" value="TPS3702CX10DDC"/>
 </part>
-<part name="AGND12" library="supply1" deviceset="AGND" device=""/>
-<part name="+1V1" library="supply1" deviceset="+1V0" device=""/>
-<part name="+1V4" library="supply1" deviceset="+1V0" device=""/>
-<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="R5" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="10K">
+<part name="AGND12" library="supplies" deviceset="AGND" device=""/>
+<part name="+1V1" library="supplies" deviceset="+1V0" device=""/>
+<part name="+1V4" library="supplies" deviceset="+1V0" device=""/>
+<part name="+3V7" library="supplies" deviceset="+3V3" device=""/>
+<part name="R5" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="10K">
 <attribute name="PN" value="RK73B1ETTP103J"/>
 </part>
-<part name="R6" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="4.7">
+<part name="R6" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="4.7">
 <attribute name="PN" value="SG73P1ETTP4R7J"/>
 </part>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C8" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="R7" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="1K">
+<part name="R7" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="1K">
 <attribute name="PN" value="RK73B1ETTP102J"/>
 </part>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C10" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C12" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C13" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="AGND13" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND13" library="supplies" deviceset="AGND" device=""/>
 <part name="U$2" library="frames" deviceset="A4L-NODOC" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C7" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C14" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C15" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C16" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C17" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C18" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C19" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C20" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C21" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C22" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C23" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="AGND11" library="supply1" deviceset="AGND" device=""/>
-<part name="J2" library="pinhead" deviceset="PINHD-1X5" device="">
+<part name="AGND11" library="supplies" deviceset="AGND" device=""/>
+<part name="J2" library="pin-headers" deviceset="PINHD-1X5" device="">
 <attribute name="PN" value="90120-0125"/>
 </part>
-<part name="AGND14" library="supply1" deviceset="AGND" device=""/>
-<part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF">
+<part name="AGND14" library="supplies" deviceset="AGND" device=""/>
+<part name="P+5" library="supplies" deviceset="+5V" device=""/>
+<part name="C24" library="passives" deviceset="C-EU" device="C0603" value="2.2uF">
 <attribute name="PN" value="GRM188R61C225KE15D"/>
 </part>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C28" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0402" value="100nF">
+<part name="C30" library="passives" deviceset="C-EU" device="C0402" value="100nF">
 <attribute name="PN" value="GRM155R71C104KA88D"/>
 </part>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="+1V2" library="supply1" deviceset="+1V0" device=""/>
-<part name="+1V5" library="supply1" deviceset="+1V0" device=""/>
-<part name="+1V7" library="supply1" deviceset="+1V0" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="+1V3" library="supply1" deviceset="+1V0" device=""/>
-<part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="AGND19" library="supply1" deviceset="AGND" device=""/>
+<part name="+3V2" library="supplies" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supplies" deviceset="+3V3" device=""/>
+<part name="+1V2" library="supplies" deviceset="+1V0" device=""/>
+<part name="+1V5" library="supplies" deviceset="+1V0" device=""/>
+<part name="+1V7" library="supplies" deviceset="+1V0" device=""/>
+<part name="+3V1" library="supplies" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supplies" deviceset="+3V3" device=""/>
+<part name="+3V8" library="supplies" deviceset="+3V3" device=""/>
+<part name="+1V3" library="supplies" deviceset="+1V0" device=""/>
+<part name="+3V9" library="supplies" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supplies" deviceset="+3V3" device=""/>
+<part name="AGND19" library="supplies" deviceset="AGND" device=""/>
 <part name="J3" library="taoglas" deviceset="RECE-20279-001E-01" device="">
 <attribute name="PN" value="RECE-20279-001E-01"/>
 </part>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="10nF">
+<part name="C9" library="passives" deviceset="C-EU" device="C0402" value="10nF">
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="10nF">
+<part name="C11" library="passives" deviceset="C-EU" device="C0402" value="10nF">
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
-<part name="AGND15" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND15" library="supplies" deviceset="AGND" device=""/>
 <part name="U$3" library="frames" deviceset="A4L-NODOC" device=""/>
 <part name="D1" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
@@ -2536,39 +2536,39 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="U6" library="texas-instruments" deviceset="SN74LVC1G32" device="DRL">
 <attribute name="PN" value="SN74LVC1G32DRLR"/>
 </part>
-<part name="R8" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="330">
+<part name="R8" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="330">
 <attribute name="PN" value="ERJ-PA2J331X"/>
 </part>
-<part name="R9" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R9" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
-<part name="R10" library="rcl" deviceset="R-US-VERTICAL" device="R0402" value="150">
+<part name="R10" library="passives" deviceset="R-US-VERTICAL" device="R0402" value="150">
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
-<part name="AGND16" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND17" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND18" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND20" library="supply1" deviceset="AGND" device=""/>
-<part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
+<part name="AGND16" library="supplies" deviceset="AGND" device=""/>
+<part name="AGND17" library="supplies" deviceset="AGND" device=""/>
+<part name="AGND18" library="supplies" deviceset="AGND" device=""/>
+<part name="AGND20" library="supplies" deviceset="AGND" device=""/>
+<part name="P+6" library="supplies" deviceset="+5V" device=""/>
+<part name="+3V6" library="supplies" deviceset="+3V3" device=""/>
+<part name="+3V10" library="supplies" deviceset="+3V3" device=""/>
 <part name="TP1" library="test" deviceset="TESTPOINT" device="-1.5MM"/>
 <part name="TP2" library="test" deviceset="TESTPOINT" device="-1.5MM"/>
 <part name="TP3" library="test" deviceset="TESTPOINT" device="-1.5MM"/>
 <part name="TP5" library="test" deviceset="TESTPOINT" device="-1.5MM"/>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="+1V6" library="supply1" deviceset="+1V0" device=""/>
-<part name="AGND21" library="supply1" deviceset="AGND" device=""/>
+<part name="P+7" library="supplies" deviceset="+5V" device=""/>
+<part name="+3V11" library="supplies" deviceset="+3V3" device=""/>
+<part name="+1V6" library="supplies" deviceset="+1V0" device=""/>
+<part name="AGND21" library="supplies" deviceset="AGND" device=""/>
 <part name="TP6" library="test" deviceset="TESTPOINT" device="-1.5MM"/>
-<part name="TP4" library="pinhead" deviceset="PINHD-1X1" device="">
+<part name="TP4" library="pin-headers" deviceset="PINHD-1X1" device="">
 <attribute name="PN" value="90120-0121"/>
 </part>
-<part name="J5" library="pinhead" deviceset="PINHD-1X5" device="">
+<part name="J5" library="pin-headers" deviceset="PINHD-1X5" device="">
 <attribute name="PN" value="90120-0125"/>
 </part>
-<part name="AGND22" library="supply1" deviceset="AGND" device=""/>
-<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
+<part name="AGND22" library="supplies" deviceset="AGND" device=""/>
+<part name="+3V12" library="supplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
