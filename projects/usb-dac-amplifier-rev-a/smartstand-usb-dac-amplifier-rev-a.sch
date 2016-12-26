@@ -5150,7 +5150,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <classes>
 <class number="0" name="default" width="0.1524" drill="0.254">
 </class>
-<class number="1" name="USB" width="0.3048" drill="0.254">
+<class number="1" name="USB" width="0.2794" drill="0.254">
 </class>
 </classes>
 <parts>
@@ -7857,12 +7857,12 @@ to the processor.</text>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U1" gate="IO" pin="X0D11"/>
-<wire x1="88.9" y1="41.91" x2="62.23" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="41.91" x2="52.07" y2="41.91" width="0.1524" layer="91"/>
 <label x="45.72" y="41.91" size="2.54" layer="95" rot="R180" xref="yes"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="62.23" y1="41.91" x2="45.72" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="49.53" x2="62.23" y2="41.91" width="0.1524" layer="91"/>
-<junction x="62.23" y="41.91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="52.07" y1="41.91" x2="45.72" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="49.53" x2="52.07" y2="41.91" width="0.1524" layer="91"/>
+<junction x="52.07" y="41.91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -7870,12 +7870,12 @@ to the processor.</text>
 <pinref part="U1" gate="IO" pin="X0D00"/>
 <wire x1="88.9" y1="59.69" x2="73.66" y2="59.69" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="59.69" x2="73.66" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="46.99" x2="52.07" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="46.99" x2="62.23" y2="46.99" width="0.1524" layer="91"/>
 <label x="45.72" y="46.99" size="2.54" layer="95" rot="R180" xref="yes"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="52.07" y1="46.99" x2="45.72" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="52.07" y1="49.53" x2="52.07" y2="46.99" width="0.1524" layer="91"/>
-<junction x="52.07" y="46.99"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="62.23" y1="46.99" x2="45.72" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="49.53" x2="62.23" y2="46.99" width="0.1524" layer="91"/>
+<junction x="62.23" y="46.99"/>
 </segment>
 </net>
 <net name="DVDD" class="0">
@@ -10066,16 +10066,18 @@ detect when the headphones are on the stand or not.</text>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<wire x1="184.15" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
-<label x="167.64" y="33.02" size="2.54" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="2"/>
+<label x="167.64" y="27.94" size="2.54" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="167.64" y1="27.94" x2="184.15" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<wire x1="184.15" y1="27.94" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
-<label x="167.64" y="27.94" size="2.54" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="170.18" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
+<label x="167.64" y="33.02" size="2.54" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="184.15" y1="30.48" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="30.48" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -10102,10 +10104,10 @@ detect when the headphones are on the stand or not.</text>
 <wire x1="41.91" y1="95.25" x2="41.91" y2="102.87" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="184.15" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="30.48" x2="175.26" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="33.02" x2="175.26" y2="41.91" width="0.1524" layer="91"/>
 <pinref part="DVDD18" gate="G$1" pin="DVDD"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="184.15" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+4V0" class="0">
