@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5958,6 +5958,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND74" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND75" library="supplies" deviceset="AGND" device=""/>
+<part name="DVDD18" library="supplies" deviceset="DVDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6157,24 +6158,24 @@ wide rails.</text>
 </net>
 <net name="USB_D_N" class="1">
 <segment>
-<wire x1="66.04" y1="46.99" x2="86.36" y2="46.99" width="0.1524" layer="91"/>
 <pinref part="U1" gate="USB" pin="USB_D-"/>
-<wire x1="184.15" y1="46.99" x2="86.36" y2="46.99" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IO2"/>
-<wire x1="86.36" y1="39.37" x2="86.36" y2="46.99" width="0.1524" layer="91"/>
-<junction x="86.36" y="46.99"/>
+<wire x1="184.15" y1="46.99" x2="91.44" y2="46.99" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="DM"/>
+<pinref part="U2" gate="G$1" pin="IO3"/>
+<wire x1="91.44" y1="46.99" x2="66.04" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="39.37" x2="91.44" y2="46.99" width="0.1524" layer="91"/>
+<junction x="91.44" y="46.99"/>
 </segment>
 </net>
 <net name="USB_D_P" class="1">
 <segment>
-<wire x1="91.44" y1="44.45" x2="66.04" y2="44.45" width="0.1524" layer="91"/>
 <pinref part="U1" gate="USB" pin="USB_D+"/>
-<wire x1="91.44" y1="44.45" x2="184.15" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IO3"/>
-<wire x1="91.44" y1="39.37" x2="91.44" y2="44.45" width="0.1524" layer="91"/>
-<junction x="91.44" y="44.45"/>
+<wire x1="66.04" y1="44.45" x2="86.36" y2="44.45" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="DP"/>
+<pinref part="U2" gate="G$1" pin="IO2"/>
+<wire x1="86.36" y1="44.45" x2="184.15" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="39.37" x2="86.36" y2="44.45" width="0.1524" layer="91"/>
+<junction x="86.36" y="44.45"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
@@ -9839,6 +9840,10 @@ Debug Module to load and debug code on our xCORE
 processor from the xTIMEcomposer application.
 It uses two xLINK connections to provide a high-speed
 connection for taking xSCOPE measurements.</text>
+<text x="137.16" y="68.58" size="5.08" layer="112">Headphone Detection Link</text>
+<text x="137.16" y="52.07" size="3.302" layer="113">This I2C link goes off to the headphone detection
+daughterboard which provides the proximity sensor to
+detect when the headphones are on the stand or not.</text>
 </plain>
 <instances>
 <instance part="SHEET12" gate="G$1" x="0" y="0"/>
@@ -9855,9 +9860,9 @@ connection for taking xSCOPE measurements.</text>
 <instance part="AVDD5" gate="G$1" x="19.05" y="105.41"/>
 <instance part="P+16" gate="1" x="19.05" y="41.91"/>
 <instance part="P-8" gate="1" x="43.18" y="41.91" rot="R180"/>
-<instance part="AGND70" gate="VR1" x="170.18" y="35.56"/>
-<instance part="J5" gate="G$1" x="181.61" y="50.8">
-<attribute name="PN" x="181.61" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="AGND70" gate="VR1" x="172.72" y="17.78"/>
+<instance part="J5" gate="G$1" x="184.15" y="30.48">
+<attribute name="PN" x="184.15" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP2" gate="G$1" x="25.4" y="125.73"/>
 <instance part="TP3" gate="G$1" x="48.26" y="125.73"/>
@@ -9879,6 +9884,7 @@ connection for taking xSCOPE measurements.</text>
 <instance part="TP8" gate="G$1" x="48.26" y="63.5"/>
 <instance part="AGND69" gate="VR1" x="41.91" y="53.34"/>
 <instance part="+1V07" gate="G$1" x="41.91" y="73.66"/>
+<instance part="DVDD18" gate="G$1" x="175.26" y="44.45"/>
 </instances>
 <busses>
 </busses>
@@ -9908,17 +9914,13 @@ connection for taking xSCOPE measurements.</text>
 </segment>
 <segment>
 <pinref part="AGND70" gate="VR1" pin="AGND"/>
-<wire x1="181.61" y1="45.72" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="45.72" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="181.61" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="50.8" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
-<junction x="170.18" y="45.72"/>
-<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="184.15" y1="25.4" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="25.4" x2="172.72" y2="20.32" width="0.1524" layer="91"/>
+<junction x="172.72" y="25.4"/>
 <pinref part="J5" gate="G$1" pin="5"/>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="181.61" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="55.88" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
-<junction x="170.18" y="50.8"/>
+<wire x1="184.15" y1="35.56" x2="172.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="35.56" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="G"/>
@@ -10064,15 +10066,15 @@ connection for taking xSCOPE measurements.</text>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<wire x1="181.61" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-<label x="165.1" y="53.34" size="2.54" layer="95" rot="R180" xref="yes"/>
+<wire x1="184.15" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
+<label x="167.64" y="33.02" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<wire x1="181.61" y1="48.26" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
-<label x="165.1" y="48.26" size="2.54" layer="95" rot="R180" xref="yes"/>
+<wire x1="184.15" y1="27.94" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
+<label x="167.64" y="27.94" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -10098,6 +10100,12 @@ connection for taking xSCOPE measurements.</text>
 <pinref part="DVDD17" gate="G$1" pin="DVDD"/>
 <wire x1="45.72" y1="95.25" x2="41.91" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="95.25" x2="41.91" y2="102.87" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="184.15" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="30.48" x2="175.26" y2="41.91" width="0.1524" layer="91"/>
+<pinref part="DVDD18" gate="G$1" pin="DVDD"/>
 </segment>
 </net>
 <net name="+4V0" class="0">
