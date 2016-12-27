@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="5" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="13" fill="4" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -5154,7 +5154,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="SHEET6" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET6" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="U11" library="texas-instruments" deviceset="PCM5102A" device="">
 <attribute name="PN" value="PCM5102APWR"/>
 </part>
@@ -5202,7 +5204,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="RG1005P-471-B-T5"/>
 </part>
 <part name="AGND25" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET1" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET1" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="J1" library="cui" deviceset="PJ-002A" device="">
 <attribute name="PN" value="PJ-002A"/>
 </part>
@@ -5267,7 +5271,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="DVDD10" library="supplies" deviceset="DVDD" device=""/>
 <part name="AVDD3" library="supplies" deviceset="AVDD" device=""/>
 <part name="AGND27" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET7" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET7" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="U13" library="njr" deviceset="NJM2068" device="M">
 <attribute name="PN" value="NJM2068M-TE1"/>
 </part>
@@ -5317,7 +5323,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="P-3" library="supplies" deviceset="V-" device=""/>
 <part name="AGND33" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND34" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET8" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET8" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="U14" library="njr" deviceset="NJM4556A" device="M">
 <attribute name="PN" value="NJM4556AM-TE1"/>
 </part>
@@ -5359,7 +5367,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="P+7" library="supplies" deviceset="+12V" device=""/>
 <part name="AGND30" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET10" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET10" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="R33" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="715, 0.1%">
 <attribute name="PN" value="ERA-2AEB7150X"/>
 </part>
@@ -5376,7 +5386,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="J3" library="neutrik" deviceset="NRJ6HH" device="">
 <attribute name="PN" value="NRJ6HH"/>
 </part>
-<part name="SHEET4" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET4" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="AGND9" library="supplies" deviceset="AGND" device=""/>
 <part name="U1" library="xmos" deviceset="XUF208-256-TQ64" device="">
 <attribute name="PN" value="XUF208-256-TQ64-C10"/>
@@ -5431,7 +5443,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="AGND21" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET5" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET5" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="C60" library="passives" deviceset="CAPACITOR" device="-0402" value="100nF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
@@ -5486,7 +5500,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
 <part name="AGND19" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET11" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET11" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="D3" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
@@ -5520,7 +5536,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="SG73P1ETTP151J"/>
 </part>
 <part name="AGND57" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET12" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET12" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="D7" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
 <attribute name="PN" value="598-8070-107F"/>
 </part>
@@ -5539,7 +5557,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R18" library="passives" deviceset="RESISTOR" device="-0402" value="4.7K">
 <attribute name="PN" value="RC0402FR-074K7L"/>
 </part>
-<part name="SHEET2" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET2" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="C5" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
 </part>
@@ -5548,7 +5568,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND5" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND6" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET3" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET3" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="U3" library="texas-instruments" deviceset="TPS563200" device="DDC">
 <attribute name="PN" value="TPS563200DDCR"/>
 </part>
@@ -5790,7 +5812,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND37" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND38" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET9" library="frames" deviceset="A4L-NODOC" device=""/>
+<part name="SHEET9" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="X2" library="crystals" deviceset="KC2520K" device="" value="22.5792MHz">
 <attribute name="PN" value="KC2520K22.5792C1GE00"/>
 </part>
@@ -5927,15 +5951,33 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C76" library="passives" deviceset="CAPACITOR" device="-0402" value="100nF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="TP2" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP3" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP7" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP6" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP5" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP9" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP10" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP1" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
-<part name="TP4" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
+<part name="TP2" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP3" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP7" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP6" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP5" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP9" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP10" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP1" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="TP4" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="AGND61" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND64" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND63" library="supplies" deviceset="AGND" device=""/>
@@ -5944,7 +5986,9 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND67" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND71" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND72" library="supplies" deviceset="AGND" device=""/>
-<part name="TP8" library="test" deviceset="TESTPOINT-WITH-GND" device=""/>
+<part name="TP8" library="test" deviceset="TESTPOINT-WITH-GND" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="AGND69" library="supplies" deviceset="AGND" device=""/>
 <part name="+1V07" library="supplies" deviceset="+1V0" device=""/>
 <part name="J2" library="te-connectivity" deviceset="292304" device="-1">
@@ -5973,7 +6017,9 @@ DC supply so that we can drive the gain and output stages with nice and
 wide rails.</text>
 </plain>
 <instances>
-<instance part="SHEET1" gate="G$1" x="0" y="0"/>
+<instance part="SHEET1" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J1" gate="G$1" x="55.88" y="129.54">
 <attribute name="PN" x="55.88" y="129.54" size="5.08" layer="96" display="off"/>
 </instance>
@@ -6209,7 +6255,9 @@ wide rails.</text>
 an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rails, and one for the 1V0 rail.</text>
 </plain>
 <instances>
-<instance part="SHEET2" gate="G$1" x="0" y="0"/>
+<instance part="SHEET2" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND13" gate="VR1" x="190.5" y="86.36"/>
 <instance part="DVDD1" gate="G$1" x="241.3" y="137.16"/>
 <instance part="U3" gate="G$1" x="53.34" y="127">
@@ -6800,7 +6848,9 @@ the audio sections of the board: the DAC output,
 volume control, gain and output stages.</text>
 </plain>
 <instances>
-<instance part="SHEET3" gate="G$1" x="0" y="0"/>
+<instance part="SHEET3" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U8" gate="G$1" x="166.37" y="104.14">
 <attribute name="PN" x="166.37" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7285,7 +7335,9 @@ power rails are sequenced correctly before booting.</text>
 <text x="16.51" y="80.01" size="3.302" layer="113">Basic power supply decoupling for the 3V3 and 1V0 rails.</text>
 </plain>
 <instances>
-<instance part="SHEET4" gate="G$1" x="0" y="0"/>
+<instance part="SHEET4" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U10" gate="G$1" x="36.83" y="133.35">
 <attribute name="PN" x="36.83" y="133.35" size="3.302" layer="96" display="off"/>
 </instance>
@@ -7588,7 +7640,9 @@ a clock signal here, not supplying raw crystal output
 to the processor.</text>
 </plain>
 <instances>
-<instance part="SHEET5" gate="G$1" x="0" y="0"/>
+<instance part="SHEET5" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U1" gate="PWRTIMING" x="29.21" y="133.35"/>
 <instance part="U1" gate="IO" x="91.44" y="62.23"/>
 <instance part="R20" gate="G$1" x="199.39" y="24.13">
@@ -7978,7 +8032,9 @@ Here, the PCM5102A is hard-configured to use the I2S data format,
 normal filter latency, and no deemphasis.</text>
 </plain>
 <instances>
-<instance part="SHEET6" gate="G$1" x="0" y="0"/>
+<instance part="SHEET6" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U11" gate="G$1" x="115.57" y="100.33">
 <attribute name="PN" x="115.57" y="100.33" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8309,7 +8365,9 @@ We've chosen to implement a 2X and 4X gain mode.  We also route to line out befo
 the gain stage, to allow line-level outputs.</text>
 </plain>
 <instances>
-<instance part="SHEET7" gate="G$1" x="0" y="0"/>
+<instance part="SHEET7" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U13" gate="A" x="185.42" y="78.74"/>
 <instance part="U13" gate="B" x="185.42" y="120.65">
 <attribute name="PN" x="185.42" y="120.65" size="1.778" layer="96" display="off"/>
@@ -8741,7 +8799,9 @@ the gain stage, to allow line-level outputs.</text>
 Our volume control is also in between the stages, which apparently provides lower noise.</text>
 </plain>
 <instances>
-<instance part="SHEET8" gate="G$1" x="0" y="0"/>
+<instance part="SHEET8" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U14" gate="PWR" x="74.93" y="30.48"/>
 <instance part="C101" gate="G$1" x="123.19" y="120.65">
 <attribute name="PN" x="123.19" y="120.65" size="1.778" layer="96" display="off"/>
@@ -9145,7 +9205,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <plain>
 </plain>
 <instances>
-<instance part="SHEET9" gate="G$1" x="0" y="0"/>
+<instance part="SHEET9" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X2" gate="G$1" x="68.58" y="123.19">
 <attribute name="PN" x="68.58" y="123.19" size="1.778" layer="96" display="off"/>
 </instance>
@@ -9375,7 +9437,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <text x="12.7" y="154.94" size="3.302" layer="113">Headphone output is only connected electrically  when the jack detect indicates full insertion.</text>
 </plain>
 <instances>
-<instance part="SHEET10" gate="G$1" x="0" y="0"/>
+<instance part="SHEET10" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J3" gate="G$1" x="12.7" y="129.54">
 <attribute name="PN" x="12.7" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
@@ -9611,7 +9675,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 <text x="15.24" y="154.94" size="3.302" layer="113">Basic status lights to show that various power rails are active, as well as individual status lines from the processor.</text>
 </plain>
 <instances>
-<instance part="SHEET11" gate="G$1" x="0" y="0"/>
+<instance part="SHEET11" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D3" gate="G$1" x="181.61" y="133.35">
 <attribute name="PN" x="181.61" y="133.35" size="5.08" layer="96" display="off"/>
 </instance>
@@ -9846,7 +9912,9 @@ daughterboard which provides the proximity sensor to
 detect when the headphones are on the stand or not.</text>
 </plain>
 <instances>
-<instance part="SHEET12" gate="G$1" x="0" y="0"/>
+<instance part="SHEET12" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND62" gate="VR1" x="19.05" y="115.57"/>
 <instance part="U1" gate="DEBUG" x="163.83" y="102.87" rot="R180"/>
 <instance part="JP2" gate="A" x="181.61" y="107.95">
@@ -9864,15 +9932,33 @@ detect when the headphones are on the stand or not.</text>
 <instance part="J5" gate="G$1" x="184.15" y="30.48">
 <attribute name="PN" x="184.15" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP2" gate="G$1" x="25.4" y="125.73"/>
-<instance part="TP3" gate="G$1" x="48.26" y="125.73"/>
-<instance part="TP7" gate="G$1" x="25.4" y="63.5"/>
-<instance part="TP6" gate="G$1" x="48.26" y="95.25"/>
-<instance part="TP5" gate="G$1" x="25.4" y="95.25"/>
-<instance part="TP9" gate="G$1" x="25.4" y="33.02"/>
-<instance part="TP10" gate="G$1" x="49.53" y="33.02"/>
-<instance part="TP1" gate="G$1" x="107.95" y="133.35"/>
-<instance part="TP4" gate="G$1" x="107.95" y="114.3"/>
+<instance part="TP2" gate="G$1" x="25.4" y="125.73">
+<attribute name="BOM" x="25.4" y="125.73" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="48.26" y="125.73">
+<attribute name="BOM" x="48.26" y="125.73" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP7" gate="G$1" x="25.4" y="63.5">
+<attribute name="BOM" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP6" gate="G$1" x="48.26" y="95.25">
+<attribute name="BOM" x="48.26" y="95.25" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP5" gate="G$1" x="25.4" y="95.25">
+<attribute name="BOM" x="25.4" y="95.25" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP9" gate="G$1" x="25.4" y="33.02">
+<attribute name="BOM" x="25.4" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP10" gate="G$1" x="49.53" y="33.02">
+<attribute name="BOM" x="49.53" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP1" gate="G$1" x="107.95" y="133.35">
+<attribute name="BOM" x="107.95" y="133.35" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP4" gate="G$1" x="107.95" y="114.3">
+<attribute name="BOM" x="107.95" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND61" gate="VR1" x="101.6" y="125.73"/>
 <instance part="AGND64" gate="VR1" x="101.6" y="106.68"/>
 <instance part="AGND63" gate="VR1" x="41.91" y="115.57"/>
@@ -9881,7 +9967,9 @@ detect when the headphones are on the stand or not.</text>
 <instance part="AGND67" gate="VR1" x="41.91" y="85.09"/>
 <instance part="AGND71" gate="VR1" x="19.05" y="22.86"/>
 <instance part="AGND72" gate="VR1" x="43.18" y="22.86"/>
-<instance part="TP8" gate="G$1" x="48.26" y="63.5"/>
+<instance part="TP8" gate="G$1" x="48.26" y="63.5">
+<attribute name="BOM" x="48.26" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND69" gate="VR1" x="41.91" y="53.34"/>
 <instance part="+1V07" gate="G$1" x="41.91" y="73.66"/>
 <instance part="DVDD18" gate="G$1" x="175.26" y="44.45"/>

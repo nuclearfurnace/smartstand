@@ -2512,33 +2512,43 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="TP2" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="-53.467" y="19.304" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-51.181" y="17.78" size="1.27" layer="27" rot="R180"/>
+<attribute name="BOM" value="EXCLUDE" x="-53.467" y="19.304" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP3" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="11.049" y="-47.117" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.525" y="-49.403" size="1.27" layer="27" rot="R90"/>
+<attribute name="BOM" value="EXCLUDE" x="11.049" y="-47.117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP7" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="42.926" y="-30.734" smashed="yes" rot="R90">
 <attribute name="VALUE" x="41.402" y="-33.02" size="1.27" layer="27" rot="R90"/>
+<attribute name="BOM" value="EXCLUDE" x="42.926" y="-30.734" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP6" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="28.067" y="-26.67" smashed="yes" rot="R180">
 <attribute name="VALUE" x="30.353" y="-28.194" size="1.27" layer="27" rot="R180"/>
+<attribute name="BOM" value="EXCLUDE" x="28.067" y="-26.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP5" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="11.684" y="-27.178" smashed="yes" rot="R180">
 <attribute name="VALUE" x="13.97" y="-28.702" size="1.27" layer="27" rot="R180"/>
+<attribute name="BOM" value="EXCLUDE" x="11.684" y="-27.178" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP9" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="69.596" y="18.415" smashed="yes" rot="R270">
 <attribute name="VALUE" x="71.12" y="20.701" size="1.27" layer="27" rot="R270"/>
+<attribute name="BOM" value="EXCLUDE" x="69.596" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP10" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="66.548" y="18.415" smashed="yes" rot="R270">
 <attribute name="VALUE" x="68.072" y="20.701" size="1.27" layer="27" rot="R270"/>
+<attribute name="BOM" value="EXCLUDE" x="66.548" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP1" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="15.494" y="-2.413" smashed="yes" rot="R180">
 <attribute name="VALUE" x="17.78" y="-3.937" size="1.27" layer="27" rot="R180"/>
+<attribute name="BOM" value="EXCLUDE" x="15.494" y="-2.413" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP4" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="18.415" y="2.413" smashed="yes" rot="R90">
 <attribute name="VALUE" x="16.891" y="0.127" size="1.27" layer="27" rot="R90"/>
+<attribute name="BOM" value="EXCLUDE" x="18.415" y="2.413" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP8" library="test" package="TESTPOINT-1.5-WITH-GND" value="TESTPOINT-WITH-GND" x="61.595" y="-35.052" smashed="yes" rot="R90">
 <attribute name="VALUE" x="60.071" y="-37.338" size="1.27" layer="27" rot="R90"/>
+<attribute name="BOM" value="EXCLUDE" x="61.595" y="-35.052" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J2" library="te-connectivity" package="292304" value="292304-1" x="89.281" y="-30.734" smashed="yes" rot="R90">
 <attribute name="VALUE" x="76.581" y="-38.354" size="1.27" layer="27" rot="R90"/>
