@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -967,7 +967,9 @@
 <part name="SHEET1" library="frames" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
-<part name="J1" library="samtec" deviceset="T1M-5POS" device=""/>
+<part name="J1" library="samtec" deviceset="T1M-5POS" device="">
+<attribute name="PN" value="T1M-05-T-S-RA-TR"/>
+</part>
 <part name="+3V1" library="supplies" deviceset="+3V3" device=""/>
 <part name="AGND1" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND3" library="supplies" deviceset="AGND" device=""/>
@@ -1003,23 +1005,41 @@
 </part>
 <part name="AGND8" library="supplies" deviceset="AGND" device=""/>
 <part name="+2V2" library="supplies" deviceset="+2V8" device=""/>
-<part name="U1" library="st-microelectronics" deviceset="VL6180X" device="V0NR"/>
+<part name="U1" library="st-microelectronics" deviceset="VL6180X" device="V0NR">
+<attribute name="PN" value="VL6180XV0NR/1"/>
+</part>
 <part name="+2V3" library="supplies" deviceset="+2V8" device=""/>
 <part name="AGND2" library="supplies" deviceset="AGND" device=""/>
 <part name="+2V4" library="supplies" deviceset="+2V8" device=""/>
 <part name="C7" library="passives" deviceset="CAPACITOR" device="-0402" value="4.7uF">
 <attribute name="PN" value="GRM155R60J475ME87D"/>
 </part>
-<part name="R1" library="passives" deviceset="RESISTOR" device="-0402" value="47K"/>
-<part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="47K"/>
+<part name="R1" library="passives" deviceset="RESISTOR" device="-0402" value="47K">
+<attribute name="PN" value="RC0402FR-0747KL"/>
+</part>
+<part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="47K">
+<attribute name="PN" value="RC0402FR-0747KL"/>
+</part>
 <part name="+2V5" library="supplies" deviceset="+2V8" device=""/>
 <part name="+2V6" library="supplies" deviceset="+2V8" device=""/>
-<part name="U4" library="on-semiconductor" deviceset="BSS138" device="LT3G" value="BSS138"/>
-<part name="R3" library="passives" deviceset="RESISTOR" device="-0402" value="10K"/>
-<part name="R4" library="passives" deviceset="RESISTOR" device="-0402" value="10K"/>
-<part name="R5" library="passives" deviceset="RESISTOR" device="-0402" value="10K"/>
-<part name="R6" library="passives" deviceset="RESISTOR" device="-0402" value="10K"/>
-<part name="U3" library="on-semiconductor" deviceset="BSS138" device="LT3G" value="BSS138"/>
+<part name="U4" library="on-semiconductor" deviceset="BSS138" device="LT3G" value="BSS138">
+<attribute name="PN" value="BSS138LT3G"/>
+</part>
+<part name="R3" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RC0402FR-0710KL"/>
+</part>
+<part name="R4" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RC0402FR-0710KL"/>
+</part>
+<part name="R5" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RC0402FR-0710KL"/>
+</part>
+<part name="R6" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
+<attribute name="PN" value="RC0402FR-0710KL"/>
+</part>
+<part name="U3" library="on-semiconductor" deviceset="BSS138" device="LT3G" value="BSS138">
+<attribute name="PN" value="BSS138LT3G"/>
+</part>
 <part name="+2V7" library="supplies" deviceset="+2V8" device=""/>
 <part name="+3V2" library="supplies" deviceset="+3V3" device=""/>
 </parts>
@@ -1037,7 +1057,9 @@ not, we can establish whether or not the headphones are on the stand on an ongoi
 <instance part="SHEET1" gate="G$1" x="0" y="0">
 <attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="36.83" y="96.52" rot="R180"/>
+<instance part="J1" gate="G$1" x="36.83" y="96.52" rot="R180">
+<attribute name="PN" x="36.83" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="45.72" y="123.19"/>
 <instance part="AGND1" gate="VR1" x="48.26" y="78.74"/>
 <instance part="AGND3" gate="VR1" x="186.69" y="85.09"/>
@@ -1073,23 +1095,41 @@ not, we can establish whether or not the headphones are on the stand on an ongoi
 </instance>
 <instance part="AGND8" gate="VR1" x="217.17" y="20.32"/>
 <instance part="+2V2" gate="G$1" x="217.17" y="36.83"/>
-<instance part="U1" gate="G$1" x="128.27" y="97.79"/>
+<instance part="U1" gate="G$1" x="128.27" y="97.79">
+<attribute name="PN" x="128.27" y="97.79" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+2V3" gate="G$1" x="106.68" y="120.65"/>
 <instance part="AGND2" gate="VR1" x="106.68" y="78.74"/>
 <instance part="+2V4" gate="G$1" x="186.69" y="121.92"/>
 <instance part="C7" gate="G$1" x="180.34" y="105.41">
 <attribute name="PN" x="180.34" y="105.41" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="149.86" y="111.76"/>
-<instance part="R2" gate="G$1" x="160.02" y="111.76"/>
+<instance part="R1" gate="G$1" x="149.86" y="111.76">
+<attribute name="PN" x="149.86" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="160.02" y="111.76">
+<attribute name="PN" x="160.02" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+2V5" gate="G$1" x="149.86" y="120.65"/>
 <instance part="+2V6" gate="G$1" x="160.02" y="120.65"/>
-<instance part="U4" gate="G$1" x="156.21" y="21.59" rot="R270"/>
-<instance part="R3" gate="G$1" x="109.22" y="43.18"/>
-<instance part="R4" gate="G$1" x="119.38" y="43.18"/>
-<instance part="R5" gate="G$1" x="173.99" y="43.18"/>
-<instance part="R6" gate="G$1" x="184.15" y="43.18"/>
-<instance part="U3" gate="G$1" x="144.78" y="35.56" rot="R270"/>
+<instance part="U4" gate="G$1" x="156.21" y="21.59" rot="R270">
+<attribute name="PN" x="156.21" y="21.59" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="109.22" y="43.18">
+<attribute name="PN" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="119.38" y="43.18">
+<attribute name="PN" x="119.38" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="173.99" y="43.18">
+<attribute name="PN" x="173.99" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="184.15" y="43.18">
+<attribute name="PN" x="184.15" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U3" gate="G$1" x="144.78" y="35.56" rot="R270">
+<attribute name="PN" x="144.78" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="+2V7" gate="G$1" x="109.22" y="57.15"/>
 <instance part="+3V2" gate="G$1" x="184.15" y="59.69"/>
 </instances>
