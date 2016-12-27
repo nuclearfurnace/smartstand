@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5410,7 +5410,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND18" library="supplies" deviceset="AGND" device=""/>
 <part name="+1V02" library="supplies" deviceset="+1V0" device=""/>
 <part name="R13" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="R14" library="passives" deviceset="RESISTOR" device="-0402" value="4.7">
 <attribute name="PN" value="SG73P1ETTP4R7J"/>
@@ -5565,7 +5565,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="RK73H1ETTP4022F"/>
 </part>
 <part name="R4" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="C13" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
@@ -5605,7 +5605,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="RC0402FR-078K45L"/>
 </part>
 <part name="R7" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="C26" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
 <attribute name="PN" value="EMVA250ADA470MF55G"/>
@@ -5637,7 +5637,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
 <part name="R5" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="C30" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
 <attribute name="PN" value="GRM21BR61E106KA73L"/>
@@ -5659,7 +5659,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
 <part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="C17" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
 <attribute name="PN" value="GRM21BR61E106KA73L"/>
@@ -5691,7 +5691,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
 <part name="R8" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
-<attribute name="PN" value="RK73B1ETTP103J"/>
+<attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
 <part name="C38" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
 <attribute name="PN" value="GRM21BR61E106KA73L"/>

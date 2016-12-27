@@ -2211,7 +2211,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R2" library="rcl" package="R0402" value="10K" x="28.321" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="-28.829" size="1.27" layer="25" rot="R180"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="28.321" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="28.321" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="43.2" x="42.291" y="-4.572" smashed="yes" rot="R180">
 <attribute name="PN" value="RK73B1ETTP430J" x="42.291" y="-4.572" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2233,7 +2233,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R13" library="rcl" package="R0402" value="10K" x="50.038" y="-21.209" smashed="yes">
 <attribute name="NAME" x="45.593" y="-21.717" size="1.27" layer="25"/>
 <attribute name="VALUE" x="49.022" y="-20.447" size="1.27" layer="27"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="50.038" y="-21.209" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="50.038" y="-21.209" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R14" library="rcl" package="R0402" value="4.7" x="23.368" y="-1.143" smashed="yes" rot="R90">
 <attribute name="PN" value="SG73P1ETTP4R7J" x="23.368" y="-1.143" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2258,7 +2258,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R8" library="rcl" package="R0402" value="10K" x="11.938" y="-30.861" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.192" y="-28.829" size="1.27" layer="25" rot="R180"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="11.938" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="11.938" y="-30.861" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R51" library="rcl" package="R0402" value="150" x="69.85" y="-14.605" smashed="yes" rot="R90">
 <attribute name="PN" value="SG73P1ETTP151J" x="69.85" y="-14.605" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2284,7 +2284,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R4" library="rcl" package="R0402" value="10K" x="37.084" y="-43.434" smashed="yes">
 <attribute name="NAME" x="33.02" y="-44.323" size="1.27" layer="25"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="37.084" y="-43.434" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="37.084" y="-43.434" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="rcl" package="R0402" value="8.45K" x="62.992" y="-42.164" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.928" y="-42.799" size="1.27" layer="25"/>
@@ -2292,11 +2292,11 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R7" library="rcl" package="R0402" value="10K" x="62.992" y="-43.434" smashed="yes">
 <attribute name="NAME" x="58.928" y="-44.45" size="1.27" layer="25"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="62.992" y="-43.434" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="62.992" y="-43.434" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="rcl" package="R0402" value="10K" x="56.134" y="-32.004" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.896" y="-30.734" size="1.27" layer="25" rot="R90"/>
-<attribute name="PN" value="RK73B1ETTP103J" x="56.134" y="-32.004" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="RC0402FR-0710KL" x="56.134" y="-32.004" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R43" library="rcl" package="R0402" value="100K" x="28.702" y="-22.733" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.083" y="-23.495" size="1.27" layer="25" rot="R180"/>
