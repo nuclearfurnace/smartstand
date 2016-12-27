@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="5" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="13" fill="4" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="5" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="13" fill="4" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -5142,6 +5142,46 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="fiducials">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<polygon width="0.2" layer="29">
+<vertex x="0" y="1.4" curve="-90"/>
+<vertex x="1.4" y="0" curve="-90"/>
+<vertex x="0" y="-1.4" curve="-90"/>
+<vertex x="-1.4" y="0" curve="-90"/>
+</polygon>
+<wire x1="0" y1="-1" x2="0" y2="1" width="1" layer="41" curve="-180"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="1" layer="41" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>&lt;strong&gt;Fidicual Mark&lt;/strong&gt;
+
+&lt;p&gt;Used by pick-and-place machines to align and orient boards before loading components.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1MM" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6003,6 +6043,19 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND74" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND75" library="supplies" deviceset="AGND" device=""/>
 <part name="DVDD18" library="supplies" deviceset="DVDD" device=""/>
+<part name="U$1" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$2" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$3" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$4" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$5" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$6" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$7" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$8" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$9" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$10" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$11" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$12" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$13" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -7333,6 +7386,10 @@ volume control, gain and output stages.</text>
 power rails are sequenced correctly before booting.</text>
 <text x="16.51" y="87.63" size="5.08" layer="112">Power Supply Decoupling</text>
 <text x="16.51" y="80.01" size="3.302" layer="113">Basic power supply decoupling for the 3V3 and 1V0 rails.</text>
+<text x="135.89" y="161.29" size="5.08" layer="112">Fiducials</text>
+<text x="135.89" y="144.78" size="3.302" layer="113">Fiducials provide a means for automated pick-and-place
+machines to orient themselves to a board and ensure that
+they are aligned, delivering accurate placement.</text>
 </plain>
 <instances>
 <instance part="SHEET4" gate="G$1" x="0" y="0">
@@ -7410,6 +7467,19 @@ power rails are sequenced correctly before booting.</text>
 <instance part="C76" gate="G$1" x="90.17" y="27.94">
 <attribute name="PN" x="90.17" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="U$1" gate="G$1" x="137.16" y="130.81"/>
+<instance part="U$2" gate="G$1" x="146.05" y="130.81"/>
+<instance part="U$3" gate="G$1" x="154.94" y="130.81"/>
+<instance part="U$4" gate="G$1" x="163.83" y="130.81"/>
+<instance part="U$5" gate="G$1" x="172.72" y="130.81"/>
+<instance part="U$6" gate="G$1" x="181.61" y="130.81"/>
+<instance part="U$7" gate="G$1" x="190.5" y="130.81"/>
+<instance part="U$8" gate="G$1" x="199.39" y="130.81"/>
+<instance part="U$9" gate="G$1" x="208.28" y="130.81"/>
+<instance part="U$10" gate="G$1" x="217.17" y="130.81"/>
+<instance part="U$11" gate="G$1" x="226.06" y="130.81"/>
+<instance part="U$12" gate="G$1" x="234.95" y="130.81"/>
+<instance part="U$13" gate="G$1" x="137.16" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -9718,7 +9788,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <instance part="U17" gate="A" x="67.31" y="132.08">
 <attribute name="PN" x="67.31" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U17" gate="B" x="67.31" y="96.52"/>
+<instance part="U17" gate="B" x="68.58" y="96.52"/>
 <instance part="U17" gate="C" x="67.31" y="60.96"/>
 <instance part="U17" gate="PWR" x="135.89" y="87.63"/>
 <instance part="DVDD15" gate="G$1" x="171.45" y="106.68"/>
@@ -9779,13 +9849,6 @@ Our volume control is also in between the stages, which apparently provides lowe
 <wire x1="187.96" y1="45.72" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="U17" gate="PWR" pin="VDD"/>
-<pinref part="DVDD16" gate="G$1" pin="DVDD"/>
-<wire x1="135.89" y1="92.71" x2="135.89" y2="95.25" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
@@ -9813,14 +9876,13 @@ Our volume control is also in between the stages, which apparently provides lowe
 <segment>
 <label x="58.42" y="96.52" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="U17" gate="B" pin="A"/>
-<wire x1="66.675" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="102.87" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="96.52" x2="80.01" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U17" gate="B" pin="Y"/>
 </segment>
 </net>
@@ -9867,6 +9929,11 @@ Our volume control is also in between the stages, which apparently provides lowe
 <wire x1="176.53" y1="97.79" x2="171.45" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="97.79" x2="171.45" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="DVDD15" gate="G$1" pin="DVDD"/>
+</segment>
+<segment>
+<pinref part="U17" gate="PWR" pin="VDD"/>
+<pinref part="DVDD16" gate="G$1" pin="DVDD"/>
+<wire x1="135.89" y1="92.71" x2="135.89" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">

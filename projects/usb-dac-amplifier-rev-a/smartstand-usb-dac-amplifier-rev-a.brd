@@ -38,8 +38,8 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -1429,6 +1429,21 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </package>
 </packages>
 </library>
+<library name="fiducials">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<polygon width="0.2" layer="29">
+<vertex x="0" y="1.4" curve="-90"/>
+<vertex x="1.4" y="0" curve="-90"/>
+<vertex x="0" y="-1.4" curve="-90"/>
+<vertex x="-1.4" y="0" curve="-90"/>
+</polygon>
+<wire x1="0" y1="-1" x2="0" y2="1" width="1" layer="41" curve="-180"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="1" layer="41" curve="-180"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1441,14 +1456,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </class>
 </classes>
 <designrules name="OSHPark-4Layer">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
+<description language="en">&lt;b&gt;OSH Park Design Rules (4 layers)&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*2*15*16)"/>
@@ -1510,7 +1518,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="srMaxRoundness" value="0mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
-<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpMaxLengthDifference" value="1mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
@@ -2565,6 +2573,19 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="77.851" y="10.16" size="1.27" layer="27" rot="R270"/>
 <attribute name="PN" value="TPD2E007DCKR" x="75.819" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="U$1" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-76.327" y="0"/>
+<element name="U$2" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-13.208"/>
+<element name="U$3" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="42.926" y="5.334"/>
+<element name="U$4" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="14.224" y="56.388"/>
+<element name="U$5" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.716" y="-57.15"/>
+<element name="U$6" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="36.576" y="17.907"/>
+<element name="U$7" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="66.421" y="-40.767"/>
+<element name="U$8" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="65.151" y="29.972"/>
+<element name="U$9" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-7.747" y="-22.352"/>
+<element name="U$10" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.208" y="-12.192"/>
+<element name="U$11" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-39.497"/>
+<element name="U$12" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="8.128" y="-30.607"/>
+<element name="U$13" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="58.42" y="-27.559"/>
 </elements>
 <signals>
 <signal name="AGND">
@@ -4503,6 +4524,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="54.272" y1="-17.724" x2="54.328" y2="-17.78" width="0.1524" layer="1"/>
 <wire x1="53.832" y1="-15.354" x2="53.832" y2="-16.423" width="0.4064" layer="1"/>
 <wire x1="53.832" y1="-16.423" x2="54.272" y2="-16.863" width="0.4064" layer="1"/>
+<contactref element="U17" pad="8"/>
+<wire x1="70.104" y1="-9.271" x2="61.734" y2="-11.658" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+1V4">
 <contactref element="L2" pad="P$1"/>
@@ -5166,7 +5189,6 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="AUDIO_STREAMING">
 <contactref element="U1" pad="P$17"/>
-<contactref element="U17" pad="3"/>
 <wire x1="39.335" y1="-7.306" x2="40.707" y2="-7.306" width="0.1524" layer="1"/>
 <wire x1="40.707" y1="-7.306" x2="40.894" y2="-7.493" width="0.1524" layer="1"/>
 <wire x1="40.894" y1="-7.493" x2="40.894" y2="-8.89" width="0.1524" layer="1"/>
@@ -5182,7 +5204,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="62.103" y1="-13.208" x2="62.484" y2="-13.208" width="0.1524" layer="1"/>
 <wire x1="62.484" y1="-13.208" x2="62.738" y2="-13.462" width="0.1524" layer="1"/>
 <wire x1="62.738" y1="-13.462" x2="62.738" y2="-14.754" width="0.1524" layer="1"/>
-<wire x1="62.738" y1="-14.754" x2="62.734" y2="-14.758" width="0.1524" layer="1"/>
+<contactref element="U17" pad="3"/>
+<wire x1="62.734" y1="-14.758" x2="62.738" y2="-14.754" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB_CONNECTED">
 <contactref element="U1" pad="P$15"/>
@@ -5759,9 +5782,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D3" pad="2"/>
 <contactref element="R48" pad="2"/>
 <wire x1="64.897" y1="-12.484" x2="64.897" y2="-14.125" width="0.2032" layer="1"/>
-</signal>
-<signal name="+3V3">
-<contactref element="U17" pad="8"/>
 </signal>
 <signal name="N$39">
 <contactref element="D5" pad="2"/>
