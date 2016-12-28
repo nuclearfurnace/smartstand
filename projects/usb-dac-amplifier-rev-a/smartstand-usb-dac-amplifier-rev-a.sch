@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="5" visible="no" active="no"/>
@@ -6043,19 +6043,45 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="AGND74" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND75" library="supplies" deviceset="AGND" device=""/>
 <part name="DVDD18" library="supplies" deviceset="DVDD" device=""/>
-<part name="U$1" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$2" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$3" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$4" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$5" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$6" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$7" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$8" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$9" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$10" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$11" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$12" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
-<part name="U$13" library="fiducials" deviceset="FIDUCIAL" device="-1MM"/>
+<part name="U$1" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$2" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$3" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$4" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$5" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$6" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$7" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$8" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$9" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$10" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$11" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$12" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="U$13" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7467,19 +7493,45 @@ they are aligned, delivering accurate placement.</text>
 <instance part="C76" gate="G$1" x="90.17" y="27.94">
 <attribute name="PN" x="90.17" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="137.16" y="130.81"/>
-<instance part="U$2" gate="G$1" x="146.05" y="130.81"/>
-<instance part="U$3" gate="G$1" x="154.94" y="130.81"/>
-<instance part="U$4" gate="G$1" x="163.83" y="130.81"/>
-<instance part="U$5" gate="G$1" x="172.72" y="130.81"/>
-<instance part="U$6" gate="G$1" x="181.61" y="130.81"/>
-<instance part="U$7" gate="G$1" x="190.5" y="130.81"/>
-<instance part="U$8" gate="G$1" x="199.39" y="130.81"/>
-<instance part="U$9" gate="G$1" x="208.28" y="130.81"/>
-<instance part="U$10" gate="G$1" x="217.17" y="130.81"/>
-<instance part="U$11" gate="G$1" x="226.06" y="130.81"/>
-<instance part="U$12" gate="G$1" x="234.95" y="130.81"/>
-<instance part="U$13" gate="G$1" x="137.16" y="121.92"/>
+<instance part="U$1" gate="G$1" x="137.16" y="130.81">
+<attribute name="BOM" x="137.16" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="146.05" y="130.81">
+<attribute name="BOM" x="146.05" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$3" gate="G$1" x="154.94" y="130.81">
+<attribute name="BOM" x="154.94" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$4" gate="G$1" x="163.83" y="130.81">
+<attribute name="BOM" x="163.83" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$5" gate="G$1" x="172.72" y="130.81">
+<attribute name="BOM" x="172.72" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$6" gate="G$1" x="181.61" y="130.81">
+<attribute name="BOM" x="181.61" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="190.5" y="130.81">
+<attribute name="BOM" x="190.5" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$8" gate="G$1" x="199.39" y="130.81">
+<attribute name="BOM" x="199.39" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$9" gate="G$1" x="208.28" y="130.81">
+<attribute name="BOM" x="208.28" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$10" gate="G$1" x="217.17" y="130.81">
+<attribute name="BOM" x="217.17" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$11" gate="G$1" x="226.06" y="130.81">
+<attribute name="BOM" x="226.06" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$12" gate="G$1" x="234.95" y="130.81">
+<attribute name="BOM" x="234.95" y="130.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$13" gate="G$1" x="137.16" y="121.92">
+<attribute name="BOM" x="137.16" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

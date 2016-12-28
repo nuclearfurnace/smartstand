@@ -2573,19 +2573,45 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="77.851" y="10.16" size="1.27" layer="27" rot="R270"/>
 <attribute name="PN" value="TPD2E007DCKR" x="75.819" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$1" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-76.327" y="0"/>
-<element name="U$2" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-13.208"/>
-<element name="U$3" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="42.926" y="5.334"/>
-<element name="U$4" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="14.224" y="56.388"/>
-<element name="U$5" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.716" y="-57.15"/>
-<element name="U$6" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="36.576" y="17.907"/>
-<element name="U$7" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="66.421" y="-40.767"/>
-<element name="U$8" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="65.151" y="29.972"/>
-<element name="U$9" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-7.747" y="-22.352"/>
-<element name="U$10" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.208" y="-12.192"/>
-<element name="U$11" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-39.497"/>
-<element name="U$12" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="8.128" y="-30.607"/>
-<element name="U$13" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="58.42" y="-27.559"/>
+<element name="U$1" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-76.327" y="0">
+<attribute name="BOM" value="EXCLUDE" x="-76.327" y="0" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$2" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-13.208">
+<attribute name="BOM" value="EXCLUDE" x="22.86" y="-13.208" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$3" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="42.926" y="5.334">
+<attribute name="BOM" value="EXCLUDE" x="42.926" y="5.334" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$4" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="14.224" y="56.388">
+<attribute name="BOM" value="EXCLUDE" x="14.224" y="56.388" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$5" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.716" y="-57.15">
+<attribute name="BOM" value="EXCLUDE" x="13.716" y="-57.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$6" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="36.576" y="17.907">
+<attribute name="BOM" value="EXCLUDE" x="36.576" y="17.907" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$7" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="66.421" y="-40.767">
+<attribute name="BOM" value="EXCLUDE" x="66.421" y="-40.767" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$8" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="65.151" y="29.972">
+<attribute name="BOM" value="EXCLUDE" x="65.151" y="29.972" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$9" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="-7.747" y="-22.352">
+<attribute name="BOM" value="EXCLUDE" x="-7.747" y="-22.352" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$10" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="13.208" y="-12.192">
+<attribute name="BOM" value="EXCLUDE" x="13.208" y="-12.192" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$11" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="22.86" y="-39.497">
+<attribute name="BOM" value="EXCLUDE" x="22.86" y="-39.497" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$12" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="8.128" y="-30.607">
+<attribute name="BOM" value="EXCLUDE" x="8.128" y="-30.607" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$13" library="fiducials" package="FIDUCIAL_1MM" value="FIDUCIAL-1MM" x="58.42" y="-27.559">
+<attribute name="BOM" value="EXCLUDE" x="58.42" y="-27.559" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="AGND">
