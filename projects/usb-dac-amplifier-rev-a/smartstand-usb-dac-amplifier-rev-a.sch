@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="5" visible="no" active="no"/>
@@ -3748,7 +3748,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <wire x1="-13.64" y1="-3.5" x2="-13.64" y2="3.6" width="0.127" layer="51"/>
 <wire x1="-13.64" y1="3.6" x2="-10.795" y2="5.5" width="0.127" layer="51"/>
 <wire x1="-13.64" y1="-3.6" x2="-10.795" y2="-5.5" width="0.127" layer="51"/>
-<text x="-10.16" y="10.16" size="1.27" layer="21">&gt;NAME</text>
+<text x="-10.16" y="10.16" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -5182,6 +5182,88 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="cree">
+<packages>
+<package name="PLCC-2">
+<smd name="ANODE" x="-1.425" y="0" dx="2.2" dy="1.55" layer="1" rot="R90"/>
+<smd name="CATHODE" x="1.425" y="0" dx="2.2" dy="1.55" layer="1" rot="R90"/>
+<wire x1="-1.35" y1="1" x2="1.35" y2="1" width="0.127" layer="51"/>
+<wire x1="1.35" y1="1" x2="1.35" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.35" y1="0.7" x2="1.35" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.35" y1="-0.7" x2="1.35" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.35" y1="-1" x2="-1.35" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="-1" x2="-1.35" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="-0.7" x2="-1.35" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="0.7" x2="-1.35" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.35" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.35" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="1.35" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-2.032" y1="1.524" x2="2.794" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="2.794" y1="-1.524" x2="-2.794" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="-1.524" x2="-2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="1.524" x2="-2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.524" x2="-2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="0.762" x2="-2.794" y2="1.524" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-2.794" y="1.524"/>
+<vertex x="-2.032" y="1.524"/>
+<vertex x="-2.794" y="0.762"/>
+</polygon>
+<text x="-2.794" y="2.032" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.794" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.6604" y1="3.048" x2="-0.7366" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="0.4064" y1="1.27" x2="1.8034" y2="2.667" width="0.1524" layer="94"/>
+<text x="-3.81" y="7.62" size="2.54" layer="95">&gt;NAME</text>
+<text x="-3.81" y="3.81" size="2.54" layer="96">&gt;VALUE</text>
+<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.0414" y="3.429"/>
+<vertex x="0.6604" y="2.54"/>
+<vertex x="0.1524" y="3.048"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.8034" y="2.667"/>
+<vertex x="1.4224" y="1.778"/>
+<vertex x="0.9144" y="2.286"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CLM3C" prefix="D">
+<description>&lt;strong&gt;Cree® PLCC2 1-in-1 SMD LED CLM3C&lt;/strong&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PLCC-2">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6081,6 +6163,37 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="U$13" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="SHEET13" library="frames" deviceset="A4L-NODOC" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="D9" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
+</part>
+<part name="P+17" library="supplies" deviceset="+12V" device=""/>
+<part name="AGND73" library="supplies" deviceset="AGND" device=""/>
+<part name="R27" library="passives" deviceset="RESISTOR" device="-1206" value="150">
+<attribute name="PN" value="RK73H2BTTD1500F"/>
+</part>
+<part name="D10" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
+</part>
+<part name="D11" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
+</part>
+<part name="D12" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
+</part>
+<part name="P+18" library="supplies" deviceset="+12V" device=""/>
+<part name="AGND76" library="supplies" deviceset="AGND" device=""/>
+<part name="R44" library="passives" deviceset="RESISTOR" device="-1206" value="150">
+<attribute name="PN" value="RK73H2BTTD1500F"/>
+</part>
+<part name="D13" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
+</part>
+<part name="D14" library="cree" deviceset="CLM3C" device="">
+<attribute name="PN" value="CLM3C-WKW-CWBYA453"/>
 </part>
 </parts>
 <sheets>
@@ -10355,6 +10468,117 @@ detect when the headphones are on the stand or not.</text>
 <wire x1="45.72" y1="63.5" x2="41.91" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="63.5" x2="41.91" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="+1V07" gate="G$1" pin="+1V0"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="SHEET13" gate="G$1" x="0" y="0">
+<attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D9" gate="G$1" x="106.68" y="127">
+<attribute name="PN" x="106.68" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+17" gate="1" x="92.71" y="143.51"/>
+<instance part="AGND73" gate="VR1" x="144.78" y="102.87"/>
+<instance part="R27" gate="G$1" x="144.78" y="116.84">
+<attribute name="PN" x="144.78" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D10" gate="G$1" x="120.65" y="127">
+<attribute name="PN" x="120.65" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D11" gate="G$1" x="134.62" y="127">
+<attribute name="PN" x="134.62" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D12" gate="G$1" x="106.68" y="78.74">
+<attribute name="PN" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+18" gate="1" x="92.71" y="95.25"/>
+<instance part="AGND76" gate="VR1" x="144.78" y="54.61"/>
+<instance part="R44" gate="G$1" x="144.78" y="68.58">
+<attribute name="PN" x="144.78" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D13" gate="G$1" x="120.65" y="78.74">
+<attribute name="PN" x="120.65" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D14" gate="G$1" x="134.62" y="78.74">
+<attribute name="PN" x="134.62" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="+12V" class="0">
+<segment>
+<pinref part="D9" gate="G$1" pin="A"/>
+<pinref part="P+17" gate="1" pin="+12V"/>
+<wire x1="102.87" y1="127" x2="92.71" y2="127" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="127" x2="92.71" y2="140.97" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="P+18" gate="1" pin="+12V"/>
+<wire x1="102.87" y1="78.74" x2="92.71" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="78.74" x2="92.71" y2="92.71" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="110.49" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="124.46" y1="127" x2="130.81" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="138.43" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="127" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="AGND73" gate="VR1" pin="AGND"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="105.41" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AGND76" gate="VR1" pin="AGND"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="57.15" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="D12" gate="G$1" pin="C"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+<wire x1="110.49" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="D13" gate="G$1" pin="C"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+<wire x1="124.46" y1="78.74" x2="130.81" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="D14" gate="G$1" pin="C"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="138.43" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
