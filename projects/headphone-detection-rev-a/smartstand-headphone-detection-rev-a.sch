@@ -974,7 +974,7 @@
 <part name="AGND1" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND3" library="supplies" deviceset="AGND" device=""/>
 <part name="C3" library="passives" deviceset="CAPACITOR" device="-0402" value="100nF">
-<attribute name="PN" value="GRM155R61A105KE15D"/>
+<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="U$1" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
@@ -1011,17 +1011,13 @@
 <part name="+2V3" library="supplies" deviceset="+2V8" device=""/>
 <part name="AGND2" library="supplies" deviceset="AGND" device=""/>
 <part name="+2V4" library="supplies" deviceset="+2V8" device=""/>
-<part name="C7" library="passives" deviceset="CAPACITOR" device="-0402" value="4.7uF">
-<attribute name="PN" value="GRM155R60J475ME87D"/>
+<part name="C7" library="passives" deviceset="CAPACITOR" device="-0603" value="4.7uF">
+<attribute name="PN" value="GRM188R60J475ME19J"/>
 </part>
 <part name="R1" library="passives" deviceset="RESISTOR" device="-0402" value="47K">
 <attribute name="PN" value="RC0402FR-0747KL"/>
 </part>
-<part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="47K">
-<attribute name="PN" value="RC0402FR-0747KL"/>
-</part>
 <part name="+2V5" library="supplies" deviceset="+2V8" device=""/>
-<part name="+2V6" library="supplies" deviceset="+2V8" device=""/>
 <part name="U4" library="on-semiconductor" deviceset="BSS138" device="LT3G" value="BSS138">
 <attribute name="PN" value="BSS138LT3G"/>
 </part>
@@ -1107,11 +1103,7 @@ not, we can establish whether or not the headphones are on the stand on an ongoi
 <instance part="R1" gate="G$1" x="149.86" y="111.76">
 <attribute name="PN" x="149.86" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="160.02" y="111.76">
-<attribute name="PN" x="160.02" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="+2V5" gate="G$1" x="149.86" y="120.65"/>
-<instance part="+2V6" gate="G$1" x="160.02" y="120.65"/>
 <instance part="U4" gate="G$1" x="156.21" y="21.59" rot="R270">
 <attribute name="PN" x="156.21" y="21.59" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -1281,11 +1273,6 @@ not, we can establish whether or not the headphones are on the stand on an ongoi
 <wire x1="149.86" y1="116.84" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="+2V6" gate="G$1" pin="+2V8"/>
-<wire x1="160.02" y1="116.84" x2="160.02" y2="120.65" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="+2V7" gate="G$1" pin="+2V8"/>
 <wire x1="109.22" y1="48.26" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
@@ -1302,14 +1289,6 @@ not, we can establish whether or not the headphones are on the stand on an ongoi
 <wire x1="144.78" y1="50.8" x2="156.21" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="50.8" x2="156.21" y2="26.67" width="0.1524" layer="91"/>
 <junction x="144.78" y="50.8"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="101.6" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
