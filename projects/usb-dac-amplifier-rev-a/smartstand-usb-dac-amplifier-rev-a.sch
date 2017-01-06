@@ -10479,33 +10479,33 @@ detect when the headphones are on the stand or not.</text>
 <instance part="SHEET13" gate="G$1" x="0" y="0">
 <attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D9" gate="G$1" x="106.68" y="127">
-<attribute name="PN" x="106.68" y="127" size="1.778" layer="96" display="off"/>
+<instance part="D9" gate="G$1" x="104.14" y="127">
+<attribute name="PN" x="104.14" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+17" gate="1" x="92.71" y="143.51"/>
-<instance part="AGND73" gate="VR1" x="144.78" y="102.87"/>
-<instance part="R27" gate="G$1" x="144.78" y="116.84">
-<attribute name="PN" x="144.78" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="P+17" gate="1" x="95.25" y="143.51"/>
+<instance part="AGND73" gate="VR1" x="146.05" y="102.87"/>
+<instance part="R27" gate="G$1" x="146.05" y="116.84">
+<attribute name="PN" x="146.05" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D10" gate="G$1" x="120.65" y="127">
 <attribute name="PN" x="120.65" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D11" gate="G$1" x="134.62" y="127">
-<attribute name="PN" x="134.62" y="127" size="1.778" layer="96" display="off"/>
+<instance part="D11" gate="G$1" x="137.16" y="127">
+<attribute name="PN" x="137.16" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D12" gate="G$1" x="106.68" y="78.74">
-<attribute name="PN" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
+<instance part="D12" gate="G$1" x="104.14" y="78.74">
+<attribute name="PN" x="104.14" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+18" gate="1" x="92.71" y="95.25"/>
-<instance part="AGND76" gate="VR1" x="144.78" y="54.61"/>
-<instance part="R44" gate="G$1" x="144.78" y="68.58">
-<attribute name="PN" x="144.78" y="68.58" size="1.778" layer="96" display="off"/>
+<instance part="P+18" gate="1" x="95.25" y="95.25"/>
+<instance part="AGND76" gate="VR1" x="146.05" y="54.61"/>
+<instance part="R44" gate="G$1" x="146.05" y="68.58">
+<attribute name="PN" x="146.05" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D13" gate="G$1" x="120.65" y="78.74">
 <attribute name="PN" x="120.65" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D14" gate="G$1" x="134.62" y="78.74">
-<attribute name="PN" x="134.62" y="78.74" size="1.778" layer="96" display="off"/>
+<instance part="D14" gate="G$1" x="137.16" y="78.74">
+<attribute name="PN" x="137.16" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -10515,70 +10515,70 @@ detect when the headphones are on the stand or not.</text>
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="P+17" gate="1" pin="+12V"/>
-<wire x1="102.87" y1="127" x2="92.71" y2="127" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="127" x2="92.71" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="127" x2="95.25" y2="127" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="127" x2="95.25" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="A"/>
 <pinref part="P+18" gate="1" pin="+12V"/>
-<wire x1="102.87" y1="78.74" x2="92.71" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="78.74" x2="92.71" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="78.74" x2="95.25" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="78.74" x2="95.25" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="C"/>
 <pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="110.49" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$78" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
 <pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="127" x2="130.81" y2="127" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="127" x2="133.35" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$80" class="0">
 <segment>
 <pinref part="D11" gate="G$1" pin="C"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="138.43" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="127" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="127" x2="146.05" y2="127" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="127" x2="146.05" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
 <segment>
 <pinref part="AGND73" gate="VR1" pin="AGND"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="105.41" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="105.41" x2="146.05" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND76" gate="VR1" pin="AGND"/>
 <pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="57.15" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="57.15" x2="146.05" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
 <pinref part="D12" gate="G$1" pin="C"/>
 <pinref part="D13" gate="G$1" pin="A"/>
-<wire x1="110.49" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
 <segment>
 <pinref part="D13" gate="G$1" pin="C"/>
 <pinref part="D14" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="78.74" x2="130.81" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="78.74" x2="133.35" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$83" class="0">
 <segment>
 <pinref part="D14" gate="G$1" pin="C"/>
 <pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="138.43" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="78.74" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="78.74" x2="146.05" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="78.74" x2="146.05" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
