@@ -4,3 +4,4 @@ install:
 script:
   - ecad-tooling/checks/run-schematic-design-checks.py projects/usb-dac-amplifier-rev-a/smartstand-usb-dac-amplifier-rev-a.sch
   - ecad-tooling/checks/run-schematic-design-checks.py projects/headphone-detection-rev-a/smartstand-headphone-detection-rev-a.sch
+  - ecad-tooling/checks/run-schematic-design-checks.py projects/headphone-detection-rev-b/smartstand-headphone-detection-rev-b.sch
