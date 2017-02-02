@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="5" visible="no" active="no"/>
@@ -6443,8 +6443,8 @@ wide rails.</text>
 <sheet>
 <plain>
 <text x="11.43" y="161.29" size="5.08" layer="112">Digital Power Section</text>
-<text x="11.43" y="149.86" size="3.302" layer="113">This deals only with our digital power rails.  We're using separate SMPS sections to bring down the +12V wall wart input to
-an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rails, and one for the 1V0 rail.</text>
+<text x="11.43" y="149.86" size="3.302" layer="113">This deals only with our digital power rails.  We're using separate SMPS sections to bring down the +12V wall wart
+input to an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rails, and one for the 1V0 rail.</text>
 </plain>
 <instances>
 <instance part="SHEET2" gate="G$1" x="0" y="0">
@@ -8595,9 +8595,8 @@ normal filter latency, and no deemphasis.</text>
 <sheet>
 <plain>
 <text x="12.7" y="161.29" size="5.08" layer="112">Gain Stage / Output Routing</text>
-<text x="12.7" y="144.78" size="3.302" layer="113">We use a separate gain stage, from the output stage, following the Objective2 design.
-We've chosen to implement a 2X and 4X gain mode.  We also route to line out before
-the gain stage, to allow line-level outputs.</text>
+<text x="12.7" y="149.86" size="3.302" layer="113">We use a separate gain stage, from the output stage, following the Objective2 design. We've chosen to implement
+a 2X and 4X gain mode.  We also route to line out before the gain stage, to allow line-level outputs.</text>
 </plain>
 <instances>
 <instance part="SHEET7" gate="G$1" x="0" y="0">
@@ -8916,18 +8915,18 @@ the gain stage, to allow line-level outputs.</text>
 </net>
 <net name="LINE_OUT_LEFT" class="0">
 <segment>
-<wire x1="95.25" y1="107.95" x2="95.25" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="144.78" x2="209.55" y2="144.78" width="0.1524" layer="91"/>
-<label x="209.55" y="144.78" size="2.54" layer="95" xref="yes"/>
+<wire x1="95.25" y1="107.95" x2="95.25" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="142.24" x2="209.55" y2="142.24" width="0.1524" layer="91"/>
+<label x="209.55" y="142.24" size="2.54" layer="95" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="NC1"/>
 <wire x1="92.71" y1="107.95" x2="95.25" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LINE_OUT_RIGHT" class="0">
 <segment>
-<wire x1="99.06" y1="100.33" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="139.7" x2="209.55" y2="139.7" width="0.1524" layer="91"/>
-<label x="209.55" y="139.7" size="2.54" layer="95" xref="yes"/>
+<wire x1="99.06" y1="100.33" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="137.16" x2="209.55" y2="137.16" width="0.1524" layer="91"/>
+<label x="209.55" y="137.16" size="2.54" layer="95" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="NC2"/>
 <wire x1="92.71" y1="100.33" x2="99.06" y2="100.33" width="0.1524" layer="91"/>
 </segment>
@@ -9669,7 +9668,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <sheet>
 <plain>
 <text x="12.7" y="161.29" size="5.08" layer="112">Headphone Output and Line Outs</text>
-<text x="12.7" y="154.94" size="3.302" layer="113">Headphone output is only connected electrically  when the jack detect indicates full insertion.</text>
+<text x="12.7" y="154.94" size="3.302" layer="113">Headphone output is only connected electrically when the jack detect indicates full insertion.</text>
 </plain>
 <instances>
 <instance part="SHEET10" gate="G$1" x="0" y="0">
