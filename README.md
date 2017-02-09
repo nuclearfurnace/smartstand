@@ -1,7 +1,4 @@
-# smartstand-internals
-The guts of the SmartStand: USB DAC, amplifier, proximity sensor, etc.
-
-[![Build Status](https://travis-ci.org/nuclearfurnace/smartstand-internals.svg?branch=master)](https://travis-ci.org/nuclearfurnace/smartstand-internals)
+[![Build Status](https://travis-ci.org/nuclearfurnace/smartstand.svg?branch=master)](https://travis-ci.org/nuclearfurnace/smartstand)
 
 # What is the SmartStand?
 
