@@ -577,26 +577,26 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <library name="cui">
 <packages>
 <package name="PJ-002A">
-<pad name="3" x="0" y="0" drill="3"/>
-<pad name="1" x="-3" y="-4.7" drill="3.5"/>
-<pad name="2" x="3" y="-4.7" drill="3"/>
-<wire x1="-3.7" y1="-0.2" x2="10.7" y2="-0.2" width="0.254" layer="51"/>
-<wire x1="10.7" y1="-0.2" x2="10.7" y2="-9.2" width="0.254" layer="51"/>
-<wire x1="10.7" y1="-9.2" x2="-3.7" y2="-9.2" width="0.254" layer="51"/>
-<wire x1="-3.7" y1="-9.2" x2="-3.7" y2="-8.382" width="0.254" layer="51"/>
-<wire x1="-3.7" y1="-8.382" x2="-3.7" y2="-1.016" width="0.254" layer="51"/>
-<wire x1="-3.7" y1="-1.016" x2="-3.7" y2="-0.2" width="0.254" layer="51"/>
-<wire x1="7.2" y1="-0.254" x2="7.2" y2="-9.144" width="0.254" layer="51"/>
-<wire x1="8.382" y1="-0.254" x2="8.382" y2="-9.144" width="0.127" layer="51"/>
-<wire x1="8.382" y1="-9.144" x2="9.652" y2="-9.144" width="0.254" layer="51"/>
-<wire x1="9.652" y1="-9.144" x2="9.652" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-1.016" x2="7.112" y2="-1.016" width="0.254" layer="51"/>
-<wire x1="-3.7" y1="-8.382" x2="7.112" y2="-8.382" width="0.254" layer="51"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="1.143" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.143" x2="-2.286" y2="1.143" width="0.254" layer="21"/>
-<wire x1="-2.286" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="21"/>
-<text x="-5.08" y="1.651" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.08" y="3.429" size="1.27" layer="25">&gt;NAME</text>
+<pad name="3" x="0" y="4.7" drill="2.667"/>
+<pad name="1" x="-3" y="0" drill="3.175"/>
+<pad name="2" x="3" y="0" drill="2.667"/>
+<wire x1="-3.7" y1="4.5" x2="10.7" y2="4.5" width="0.254" layer="51"/>
+<wire x1="10.7" y1="4.5" x2="10.7" y2="-4.5" width="0.254" layer="51"/>
+<wire x1="10.7" y1="-4.5" x2="-3.7" y2="-4.5" width="0.254" layer="51"/>
+<wire x1="-3.7" y1="-4.5" x2="-3.7" y2="-3.682" width="0.254" layer="51"/>
+<wire x1="-3.7" y1="-3.682" x2="-3.7" y2="3.684" width="0.254" layer="51"/>
+<wire x1="-3.7" y1="3.684" x2="-3.7" y2="4.5" width="0.254" layer="51"/>
+<wire x1="7.2" y1="4.446" x2="7.2" y2="-4.444" width="0.254" layer="51"/>
+<wire x1="8.382" y1="4.446" x2="8.382" y2="-4.444" width="0.127" layer="51"/>
+<wire x1="8.382" y1="-4.444" x2="9.652" y2="-4.444" width="0.254" layer="51"/>
+<wire x1="9.652" y1="-4.444" x2="9.652" y2="4.446" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="3.684" x2="7.112" y2="3.684" width="0.254" layer="51"/>
+<wire x1="-3.7" y1="-3.682" x2="7.112" y2="-3.682" width="0.254" layer="51"/>
+<wire x1="-5.08" y1="-5.46" x2="-5.08" y2="5.843" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="5.843" x2="-2.286" y2="5.843" width="0.254" layer="21"/>
+<wire x1="-2.286" y1="-5.46" x2="-5.08" y2="-5.46" width="0.254" layer="21"/>
+<text x="-5.08" y="6.351" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.08" y="8.129" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -2162,10 +2162,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="77.343" y="-52.197" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="77.089" y="-52.07" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J1" library="cui" package="PJ-002A" value="PJ-002A" x="83.82" y="-44.831" smashed="yes">
-<attribute name="PN" value="PJ-002A" x="83.82" y="-44.831" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="78.74" y="-42.545" size="1.27" layer="27"/>
-<attribute name="NAME" x="78.613" y="-42.926" size="1.27" layer="25" font="vector" ratio="12"/>
+<element name="J1" library="cui" package="PJ-002A" value="PJ-002A" x="83.9978" y="-49.53" smashed="yes">
+<attribute name="PN" value="PJ-002A" x="83.9978" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="78.9178" y="-47.244" size="1.27" layer="27"/>
+<attribute name="NAME" x="79.1718" y="-42.799" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
 <element name="J3" library="neutrik" package="NRJ6HH" value="NRJ6HH" x="77.724" y="46.609" smashed="yes">
 <attribute name="NAME" x="66.929" y="56.388" size="1.27" layer="25" font="vector" ratio="12"/>
