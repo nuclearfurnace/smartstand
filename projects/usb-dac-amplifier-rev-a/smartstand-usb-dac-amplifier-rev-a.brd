@@ -2176,10 +2176,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="-2.159" y="21.971" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="-28.321" y="17.907" size="1.27" layer="27"/>
 </element>
-<element name="J4" library="switchcraft" package="PJRAN2X1U" value="PJRAN2X1U01AUX" x="88.646" y="16.51" smashed="yes" rot="R90">
-<attribute name="VALUE" x="78.646" y="0.51" size="1.27" layer="27" rot="R90"/>
-<attribute name="NAME" x="80.202" y="1.78" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="PN" value="PJRAN2X1U01AUX" x="88.646" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J4" library="switchcraft" package="PJRAN2X1U" value="PJRAN2X1U01AUX" x="89.7382" y="16.51" smashed="yes" rot="R90">
+<attribute name="VALUE" x="79.7382" y="0.51" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="81.2942" y="1.78" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="PN" value="PJRAN2X1U01AUX" x="89.7382" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="rcl" package="TDK-VLP8040" value="2.2uH" x="20.066" y="-46.863" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.621" y="-52.959" size="1.27" layer="25" font="vector" ratio="12"/>
@@ -5677,7 +5677,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="78.105" y1="9.652" x2="80.264" y2="11.811" width="0.1524" layer="1"/>
 <wire x1="80.264" y1="11.811" x2="80.264" y2="18.669" width="0.1524" layer="1"/>
 <wire x1="80.264" y1="18.669" x2="81.855" y2="20.26" width="0.1524" layer="1"/>
-<wire x1="84.946" y1="20.26" x2="81.855" y2="20.26" width="0.1524" layer="1"/>
+<wire x1="86.0382" y1="20.26" x2="81.855" y2="20.26" width="0.1524" layer="1"/>
 </signal>
 <signal name="LINE_OUT_RIGHT">
 <contactref element="RL1" pad="P$9"/>
@@ -5695,8 +5695,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="74.422" y1="8.128" x2="76.708" y2="8.128" width="0.1524" layer="1"/>
 <wire x1="76.744" y1="8.24" x2="76.744" y2="8.164" width="0.1524" layer="1"/>
 <wire x1="76.744" y1="8.164" x2="76.708" y2="8.128" width="0.1524" layer="1"/>
-<wire x1="76.708" y1="8.128" x2="82.078" y2="8.128" width="0.1524" layer="1"/>
-<wire x1="82.078" y1="8.128" x2="84.946" y2="5.26" width="0.1524" layer="1"/>
+<wire x1="76.708" y1="8.128" x2="83.1702" y2="8.128" width="0.1524" layer="1"/>
+<wire x1="83.1702" y1="8.128" x2="86.0382" y2="5.26" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R28" pad="1"/>
