@@ -259,16 +259,16 @@
 <smd name="P$18" x="-2.4" y="0" dx="1" dy="0.35" layer="1"/>
 <smd name="P$19" x="-2.4" y="-0.65" dx="1" dy="0.35" layer="1"/>
 <smd name="P$20" x="-2.4" y="-1.3" dx="1" dy="0.35" layer="1"/>
-<smd name="P$EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" stop="no" cream="no"/>
-<pad name="P$21" x="0" y="0" drill="0.3" diameter="0.4064"/>
-<pad name="P$22" x="-1" y="0" drill="0.3" diameter="0.4064"/>
-<pad name="P$23" x="1" y="0" drill="0.3" diameter="0.4064"/>
-<pad name="P$24" x="1" y="1" drill="0.3" diameter="0.4064"/>
-<pad name="P$25" x="0" y="1" drill="0.3" diameter="0.4064"/>
-<pad name="P$26" x="-1" y="1" drill="0.3" diameter="0.4064"/>
-<pad name="P$27" x="-1" y="-1" drill="0.3" diameter="0.4064"/>
-<pad name="P$28" x="0" y="-1" drill="0.3" diameter="0.4064"/>
-<pad name="P$29" x="1" y="-1" drill="0.3" diameter="0.4064"/>
+<smd name="P$EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
+<pad name="P$21" x="0" y="0" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$22" x="-1" y="0" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$23" x="1" y="0" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$24" x="1" y="1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$25" x="0" y="1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$26" x="-1" y="1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$27" x="-1" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$28" x="0" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$29" x="1" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
 <rectangle x1="-1.45" y1="0.15" x2="-0.15" y2="1.45" layer="31"/>
 <rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31"/>
 <rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31"/>
@@ -282,8 +282,8 @@
 <wire x1="3.556" y1="-3.556" x2="-3.556" y2="-3.556" width="0.127" layer="21"/>
 <wire x1="-3.556" y1="-3.556" x2="-3.556" y2="3.556" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
-<vertex x="-3.556" y="-1.27"/>
-<vertex x="-1.27" y="-3.556"/>
+<vertex x="-3.556" y="-2.032"/>
+<vertex x="-2.032" y="-3.556"/>
 <vertex x="-3.556" y="-3.556"/>
 </polygon>
 <text x="-3.556" y="4.064" size="1.27" layer="27">&gt;VALUE</text>
@@ -3472,8 +3472,8 @@ Surface-Mounted Device (SMD) plastic package.&lt;/p&gt;</description>
 <wire x1="-3.175" y1="-4.445" x2="-3.175" y2="4.445" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
 <vertex x="-3.175" y="-4.445"/>
-<vertex x="-3.175" y="-3.81"/>
-<vertex x="-2.54" y="-4.445"/>
+<vertex x="-3.175" y="-3.302"/>
+<vertex x="-2.032" y="-4.445"/>
 </polygon>
 <text x="-3.302" y="4.826" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.302" y="6.35" size="1.27" layer="25">&gt;NAME</text>
@@ -3859,15 +3859,15 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <smd name="P$63" x="-5.68" y="-3.25" dx="1.6" dy="0.28" layer="1"/>
 <smd name="P$64" x="-5.68" y="-3.75" dx="1.6" dy="0.28" layer="1"/>
 <smd name="P$65" x="0" y="0" dx="5.31" dy="5.31" layer="1" cream="no"/>
-<pad name="P$66" x="-1.27" y="1.27" drill="0.3" diameter="0.6"/>
-<pad name="P$67" x="0" y="1.27" drill="0.3" diameter="0.6"/>
-<pad name="P$68" x="1.27" y="1.27" drill="0.3" diameter="0.6"/>
-<pad name="P$69" x="-1.27" y="0" drill="0.3" diameter="0.6"/>
-<pad name="P$70" x="0" y="0" drill="0.3" diameter="0.6"/>
-<pad name="P$71" x="1.27" y="0" drill="0.3" diameter="0.6"/>
-<pad name="P$72" x="-1.27" y="-1.27" drill="0.3" diameter="0.6"/>
-<pad name="P$73" x="0" y="-1.27" drill="0.3" diameter="0.6"/>
-<pad name="P$74" x="1.27" y="-1.27" drill="0.3" diameter="0.6"/>
+<pad name="P$66" x="-1.5" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$67" x="0" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$68" x="1.5" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$69" x="-1.5" y="0" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$70" x="0" y="0" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$71" x="1.5" y="0" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$72" x="-1.5" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$73" x="0" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$74" x="1.5" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
 <rectangle x1="-2.25" y1="1.02" x2="-1.02" y2="2.25" layer="31"/>
 <rectangle x1="-0.615" y1="1.02" x2="0.615" y2="2.25" layer="31"/>
 <rectangle x1="1.02" y1="1.02" x2="2.25" y2="2.25" layer="31"/>
@@ -4714,15 +4714,20 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <rectangle x1="-1.375" y1="0.765" x2="-0.75" y2="1.135" layer="51"/>
 <rectangle x1="-1.375" y1="-0.185" x2="-0.75" y2="0.185" layer="51"/>
 <rectangle x1="0.75" y1="-0.185" x2="1.375" y2="0.185" layer="51"/>
-<wire x1="-1.704" y1="1.808" x2="1.704" y2="1.808" width="0.127" layer="21"/>
-<wire x1="1.704" y1="1.808" x2="1.704" y2="-1.808" width="0.127" layer="21"/>
-<wire x1="1.704" y1="-1.808" x2="-1.704" y2="-1.808" width="0.127" layer="21"/>
-<wire x1="-1.704" y1="-1.808" x2="-1.704" y2="1.808" width="0.127" layer="21"/>
-<text x="-1.778" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-1.778" y="4.318" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.032" y="2.286" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.032" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="0.75" y1="0.765" x2="1.375" y2="1.135" layer="51"/>
 <rectangle x1="-1.375" y1="-1.135" x2="-0.75" y2="-0.765" layer="51"/>
 <rectangle x1="0.75" y1="-1.135" x2="1.375" y2="-0.765" layer="51"/>
+<wire x1="-2.032" y1="1.778" x2="2.032" y2="1.778" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.778" x2="2.032" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.778" x2="-2.032" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.778" x2="-2.032" y2="1.778" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-2.032" y="1.016"/>
+<vertex x="-1.27" y="1.778"/>
+<vertex x="-2.032" y="1.778"/>
+</polygon>
 </package>
 </packages>
 <symbols>
