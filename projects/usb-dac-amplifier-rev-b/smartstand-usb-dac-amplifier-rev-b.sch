@@ -4285,81 +4285,6 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <rectangle x1="11.049" y1="-4.699" x2="11.811" y2="-2.921" layer="51"/>
 <rectangle x1="11.049" y1="-5.461" x2="11.811" y2="-4.699" layer="21"/>
 </package>
-<package name="2X03">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="0" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-3.81" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-</package>
-<package name="2X03/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<pad name="2" x="-2.54" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="4" x="0" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="6" x="2.54" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="1" x="-2.54" y="-6.35" drill="1.016" shape="octagon"/>
-<pad name="3" x="0" y="-6.35" drill="1.016" shape="octagon"/>
-<pad name="5" x="2.54" y="-6.35" drill="1.016" shape="octagon"/>
-<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
-<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
-<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
-<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
-<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
-<rectangle x1="-2.921" y1="-5.461" x2="-2.159" y2="-4.699" layer="21"/>
-<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-2.921" layer="51"/>
-<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-2.921" layer="51"/>
-<rectangle x1="-0.381" y1="-5.461" x2="0.381" y2="-4.699" layer="21"/>
-<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
-<rectangle x1="2.159" y1="-5.461" x2="2.921" y2="-4.699" layer="21"/>
-<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-2.921" layer="51"/>
-</package>
 <package name="1X07">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
@@ -4514,20 +4439,6 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <pin name="19" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="20" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="PINH2X3">
-<wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-</symbol>
 <symbol name="PINHD7">
 <wire x1="-6.35" y1="-10.16" x2="1.27" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-10.16" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
@@ -4600,40 +4511,6 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PINHD-2X3" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINH2X3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="/90" package="2X03/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5438,14 +5315,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R33" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="715, 0.1%">
 <attribute name="PN" value="ERA-2AEB7150X"/>
 </part>
-<part name="R32" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
-<attribute name="PN" value="ERA-2AEB2430X"/>
-</part>
 <part name="R34" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="715, 0.1%">
 <attribute name="PN" value="ERA-2AEB7150X"/>
-</part>
-<part name="R31" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="243, 0.1%">
-<attribute name="PN" value="ERA-2AEB2430X"/>
 </part>
 <part name="AGND35" library="supplies" deviceset="AGND" device=""/>
 <part name="J3" library="neutrik" deviceset="NRJ6HH" device="">
@@ -6004,9 +5875,6 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="J5" library="samtec" deviceset="T1M-5POS" device="">
 <attribute name="PN" value="T1M-05-T-S-RA-TR"/>
-</part>
-<part name="JP1" library="pin-headers" deviceset="PINHD-2X3" device="">
-<attribute name="PN" value="961206-6404-AR"/>
 </part>
 <part name="C76" library="passives" deviceset="CAPACITOR" device="-0402" value="100nF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
@@ -8561,19 +8429,13 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <instance part="U12" gate="A" x="71.12" y="82.55">
 <attribute name="PN" x="71.12" y="82.55" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R33" gate="G$1" x="50.8" y="31.75">
-<attribute name="PN" x="50.8" y="31.75" size="1.778" layer="96" display="off"/>
+<instance part="R33" gate="G$1" x="50.8" y="45.72">
+<attribute name="PN" x="50.8" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R32" gate="G$1" x="93.98" y="41.91">
-<attribute name="PN" x="93.98" y="41.91" size="1.778" layer="96" display="off"/>
+<instance part="R34" gate="G$1" x="73.66" y="45.72">
+<attribute name="PN" x="73.66" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R34" gate="G$1" x="93.98" y="31.75">
-<attribute name="PN" x="93.98" y="31.75" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R31" gate="G$1" x="50.8" y="41.91">
-<attribute name="PN" x="50.8" y="41.91" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="AGND35" gate="VR1" x="72.39" y="20.32"/>
+<instance part="AGND35" gate="VR1" x="62.23" y="34.29"/>
 <instance part="C99" gate="G$1" x="219.71" y="33.02">
 <attribute name="PN" x="219.71" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8595,9 +8457,6 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 </instance>
 <instance part="C100" gate="G$1" x="233.68" y="33.02">
 <attribute name="PN" x="233.68" y="33.02" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP1" gate="A" x="71.12" y="36.83">
-<attribute name="PN" x="71.12" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8686,17 +8545,13 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <wire x1="175.26" y1="26.67" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="68.58" y1="36.83" x2="62.23" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="36.83" x2="62.23" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="AGND35" gate="VR1" pin="AGND"/>
-<wire x1="62.23" y1="26.67" x2="72.39" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="26.67" x2="72.39" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="76.2" y1="36.83" x2="82.55" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="82.55" y1="36.83" x2="82.55" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="82.55" y1="26.67" x2="72.39" y2="26.67" width="0.1524" layer="91"/>
-<junction x="72.39" y="26.67"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="45.72" x2="62.23" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="45.72" x2="62.23" y2="36.83" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="45.72" x2="62.23" y2="45.72" width="0.1524" layer="91"/>
+<junction x="62.23" y="45.72"/>
 </segment>
 </net>
 <net name="RAW_LEFT" class="0">
@@ -8730,14 +8585,9 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <wire x1="177.8" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="41.91" x2="43.18" y2="41.91" width="0.1524" layer="91"/>
-<label x="39.37" y="41.91" size="2.54" layer="95" rot="R180" xref="yes"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<label x="39.37" y="45.72" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="41.91" x2="39.37" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="31.75" x2="43.18" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="31.75" x2="43.18" y2="41.91" width="0.1524" layer="91"/>
-<junction x="43.18" y="41.91"/>
+<wire x1="45.72" y1="45.72" x2="39.37" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PREAMP_LEFT" class="0">
@@ -8773,14 +8623,9 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <junction x="177.8" y="68.58"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="41.91" x2="101.6" y2="41.91" width="0.1524" layer="91"/>
-<label x="105.41" y="41.91" size="2.54" layer="95" xref="yes"/>
-<pinref part="R32" gate="G$1" pin="2"/>
+<label x="85.09" y="45.72" size="2.54" layer="95" xref="yes"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="41.91" x2="105.41" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="31.75" x2="101.6" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="31.75" x2="101.6" y2="41.91" width="0.1524" layer="91"/>
-<junction x="101.6" y="41.91"/>
+<wire x1="78.74" y1="45.72" x2="85.09" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -8896,42 +8741,6 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <junction x="200.66" y="78.74"/>
 <wire x1="209.55" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <label x="209.55" y="78.74" size="2.54" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="68.58" y1="39.37" x2="58.42" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="39.37" x2="58.42" y2="41.91" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="41.91" x2="55.88" y2="41.91" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="68.58" y1="34.29" x2="58.42" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="34.29" x2="58.42" y2="31.75" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="31.75" x2="55.88" y2="31.75" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="76.2" y1="34.29" x2="86.36" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="34.29" x2="86.36" y2="31.75" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="31.75" x2="88.9" y2="31.75" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="76.2" y1="39.37" x2="86.36" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="39.37" x2="86.36" y2="41.91" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="41.91" x2="88.9" y2="41.91" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -9188,19 +8997,6 @@ Our volume control is also in between the stages, which apparently provides lowe
 <junction x="179.07" y="62.23"/>
 </segment>
 </net>
-<net name="OUT_RIGHT" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="128.27" x2="196.85" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="128.27" x2="196.85" y2="118.11" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="196.85" y1="118.11" x2="196.85" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="107.95" x2="193.04" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="118.11" x2="204.47" y2="118.11" width="0.1524" layer="91"/>
-<junction x="196.85" y="118.11"/>
-<label x="204.47" y="118.11" size="2.54" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="V+" class="0">
 <segment>
 <pinref part="U15" gate="PWR" pin="V+"/>
@@ -9284,6 +9080,19 @@ Our volume control is also in between the stages, which apparently provides lowe
 <label x="78.74" y="120.65" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="OUT_LEFT" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="128.27" x2="196.85" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="128.27" x2="196.85" y2="118.11" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="196.85" y1="118.11" x2="196.85" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="107.95" x2="193.04" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="118.11" x2="204.47" y2="118.11" width="0.1524" layer="91"/>
+<junction x="196.85" y="118.11"/>
+<label x="204.47" y="118.11" size="2.54" layer="95" xref="yes"/>
+</segment>
+</net>
 <net name="ADJUSTED_RIGHT" class="0">
 <segment>
 <pinref part="C102" gate="G$1" pin="1"/>
@@ -9291,7 +9100,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <label x="78.74" y="74.93" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="OUT_LEFT" class="0">
+<net name="OUT_RIGHT" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="191.77" y1="82.55" x2="195.58" y2="82.55" width="0.1524" layer="91"/>
@@ -10370,15 +10179,6 @@ detect when the headphones are on the stand or not.</text>
 <label x="73.66" y="34.29" size="3.302" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ADJUSTED_RIGHT" class="0">
-<segment>
-<pinref part="JP3" gate="A" pin="5"/>
-<wire x1="109.22" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="22.86" x2="83.82" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="21.59" x2="73.66" y2="21.59" width="0.1524" layer="91"/>
-<label x="73.66" y="21.59" size="3.302" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="PREAMP_LEFT" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="4"/>
@@ -10386,6 +10186,15 @@ detect when the headphones are on the stand or not.</text>
 <wire x1="83.82" y1="25.4" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <label x="73.66" y="27.94" size="3.302" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADJUSTED_RIGHT" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="109.22" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="83.82" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="21.59" x2="73.66" y2="21.59" width="0.1524" layer="91"/>
+<label x="73.66" y="21.59" size="3.302" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADJUSTED_LEFT" class="0">
