@@ -5940,9 +5940,6 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U$3" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
-<part name="U$4" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
 <part name="U$5" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
@@ -5952,19 +5949,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="U$7" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
-<part name="U$8" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
-<part name="U$9" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
-<part name="U$10" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
 <part name="U$11" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
-<part name="U$12" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="U$13" library="fiducials" deviceset="FIDUCIAL" device="-1MM">
@@ -6220,8 +6205,8 @@ wide rails.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="11.43" y="161.29" size="5.08" layer="112">Digital Power Section</text>
-<text x="11.43" y="149.86" size="3.302" layer="113">This deals only with our digital power rails.  We're using separate SMPS sections to bring down the +12V wall wart
+<text x="15.24" y="161.29" size="5.08" layer="112">Digital Power Section</text>
+<text x="15.24" y="149.86" size="3.302" layer="113">This deals only with our digital power rails.  We're using separate SMPS sections to bring down the +12V wall wart
 input to an appropriate voltage for feeding into our low-noise LDOs: one for the 3V3 rails, and one for the 1V0 rail.</text>
 </plain>
 <instances>
@@ -6812,8 +6797,8 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 </sheet>
 <sheet>
 <plain>
-<text x="11.43" y="162.56" size="5.08" layer="112">Analog Power Section</text>
-<text x="11.43" y="146.05" size="3.302" layer="113">This deals with the analog power rails needed by
+<text x="15.24" y="161.29" size="5.08" layer="112">Analog Power Section</text>
+<text x="15.24" y="144.78" size="3.302" layer="113">This deals with the analog power rails needed by
 the audio sections of the board: the DAC output,
 volume control, gain and output stages.</text>
 </plain>
@@ -7393,9 +7378,6 @@ they are aligned, delivering accurate placement.</text>
 <instance part="U$3" gate="G$1" x="154.94" y="130.81">
 <attribute name="BOM" x="154.94" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="163.83" y="130.81">
-<attribute name="BOM" x="163.83" y="130.81" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U$5" gate="G$1" x="172.72" y="130.81">
 <attribute name="BOM" x="172.72" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7405,23 +7387,11 @@ they are aligned, delivering accurate placement.</text>
 <instance part="U$7" gate="G$1" x="190.5" y="130.81">
 <attribute name="BOM" x="190.5" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$8" gate="G$1" x="199.39" y="130.81">
+<instance part="U$11" gate="G$1" x="199.39" y="130.81">
 <attribute name="BOM" x="199.39" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$9" gate="G$1" x="208.28" y="130.81">
-<attribute name="BOM" x="208.28" y="130.81" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$10" gate="G$1" x="217.17" y="130.81">
-<attribute name="BOM" x="217.17" y="130.81" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$11" gate="G$1" x="226.06" y="130.81">
-<attribute name="BOM" x="226.06" y="130.81" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$12" gate="G$1" x="234.95" y="130.81">
-<attribute name="BOM" x="234.95" y="130.81" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$13" gate="G$1" x="137.16" y="121.92">
-<attribute name="BOM" x="137.16" y="121.92" size="1.778" layer="96" display="off"/>
+<instance part="U$13" gate="G$1" x="163.83" y="130.81">
+<attribute name="BOM" x="163.83" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8038,11 +8008,10 @@ to the processor.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="43.18" y="160.02" size="5.08" layer="150">Digital/Analog Converter</text>
-<text x="43.18" y="138.43" size="3.302" layer="152">Provides analog output from I2S data fed by the XMOS microcontroller.
+<text x="15.24" y="161.29" size="5.08" layer="150">Digital/Analog Converter</text>
+<text x="15.24" y="144.78" size="3.302" layer="152">Provides analog output from I2S data fed by the XMOS microcontroller.
 
-Here, the PCM5102A is hard-configured to use the I2S data format, 
-normal filter latency, and no deemphasis.</text>
+Here, the PCM5102A is hard-configured to use the I2S data format, normal filter latency, and no deemphasis.</text>
 </plain>
 <instances>
 <instance part="SHEET6" gate="G$1" x="0" y="0">
@@ -8372,70 +8341,70 @@ normal filter latency, and no deemphasis.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="12.7" y="161.29" size="5.08" layer="112">Gain Stage / Output Routing</text>
-<text x="12.7" y="149.86" size="3.302" layer="113">We use a separate gain stage, from the output stage, following the Objective2 design. We've chosen to implement
-a 2X and 4X gain mode.  We also route to line out before the gain stage, to allow line-level outputs.</text>
+<text x="15.24" y="161.29" size="5.08" layer="112">Gain Stage / Output Routing</text>
+<text x="15.24" y="149.86" size="3.302" layer="113">We use a separate gain stage, from the output stage, following the Objective2 design. We've chosen to implement
+a 2X gain mode.  We also route to line out before the gain stage, to allow line-level outputs.</text>
 </plain>
 <instances>
 <instance part="SHEET7" gate="G$1" x="0" y="0">
 <attribute name="BOM" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U13" gate="A" x="185.42" y="78.74"/>
-<instance part="U13" gate="B" x="185.42" y="120.65">
-<attribute name="PN" x="185.42" y="120.65" size="1.778" layer="96" display="off"/>
+<instance part="U13" gate="A" x="185.42" y="73.66"/>
+<instance part="U13" gate="B" x="185.42" y="115.57">
+<attribute name="PN" x="185.42" y="115.57" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U13" gate="PWR" x="190.5" y="30.48"/>
-<instance part="R28" gate="G$1" x="114.3" y="81.28">
-<attribute name="PN" x="114.3" y="81.28" size="1.778" layer="96" display="off"/>
+<instance part="R28" gate="G$1" x="114.3" y="76.2">
+<attribute name="PN" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R24" gate="G$1" x="114.3" y="123.19">
-<attribute name="PN" x="114.3" y="123.19" size="1.778" layer="96" display="off"/>
+<instance part="R24" gate="G$1" x="114.3" y="118.11">
+<attribute name="PN" x="114.3" y="118.11" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C93" gate="G$1" x="130.81" y="73.66">
-<attribute name="PN" x="130.81" y="73.66" size="1.778" layer="96" display="off"/>
+<instance part="C93" gate="G$1" x="130.81" y="68.58">
+<attribute name="PN" x="130.81" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C91" gate="G$1" x="130.81" y="115.57">
-<attribute name="PN" x="130.81" y="115.57" size="1.778" layer="96" display="off"/>
+<instance part="C91" gate="G$1" x="130.81" y="110.49">
+<attribute name="PN" x="130.81" y="110.49" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R29" gate="G$1" x="154.94" y="72.39">
-<attribute name="PN" x="154.94" y="72.39" size="1.778" layer="96" display="off"/>
+<instance part="R29" gate="G$1" x="154.94" y="67.31">
+<attribute name="PN" x="154.94" y="67.31" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R25" gate="G$1" x="154.94" y="114.3">
-<attribute name="PN" x="154.94" y="114.3" size="1.778" layer="96" display="off"/>
+<instance part="R25" gate="G$1" x="154.94" y="109.22">
+<attribute name="PN" x="154.94" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND32" gate="VR1" x="154.94" y="62.23"/>
-<instance part="AGND31" gate="VR1" x="130.81" y="62.23"/>
-<instance part="AGND29" gate="VR1" x="154.94" y="104.14"/>
-<instance part="AGND28" gate="VR1" x="130.81" y="104.14"/>
-<instance part="R30" gate="G$1" x="189.23" y="68.58">
-<attribute name="PN" x="189.23" y="68.58" size="1.778" layer="96" display="off"/>
+<instance part="AGND32" gate="VR1" x="154.94" y="57.15"/>
+<instance part="AGND31" gate="VR1" x="130.81" y="57.15"/>
+<instance part="AGND29" gate="VR1" x="154.94" y="99.06"/>
+<instance part="AGND28" gate="VR1" x="130.81" y="99.06"/>
+<instance part="R30" gate="G$1" x="189.23" y="63.5">
+<attribute name="PN" x="189.23" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R26" gate="G$1" x="189.23" y="110.49">
-<attribute name="PN" x="189.23" y="110.49" size="1.778" layer="96" display="off"/>
+<instance part="R26" gate="G$1" x="189.23" y="105.41">
+<attribute name="PN" x="189.23" y="105.41" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C94" gate="G$1" x="190.5" y="59.69">
-<attribute name="PN" x="190.5" y="59.69" size="1.778" layer="96" display="off"/>
+<instance part="C94" gate="G$1" x="190.5" y="54.61">
+<attribute name="PN" x="190.5" y="54.61" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C92" gate="G$1" x="190.5" y="101.6">
-<attribute name="PN" x="190.5" y="101.6" size="1.778" layer="96" display="off"/>
+<instance part="C92" gate="G$1" x="190.5" y="96.52">
+<attribute name="PN" x="190.5" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+9" gate="1" x="190.5" y="40.64"/>
 <instance part="P-3" gate="1" x="190.5" y="20.32"/>
-<instance part="RL1" gate="G$1" x="81.28" y="101.6">
-<attribute name="PN" x="81.28" y="101.6" size="1.778" layer="96" display="off"/>
+<instance part="RL1" gate="G$1" x="81.28" y="96.52">
+<attribute name="PN" x="81.28" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+7" gate="1" x="71.12" y="120.65"/>
-<instance part="AGND30" gate="VR1" x="71.12" y="71.12"/>
-<instance part="U12" gate="A" x="71.12" y="82.55">
-<attribute name="PN" x="71.12" y="82.55" size="1.778" layer="96" display="off"/>
+<instance part="P+7" gate="1" x="71.12" y="115.57"/>
+<instance part="AGND30" gate="VR1" x="71.12" y="66.04"/>
+<instance part="U12" gate="A" x="71.12" y="77.47">
+<attribute name="PN" x="71.12" y="77.47" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R33" gate="G$1" x="50.8" y="45.72">
-<attribute name="PN" x="50.8" y="45.72" size="1.778" layer="96" display="off"/>
+<instance part="R33" gate="G$1" x="50.8" y="34.29">
+<attribute name="PN" x="50.8" y="34.29" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R34" gate="G$1" x="73.66" y="45.72">
-<attribute name="PN" x="73.66" y="45.72" size="1.778" layer="96" display="off"/>
+<instance part="R34" gate="G$1" x="73.66" y="34.29">
+<attribute name="PN" x="73.66" y="34.29" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND35" gate="VR1" x="62.23" y="34.29"/>
+<instance part="AGND35" gate="VR1" x="62.23" y="22.86"/>
 <instance part="C99" gate="G$1" x="219.71" y="33.02">
 <attribute name="PN" x="219.71" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8466,57 +8435,57 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <segment>
 <pinref part="U13" gate="A" pin="+IN"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="81.28" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="76.2" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="81.28" x2="130.81" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="130.81" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="77.47" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
-<junction x="154.94" y="81.28"/>
+<wire x1="154.94" y1="76.2" x2="130.81" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="72.39" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
+<junction x="154.94" y="76.2"/>
 <pinref part="C93" gate="G$1" pin="1"/>
-<wire x1="130.81" y1="76.2" x2="130.81" y2="81.28" width="0.1524" layer="91"/>
-<junction x="130.81" y="81.28"/>
+<wire x1="130.81" y1="71.12" x2="130.81" y2="76.2" width="0.1524" layer="91"/>
+<junction x="130.81" y="76.2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="U13" gate="B" pin="+IN"/>
-<wire x1="119.38" y1="123.19" x2="130.81" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="118.11" x2="130.81" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="C91" gate="G$1" pin="1"/>
-<wire x1="130.81" y1="123.19" x2="154.94" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="123.19" x2="182.88" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="130.81" y1="118.11" x2="130.81" y2="123.19" width="0.1524" layer="91"/>
-<junction x="130.81" y="123.19"/>
+<wire x1="130.81" y1="118.11" x2="154.94" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="118.11" x2="182.88" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="113.03" x2="130.81" y2="118.11" width="0.1524" layer="91"/>
+<junction x="130.81" y="118.11"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="119.38" x2="154.94" y2="123.19" width="0.1524" layer="91"/>
-<junction x="154.94" y="123.19"/>
+<wire x1="154.94" y1="114.3" x2="154.94" y2="118.11" width="0.1524" layer="91"/>
+<junction x="154.94" y="118.11"/>
 </segment>
 </net>
 <net name="AGND" class="0">
 <segment>
 <pinref part="AGND28" gate="VR1" pin="AGND"/>
 <pinref part="C91" gate="G$1" pin="2"/>
-<wire x1="130.81" y1="106.68" x2="130.81" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="101.6" x2="130.81" y2="105.41" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND29" gate="VR1" pin="AGND"/>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="106.68" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="101.6" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND32" gate="VR1" pin="AGND"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="64.77" x2="154.94" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="59.69" x2="154.94" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND31" gate="VR1" pin="AGND"/>
 <pinref part="C93" gate="G$1" pin="2"/>
-<wire x1="130.81" y1="64.77" x2="130.81" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="59.69" x2="130.81" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND30" gate="VR1" pin="AGND"/>
 <pinref part="U12" gate="A" pin="S"/>
-<wire x1="71.12" y1="73.66" x2="71.12" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="68.58" x2="71.12" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND34" gate="VR1" pin="AGND"/>
@@ -8547,85 +8516,85 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 <segment>
 <pinref part="AGND35" gate="VR1" pin="AGND"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="45.72" x2="62.23" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="45.72" x2="62.23" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="34.29" x2="62.23" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="34.29" x2="62.23" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="45.72" x2="62.23" y2="45.72" width="0.1524" layer="91"/>
-<junction x="62.23" y="45.72"/>
+<wire x1="68.58" y1="34.29" x2="62.23" y2="34.29" width="0.1524" layer="91"/>
+<junction x="62.23" y="34.29"/>
 </segment>
 </net>
 <net name="RAW_LEFT" class="0">
 <segment>
-<label x="45.72" y="110.49" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="45.72" y="105.41" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="COM1"/>
-<wire x1="45.72" y1="110.49" x2="73.66" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="105.41" x2="73.66" y2="105.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RAW_RIGHT" class="0">
 <segment>
-<label x="48.26" y="92.71" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="48.26" y="87.63" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="COM2"/>
-<wire x1="48.26" y1="92.71" x2="73.66" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="87.63" x2="73.66" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GAIN_LEFT" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="184.15" y1="110.49" x2="177.8" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="110.49" x2="177.8" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="105.41" x2="177.8" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="105.41" x2="177.8" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="U13" gate="B" pin="-IN"/>
-<wire x1="177.8" y1="118.11" x2="182.88" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="118.11" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
-<junction x="177.8" y="118.11"/>
-<wire x1="177.8" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
-<label x="162.56" y="132.08" size="2.54" layer="95" rot="R180" xref="yes"/>
-<wire x1="177.8" y1="110.49" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<junction x="177.8" y="110.49"/>
+<wire x1="177.8" y1="113.03" x2="182.88" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="113.03" x2="177.8" y2="127" width="0.1524" layer="91"/>
+<junction x="177.8" y="113.03"/>
+<wire x1="177.8" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<label x="162.56" y="127" size="2.54" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="105.41" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<junction x="177.8" y="105.41"/>
 <pinref part="C92" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="39.37" y="45.72" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="39.37" y="34.29" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="45.72" x2="39.37" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="34.29" x2="39.37" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PREAMP_LEFT" class="0">
 <segment>
 <pinref part="U13" gate="B" pin="OUT"/>
-<wire x1="195.58" y1="120.65" x2="200.66" y2="120.65" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="120.65" x2="200.66" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="115.57" x2="200.66" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="115.57" x2="200.66" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="110.49" x2="194.31" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="105.41" x2="194.31" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="C92" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="101.6" x2="200.66" y2="110.49" width="0.1524" layer="91"/>
-<junction x="200.66" y="110.49"/>
-<junction x="200.66" y="120.65"/>
-<wire x1="210.82" y1="120.65" x2="200.66" y2="120.65" width="0.1524" layer="91"/>
-<label x="210.82" y="120.65" size="2.54" layer="95" xref="yes"/>
+<wire x1="193.04" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="96.52" x2="200.66" y2="105.41" width="0.1524" layer="91"/>
+<junction x="200.66" y="105.41"/>
+<junction x="200.66" y="115.57"/>
+<wire x1="210.82" y1="115.57" x2="200.66" y2="115.57" width="0.1524" layer="91"/>
+<label x="210.82" y="115.57" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GAIN_RIGHT" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="-IN"/>
-<wire x1="182.88" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="76.2" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="71.12" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="68.58" x2="184.15" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="76.2" x2="177.8" y2="90.17" width="0.1524" layer="91"/>
-<junction x="177.8" y="76.2"/>
-<wire x1="177.8" y1="90.17" x2="162.56" y2="90.17" width="0.1524" layer="91"/>
-<label x="162.56" y="90.17" size="2.54" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="63.5" x2="184.15" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="71.12" x2="177.8" y2="85.09" width="0.1524" layer="91"/>
+<junction x="177.8" y="71.12"/>
+<wire x1="177.8" y1="85.09" x2="162.56" y2="85.09" width="0.1524" layer="91"/>
+<label x="162.56" y="85.09" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="C94" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="59.69" x2="177.8" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="59.69" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
-<junction x="177.8" y="68.58"/>
+<wire x1="185.42" y1="54.61" x2="177.8" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="54.61" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<junction x="177.8" y="63.5"/>
 </segment>
 <segment>
-<label x="85.09" y="45.72" size="2.54" layer="95" xref="yes"/>
+<label x="85.09" y="34.29" size="2.54" layer="95" xref="yes"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="45.72" x2="85.09" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="34.29" x2="85.09" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -8670,77 +8639,77 @@ a 2X and 4X gain mode.  We also route to line out before the gain stage, to allo
 </net>
 <net name="LINE_OUT_LEFT" class="0">
 <segment>
-<wire x1="95.25" y1="107.95" x2="95.25" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="142.24" x2="209.55" y2="142.24" width="0.1524" layer="91"/>
-<label x="209.55" y="142.24" size="2.54" layer="95" xref="yes"/>
+<wire x1="95.25" y1="102.87" x2="95.25" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="137.16" x2="209.55" y2="137.16" width="0.1524" layer="91"/>
+<label x="209.55" y="137.16" size="2.54" layer="95" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="NC1"/>
-<wire x1="92.71" y1="107.95" x2="95.25" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="102.87" x2="95.25" y2="102.87" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LINE_OUT_RIGHT" class="0">
 <segment>
-<wire x1="99.06" y1="100.33" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="137.16" x2="209.55" y2="137.16" width="0.1524" layer="91"/>
-<label x="209.55" y="137.16" size="2.54" layer="95" xref="yes"/>
+<wire x1="99.06" y1="95.25" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="132.08" x2="209.55" y2="132.08" width="0.1524" layer="91"/>
+<label x="209.55" y="132.08" size="2.54" layer="95" xref="yes"/>
 <pinref part="RL1" gate="G$1" pin="NC2"/>
-<wire x1="92.71" y1="100.33" x2="99.06" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="95.25" x2="99.06" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="102.87" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="RL1" gate="G$1" pin="NO2"/>
-<wire x1="92.71" y1="95.25" x2="102.87" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="81.28" x2="102.87" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="90.17" x2="102.87" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="76.2" x2="102.87" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="123.19" x2="102.87" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="118.11" x2="102.87" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="RL1" gate="G$1" pin="NO1"/>
-<wire x1="92.71" y1="102.87" x2="102.87" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="123.19" x2="102.87" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="97.79" x2="102.87" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="118.11" x2="102.87" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
-<wire x1="71.12" y1="106.68" x2="71.12" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="101.6" x2="71.12" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="RL1" gate="G$1" pin="COIL_P"/>
 </segment>
 </net>
 <net name="LINE_OUT_SEL" class="0">
 <segment>
-<label x="53.34" y="82.55" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="53.34" y="77.47" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="U12" gate="A" pin="G"/>
-<wire x1="66.04" y1="82.55" x2="53.34" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="77.47" x2="53.34" y2="77.47" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="RL1" gate="G$1" pin="COIL_N"/>
 <pinref part="U12" gate="A" pin="D"/>
-<wire x1="73.66" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="96.52" x2="71.12" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="91.44" x2="71.12" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PREAMP_RIGHT" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="OUT"/>
-<wire x1="195.58" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="78.74" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="73.66" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="68.58" x2="194.31" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="63.5" x2="194.31" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C94" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="59.69" x2="200.66" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="59.69" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-<junction x="200.66" y="68.58"/>
-<junction x="200.66" y="78.74"/>
-<wire x1="209.55" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
-<label x="209.55" y="78.74" size="2.54" layer="95" xref="yes"/>
+<wire x1="193.04" y1="54.61" x2="200.66" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="54.61" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
+<junction x="200.66" y="63.5"/>
+<junction x="200.66" y="73.66"/>
+<wire x1="209.55" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
+<label x="209.55" y="73.66" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9117,6 +9086,9 @@ Our volume control is also in between the stages, which apparently provides lowe
 </sheet>
 <sheet>
 <plain>
+<text x="15.24" y="161.29" size="5.08" layer="112">Audio Clock Generation</text>
+<text x="15.24" y="149.86" size="3.048" layer="113">We're generating dual clocks to support 44.1-kHz and 48-kHz based sampling rates.  We toggle which one
+is output with a simple analog switch.</text>
 </plain>
 <instances>
 <instance part="SHEET9" gate="G$1" x="0" y="0">
@@ -9347,8 +9319,8 @@ Our volume control is also in between the stages, which apparently provides lowe
 </sheet>
 <sheet>
 <plain>
-<text x="12.7" y="161.29" size="5.08" layer="112">Headphone Output and Line Outs</text>
-<text x="12.7" y="154.94" size="3.302" layer="113">Headphone output is only connected electrically when the jack detect indicates full insertion.</text>
+<text x="15.24" y="161.29" size="5.08" layer="112">Headphone Output and Line Outs</text>
+<text x="15.24" y="154.94" size="3.302" layer="113">Headphone output is only connected electrically when the jack detect indicates full insertion.</text>
 </plain>
 <instances>
 <instance part="SHEET10" gate="G$1" x="0" y="0">
