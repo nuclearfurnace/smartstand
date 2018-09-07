@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -146,7 +147,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
@@ -260,15 +261,15 @@
 <smd name="P$19" x="-2.4" y="-0.65" dx="1" dy="0.35" layer="1"/>
 <smd name="P$20" x="-2.4" y="-1.3" dx="1" dy="0.35" layer="1"/>
 <smd name="P$EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
-<pad name="P$21" x="0" y="0" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$22" x="-1" y="0" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$23" x="1" y="0" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$24" x="1" y="1" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$25" x="0" y="1" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$26" x="-1" y="1" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$27" x="-1" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$28" x="0" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
-<pad name="P$29" x="1" y="-1" drill="0.3" diameter="0.4064" stop="no"/>
+<pad name="P$21" x="0" y="0" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$22" x="-1" y="0" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$23" x="1" y="0" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$24" x="1" y="1" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$25" x="0" y="1" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$26" x="-1" y="1" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$27" x="-1" y="-1" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$28" x="0" y="-1" drill="0.3048" diameter="0.4064" stop="no"/>
+<pad name="P$29" x="1" y="-1" drill="0.3048" diameter="0.4064" stop="no"/>
 <rectangle x1="-1.45" y1="0.15" x2="-0.15" y2="1.45" layer="31"/>
 <rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31"/>
 <rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31"/>
@@ -4928,15 +4929,15 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <smd name="P$63" x="-5.68" y="-3.25" dx="1.6" dy="0.28" layer="1"/>
 <smd name="P$64" x="-5.68" y="-3.75" dx="1.6" dy="0.28" layer="1"/>
 <smd name="P$65" x="0" y="0" dx="5.31" dy="5.31" layer="1" cream="no"/>
-<pad name="P$66" x="-1.5" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$67" x="0" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$68" x="1.5" y="1.5" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$69" x="-1.5" y="0" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$70" x="0" y="0" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$71" x="1.5" y="0" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$72" x="-1.5" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$73" x="0" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
-<pad name="P$74" x="1.5" y="-1.5" drill="0.3" diameter="0.6" stop="no"/>
+<pad name="P$66" x="-1.5" y="1.5" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$67" x="0" y="1.5" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$68" x="1.5" y="1.5" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$69" x="-1.5" y="0" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$70" x="0" y="0" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$71" x="1.5" y="0" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$72" x="-1.5" y="-1.5" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$73" x="0" y="-1.5" drill="0.3048" diameter="0.6096" stop="no"/>
+<pad name="P$74" x="1.5" y="-1.5" drill="0.3048" diameter="0.6096" stop="no"/>
 <rectangle x1="-2.25" y1="1.02" x2="-1.02" y2="2.25" layer="31"/>
 <rectangle x1="-0.615" y1="1.02" x2="0.615" y2="2.25" layer="31"/>
 <rectangle x1="1.02" y1="1.02" x2="2.25" y2="2.25" layer="31"/>
@@ -5215,9 +5216,12 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </class>
 <class number="1" name="USB" width="0.2794" drill="0.254">
 </class>
+<class number="2" name="audio_post" width="0" drill="0">
+<clearance class="2" value="0.381"/>
+</class>
 </classes>
 <parts>
-<part name="SHEET6" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="U11" library="texas-instruments" deviceset="PCM5102A" device="">
@@ -5267,7 +5271,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="MPN" value="RG1005P-471-B-T5"/>
 </part>
 <part name="AGND25" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET1" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="J1" library="cui" deviceset="PJ-002A" device="">
@@ -5342,7 +5346,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="DVDD10" library="supplies" deviceset="DVDD" device=""/>
 <part name="AVDD3" library="supplies" deviceset="AVDD" device=""/>
 <part name="AGND27" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET7" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="U13" library="njr" deviceset="NJM2068" device="M">
@@ -5394,7 +5398,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="P-3" library="supplies" deviceset="V-" device=""/>
 <part name="AGND33" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND34" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET8" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="U14" library="njr" deviceset="NJM4556A" device="M">
@@ -5438,7 +5442,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="P+7" library="supplies" deviceset="+12V" device=""/>
 <part name="AGND30" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET10" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="R33" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0603" value="1K, 0.1%">
@@ -5451,7 +5455,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="J3" library="neutrik" deviceset="NRJ6HH" device="">
 <attribute name="MPN" value="NRJ6HH"/>
 </part>
-<part name="SHEET4" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="AGND9" library="supplies" deviceset="AGND" device=""/>
@@ -5505,7 +5509,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="AGND21" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET5" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="C60" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
@@ -5562,7 +5566,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
 <part name="AGND19" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET11" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET11" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="D3" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
@@ -5592,7 +5596,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="R51" library="passives" deviceset="RESISTOR" device="-0402" value="220"/>
 <part name="AGND57" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET12" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET12" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="D7" library="dialight" deviceset="DIALIGHT-598-MICROSMD" device="-0603" value="1.8V, 10mA">
@@ -5611,7 +5615,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R18" library="passives" deviceset="RESISTOR" device="-0402" value="4.7K">
 <attribute name="PN" value="RC0402FR-074K7L"/>
 </part>
-<part name="SHEET2" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="C5" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
@@ -5622,14 +5626,14 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="AGND5" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND6" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET3" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="U3" library="texas-instruments" deviceset="TPS563200" device="DDC" value="TPS563201DDC">
-<attribute name="MPN" value="TPS5632001DCR"/>
+<attribute name="MPN" value="TPS563201DDC"/>
 <attribute name="TYPE" value="switcher"/>
 </part>
-<part name="C10" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
+<part name="C10" library="passives" deviceset="CAPACITOR" device="-1210" value="47uF">
 <attribute name="MPN" value="EMVA250ADA470MF55G"/>
 </part>
 <part name="C11" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
@@ -5644,8 +5648,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R4" library="passives" deviceset="RESISTOR" device="-0402" value="10K, 1%">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C13" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
+<part name="C13" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
+<attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
 <part name="L1" library="passives" deviceset="INDUCTOR-HORIZONTAL" device="VLP8040" value="2.2uH">
 <attribute name="MPN" value="VLP8040T-2R2N"/>
@@ -5655,20 +5659,17 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="P+2" library="supplies" deviceset="+12V" device=""/>
 <part name="+4V01" library="supplies" deviceset="+4V0" device=""/>
-<part name="C14" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="MPN" value="GRM21BR61E106KA73L"/>
+<part name="C14" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
+<attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
 <part name="C15" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
 <attribute name="PN" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C16" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
-<attribute name="PN" value="GRM155R71H104KE14D"/>
-</part>
 <part name="AGND12" library="supplies" deviceset="AGND" device=""/>
 <part name="U5" library="texas-instruments" deviceset="TPS563200" device="DDC" value="TPS563201DDC">
-<attribute name="MPN" value="TPS563201DDCR"/>
+<attribute name="MPN" value="TPS563201DDC"/>
 </part>
-<part name="C23" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
+<part name="C23" library="passives" deviceset="CAPACITOR" device="-1210" value="47uF">
 <attribute name="MPN" value="EMVA250ADA470MF55G"/>
 </part>
 <part name="C24" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
@@ -5683,8 +5684,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R7" library="passives" deviceset="RESISTOR" device="-0402" value="10K, 1%">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C26" library="passives" deviceset="CAPACITOR" device="-1206" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
+<part name="C26" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
+<attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
 <part name="L2" library="passives" deviceset="INDUCTOR-HORIZONTAL" device="VLP8040" value="2.2uH">
 <attribute name="MPN" value="VLP8040T-2R2N"/>
@@ -5696,14 +5697,11 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C33" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
 <attribute name="PN" value="GRM15XR71C103KA86D"/>
 </part>
-<part name="C27" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
-<attribute name="MPN" value="GRM21BR61E106KA73L"/>
+<part name="C27" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
+<attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
 <part name="C28" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
 <attribute name="PN" value="GRM188R61E105KA12D"/>
-</part>
-<part name="C29" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
-<attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="+1V01" library="supplies" deviceset="+1V0" device=""/>
 <part name="U6" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
@@ -5860,7 +5858,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 </part>
 <part name="DVDD14" library="supplies" deviceset="DVDD" device=""/>
 <part name="AGND48" library="supplies" deviceset="AGND" device=""/>
-<part name="SHEET9" library="frames" deviceset="A4L-NODOC" device="">
+<part name="SHEET9" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="X2" library="crystals" deviceset="KC2520K" device="" value="22.5792MHz">
@@ -6060,6 +6058,10 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="FID6" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
 <part name="JP1" library="pin-headers" deviceset="PINHD-1X10" device=""/>
 <part name="DVDD19" library="supplies" deviceset="DVDD" device=""/>
+<part name="D9" library="diodes" deviceset="SUPPRESSOR-DUAL-" device="SMA" value="13.6V">
+<attribute name="MPN" value="P4SMA16CA"/>
+</part>
+<part name="AGND78" library="supplies" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6084,21 +6086,21 @@ wide rails.</text>
 <attribute name="VOLTAGE" x="55.88" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="190.5" y="135.89"/>
-<instance part="AGND7" gate="VR1" x="74.93" y="105.41"/>
-<instance part="F1" gate="A" x="101.6" y="127">
-<attribute name="MPN" x="101.6" y="127" size="5.08" layer="96" display="off"/>
-<attribute name="IMAX" x="101.6" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="101.6" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="VMAX" x="101.6" y="127" size="1.778" layer="96" display="off"/>
+<instance part="AGND7" gate="VR1" x="74.93" y="106.68"/>
+<instance part="F1" gate="A" x="96.52" y="127">
+<attribute name="MPN" x="96.52" y="127" size="5.08" layer="96" display="off"/>
+<attribute name="IMAX" x="96.52" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="96.52" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="VMAX" x="96.52" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="86.36" y="116.84">
 <attribute name="MPN" x="86.36" y="116.84" size="5.08" layer="96" display="off"/>
 </instance>
-<instance part="AGND8" gate="VR1" x="86.36" y="105.41"/>
-<instance part="D1" gate="G$1" x="115.57" y="127">
-<attribute name="MPN" x="115.57" y="127" size="5.08" layer="96" display="off"/>
-<attribute name="TYPE" x="115.57" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="VF" x="115.57" y="127" size="1.778" layer="96" display="off"/>
+<instance part="AGND8" gate="VR1" x="86.36" y="106.68"/>
+<instance part="D1" gate="G$1" x="118.11" y="127">
+<attribute name="MPN" x="118.11" y="127" size="5.08" layer="96" display="off"/>
+<attribute name="TYPE" x="118.11" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="VF" x="118.11" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="127" y="118.11">
 <attribute name="MPN" x="127" y="118.11" size="5.08" layer="96" display="off"/>
@@ -6152,6 +6154,10 @@ wide rails.</text>
 </instance>
 <instance part="AGND77" gate="VR1" x="163.83" y="20.32"/>
 <instance part="U1" gate="USB" x="217.17" y="49.53"/>
+<instance part="D9" gate="G$1" x="106.68" y="116.84">
+<attribute name="MPN" x="106.68" y="116.84" size="5.08" layer="96" display="off"/>
+</instance>
+<instance part="AGND78" gate="VR1" x="106.68" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -6161,12 +6167,12 @@ wide rails.</text>
 <pinref part="J1" gate="G$1" pin="SLEEVE"/>
 <pinref part="AGND7" gate="VR1" pin="AGND"/>
 <wire x1="71.12" y1="124.46" x2="74.93" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="124.46" x2="74.93" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="124.46" x2="74.93" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="AGND8" gate="VR1" pin="AGND"/>
-<wire x1="86.36" y1="111.76" x2="86.36" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="111.76" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
@@ -6235,6 +6241,11 @@ wide rails.</text>
 <pinref part="C124" gate="G$1" pin="2"/>
 <wire x1="163.83" y1="22.86" x2="163.83" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="AGND78" gate="VR1" pin="AGND"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="109.22" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -6242,7 +6253,7 @@ wide rails.</text>
 <pinref part="F1" gate="A" pin="1"/>
 <wire x1="71.12" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="86.36" y1="127" x2="95.25" y2="127" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="127" x2="90.17" y2="127" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="121.92" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <junction x="86.36" y="127"/>
 </segment>
@@ -6251,14 +6262,18 @@ wide rails.</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="F1" gate="A" pin="2"/>
-<wire x1="111.76" y1="127" x2="107.95" y2="127" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<wire x1="106.68" y1="127" x2="102.87" y2="127" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<junction x="106.68" y="127"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="119.38" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
 <wire x1="127" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
@@ -6404,9 +6419,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <instance part="C15" gate="G$1" x="144.78" y="111.76">
 <attribute name="PN" x="144.78" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="156.21" y="111.76">
-<attribute name="PN" x="156.21" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="AGND12" gate="VR1" x="125.73" y="85.09"/>
 <instance part="U5" gate="G$1" x="54.61" y="57.15">
 <attribute name="MPN" x="54.61" y="57.15" size="1.778" layer="96" display="off"/>
@@ -6444,9 +6456,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 </instance>
 <instance part="C28" gate="G$1" x="143.51" y="40.64">
 <attribute name="PN" x="143.51" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C29" gate="G$1" x="156.21" y="40.64">
-<attribute name="PN" x="156.21" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+1V01" gate="G$1" x="242.57" y="67.31"/>
 <instance part="U6" gate="G$1" x="173.99" y="57.15">
@@ -6522,8 +6531,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <pinref part="AGND12" gate="VR1" pin="AGND"/>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
 <wire x1="190.5" y1="92.71" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="156.21" y1="92.71" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="92.71" x2="167.64" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="92.71" x2="190.5" y2="92.71" width="0.1524" layer="91"/>
@@ -6532,7 +6539,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <wire x1="144.78" y1="92.71" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="92.71" x2="132.08" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="92.71" x2="144.78" y2="92.71" width="0.1524" layer="91"/>
-<junction x="156.21" y="92.71"/>
 <junction x="144.78" y="92.71"/>
 <pinref part="U4" gate="G$1" pin="100MV"/>
 <wire x1="170.18" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
@@ -6597,15 +6603,12 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <wire x1="119.38" y1="35.56" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <junction x="104.14" y="20.32"/>
-<pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="156.21" y1="20.32" x2="156.21" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="130.81" y1="20.32" x2="130.81" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="143.51" y1="20.32" x2="143.51" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="20.32" x2="130.81" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="20.32" x2="143.51" y2="20.32" width="0.1524" layer="91"/>
-<junction x="156.21" y="20.32"/>
 <junction x="143.51" y="20.32"/>
 <wire x1="167.64" y1="20.32" x2="156.21" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="20.32" x2="199.39" y2="20.32" width="0.1524" layer="91"/>
@@ -6734,8 +6737,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <junction x="119.38" y="124.46"/>
 <pinref part="+4V01" gate="G$1" pin="+4V0"/>
 <wire x1="119.38" y1="134.62" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="156.21" y1="114.3" x2="156.21" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="114.3" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -6746,7 +6747,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <junction x="132.08" y="124.46"/>
 <pinref part="U4" gate="G$1" pin="IN"/>
 <wire x1="156.21" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
-<junction x="156.21" y="124.46"/>
 <pinref part="U4" gate="G$1" pin="EN"/>
 <wire x1="167.64" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
@@ -6927,9 +6927,6 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="43.18" x2="119.38" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="54.61" x2="156.21" y2="54.61" width="0.1524" layer="91"/>
-<junction x="156.21" y="54.61"/>
-<pinref part="C29" gate="G$1" pin="1"/>
-<wire x1="156.21" y1="43.18" x2="156.21" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="143.51" y1="43.18" x2="143.51" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
@@ -9156,7 +9153,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <wire x1="217.17" y1="35.56" x2="217.17" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ADJUSTED_LEFT" class="0">
+<net name="ADJUSTED_LEFT" class="2">
 <segment>
 <pinref part="C101" gate="G$1" pin="1"/>
 <wire x1="118.11" y1="120.65" x2="78.74" y2="120.65" width="0.1524" layer="91"/>
@@ -9176,7 +9173,7 @@ Our volume control is also in between the stages, which apparently provides lowe
 <label x="204.47" y="118.11" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADJUSTED_RIGHT" class="0">
+<net name="ADJUSTED_RIGHT" class="2">
 <segment>
 <pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="118.11" y1="74.93" x2="78.74" y2="74.93" width="0.1524" layer="91"/>
@@ -10285,7 +10282,7 @@ detect when the headphones are on the stand or not.</text>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="ADJUSTED_RIGHT" class="0">
+<net name="ADJUSTED_RIGHT" class="2">
 <segment>
 <wire x1="113.03" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="35.56" x2="76.2" y2="34.29" width="0.1524" layer="91"/>
@@ -10294,7 +10291,7 @@ detect when the headphones are on the stand or not.</text>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
-<net name="ADJUSTED_LEFT" class="0">
+<net name="ADJUSTED_LEFT" class="2">
 <segment>
 <wire x1="113.03" y1="33.02" x2="77.47" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="33.02" x2="77.47" y2="27.94" width="0.1524" layer="91"/>
@@ -10312,6 +10309,11 @@ detect when the headphones are on the stand or not.</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
 </note>
 </compatibility>
 </eagle>
