@@ -5713,13 +5713,13 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R5" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C30" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C30" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C31" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C31" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C32" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C32" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="AGND14" library="supplies" deviceset="AGND" device=""/>
@@ -5736,18 +5736,18 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C17" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C17" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C18" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C18" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C19" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C19" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="AGND15" library="supplies" deviceset="AGND" device=""/>
 <part name="+4V03" library="supplies" deviceset="+4V0" device=""/>
-<part name="C35" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C35" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C36" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
@@ -5768,13 +5768,13 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="R8" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="PN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C38" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C38" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C39" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C39" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
-<part name="C40" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<part name="C40" library="passives" deviceset="CAPACITOR" device="-1206" value="10uF">
 <attribute name="MPN" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C43" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
@@ -5932,13 +5932,13 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C95" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="C97" library="passives" deviceset="CAPACITOR" device="-0402" value="33pF">
+<part name="C97" library="passives" deviceset="CAPACITOR" device="-0402" value="27pF">
 <attribute name="MPN" value="GRM1555C1H330JA01D"/>
 </part>
 <part name="C98" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="C100" library="passives" deviceset="CAPACITOR" device="-0402" value="33pF">
+<part name="C100" library="passives" deviceset="CAPACITOR" device="-0402" value="27pF">
 <attribute name="MPN" value="GRM1555C1H330JA01D"/>
 </part>
 <part name="C104" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
