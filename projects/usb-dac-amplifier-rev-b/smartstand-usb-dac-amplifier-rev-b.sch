@@ -5297,18 +5297,10 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="TYPE" value="diode"/>
 <attribute name="VF" value="0.45"/>
 </part>
-<part name="C1" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
-<part name="C2" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
-<part name="C3" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
-<part name="C4" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
+<part name="C1" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
+<part name="C2" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
+<part name="C3" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
+<part name="C4" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
 <part name="AGND1" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND2" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND3" library="supplies" deviceset="AGND" device=""/>
@@ -5546,9 +5538,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="AGND20" library="supplies" deviceset="AGND" device=""/>
-<part name="C7" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
-<attribute name="PN" value="GRM188R61E105KA12D"/>
-</part>
+<part name="C7" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="C74" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
@@ -5618,12 +5608,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="SHEET2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
-<part name="C5" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
-<part name="C6" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF">
-<attribute name="MPN" value="EMVA250ADA470MF55G"/>
-</part>
+<part name="C5" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
+<part name="C6" library="passives" deviceset="CAPACITOR-POLARIZED" device="CHEMICON_F55" value="47uF"/>
 <part name="AGND5" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND6" library="supplies" deviceset="AGND" device=""/>
 <part name="SHEET3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-NODOC" device="">
@@ -5639,8 +5625,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C11" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
 <attribute name="PN" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C8" library="passives" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="0.1uF">
-<attribute name="MPN" value="C0805C104K5RACTU"/>
+<part name="C8" library="passives" deviceset="CAPACITOR-HORIZONTAL" device="-0603" value="0.1uF">
+<attribute name="MPN" value="GCM188R71H104KA57J"/>
 </part>
 <part name="R3" library="passives" deviceset="RESISTOR" device="-0402" value="40.2K, 1%">
 <attribute name="MPN" value="RK73H1ETTP4022F"/>
@@ -5662,9 +5648,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C14" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
 <attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
-<part name="C15" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
-<attribute name="PN" value="GRM188R61E105KA12D"/>
-</part>
+<part name="C15" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="AGND12" library="supplies" deviceset="AGND" device=""/>
 <part name="U5" library="texas-instruments" deviceset="TPS563200" device="DDC" value="TPS563201DDC">
 <attribute name="MPN" value="TPS563201DDC"/>
@@ -5675,8 +5659,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="C24" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
 <attribute name="PN" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C21" library="passives" deviceset="CAPACITOR-HORIZONTAL" device="-0805" value="0.1uF">
-<attribute name="MPN" value="C0805C104K5RACTU"/>
+<part name="C21" library="passives" deviceset="CAPACITOR-HORIZONTAL" device="-0603" value="0.1uF">
+<attribute name="MPN" value="GCM188R71H104KA57J"/>
 </part>
 <part name="R6" library="passives" deviceset="RESISTOR" device="-0402" value="9.53K, 1%">
 <attribute name="MPN" value="RC0402FR-079K53L"/>
@@ -5694,22 +5678,16 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="PN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="P+3" library="supplies" deviceset="+12V" device=""/>
-<part name="C33" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
-<attribute name="PN" value="GRM15XR71C103KA86D"/>
-</part>
+<part name="C33" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF"/>
 <part name="C27" library="passives" deviceset="CAPACITOR" device="-1210" value="22uF">
 <attribute name="MPN" value="GCM32ER71A226ME12L"/>
 </part>
-<part name="C28" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
-<attribute name="PN" value="GRM188R61E105KA12D"/>
-</part>
+<part name="C28" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="+1V01" library="supplies" deviceset="+1V0" device=""/>
 <part name="U6" library="texas-instruments" deviceset="TPS7A8300" device="RGW">
 <attribute name="MPN" value="TPS7A8300RGWR"/>
 </part>
-<part name="C22" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
-<attribute name="PN" value="GRM15XR71C103KA86D"/>
-</part>
+<part name="C22" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF"/>
 <part name="R5" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
@@ -5727,12 +5705,8 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <attribute name="MPN" value="TPS7A8300RGWR"/>
 <attribute name="TYPE" value="linear"/>
 </part>
-<part name="C20" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
-<attribute name="PN" value="GRM15XR71C103KA86D"/>
-</part>
-<part name="C9" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF">
-<attribute name="PN" value="GRM15XR71C103KA86D"/>
-</part>
+<part name="C20" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF"/>
+<part name="C9" library="passives" deviceset="CAPACITOR" device="-0402" value="0.01uF"/>
 <part name="R2" library="passives" deviceset="RESISTOR" device="-0402" value="10K">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
@@ -6037,9 +6011,7 @@ such as audio preamplifiers and servo error amplifier. &lt;/p&gt;</description>
 <part name="DVDD18" library="supplies" deviceset="DVDD" device=""/>
 <part name="AGND37" library="supplies" deviceset="AGND" device=""/>
 <part name="P+17" library="supplies" deviceset="+12V" device=""/>
-<part name="C123" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
-<attribute name="PN" value="GRM188R61E105KA12D"/>
-</part>
+<part name="C123" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="R27" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="10K"/>
 <part name="R31" library="passives" deviceset="RESISTOR" device="-0402" value="18K"/>
 <part name="AGND38" library="supplies" deviceset="AGND" device=""/>
@@ -6102,18 +6074,10 @@ wide rails.</text>
 <attribute name="TYPE" x="118.11" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="VF" x="118.11" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="127" y="118.11">
-<attribute name="MPN" x="127" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
-<instance part="C2" gate="G$1" x="139.7" y="118.11">
-<attribute name="MPN" x="139.7" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
-<instance part="C3" gate="G$1" x="152.4" y="118.11">
-<attribute name="MPN" x="152.4" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
-<instance part="C4" gate="G$1" x="165.1" y="118.11">
-<attribute name="MPN" x="165.1" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
+<instance part="C1" gate="G$1" x="127" y="118.11"/>
+<instance part="C2" gate="G$1" x="139.7" y="118.11"/>
+<instance part="C3" gate="G$1" x="152.4" y="118.11"/>
+<instance part="C4" gate="G$1" x="165.1" y="118.11"/>
 <instance part="AGND1" gate="VR1" x="127" y="106.68"/>
 <instance part="AGND2" gate="VR1" x="139.7" y="106.68"/>
 <instance part="AGND3" gate="VR1" x="152.4" y="106.68"/>
@@ -6123,27 +6087,19 @@ wide rails.</text>
 <instance part="R1" gate="G$1" x="191.77" y="36.83">
 <attribute name="MPN" x="191.77" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="143.51" y="35.56">
-<attribute name="PN" x="143.51" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C7" gate="G$1" x="143.51" y="35.56"/>
 <instance part="U2" gate="G$1" x="58.42" y="30.48">
 <attribute name="MPN" x="58.42" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND10" gate="VR1" x="58.42" y="20.32"/>
-<instance part="C5" gate="G$1" x="177.8" y="118.11">
-<attribute name="MPN" x="177.8" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
-<instance part="C6" gate="G$1" x="190.5" y="118.11">
-<attribute name="MPN" x="190.5" y="118.11" size="5.08" layer="96" display="off"/>
-</instance>
+<instance part="C5" gate="G$1" x="177.8" y="118.11"/>
+<instance part="C6" gate="G$1" x="190.5" y="118.11"/>
 <instance part="AGND5" gate="VR1" x="177.8" y="106.68"/>
 <instance part="AGND6" gate="VR1" x="190.5" y="106.68"/>
 <instance part="J2" gate="G$1" x="22.86" y="52.07">
 <attribute name="MPN" x="22.86" y="52.07" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C123" gate="G$1" x="129.54" y="35.56">
-<attribute name="PN" x="129.54" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C123" gate="G$1" x="129.54" y="35.56"/>
 <instance part="R27" gate="G$1" x="156.21" y="41.91"/>
 <instance part="R31" gate="G$1" x="113.03" y="34.29"/>
 <instance part="AGND38" gate="VR1" x="113.03" y="20.32"/>
@@ -6416,9 +6372,7 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <instance part="C14" gate="G$1" x="132.08" y="111.76">
 <attribute name="MPN" x="132.08" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C15" gate="G$1" x="144.78" y="111.76">
-<attribute name="PN" x="144.78" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C15" gate="G$1" x="144.78" y="111.76"/>
 <instance part="AGND12" gate="VR1" x="125.73" y="85.09"/>
 <instance part="U5" gate="G$1" x="54.61" y="57.15">
 <attribute name="MPN" x="54.61" y="57.15" size="1.778" layer="96" display="off"/>
@@ -6448,22 +6402,16 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <attribute name="PN" x="36.83" y="41.91" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="12.7" y="68.58"/>
-<instance part="C33" gate="G$1" x="207.01" y="30.48">
-<attribute name="PN" x="207.01" y="30.48" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C33" gate="G$1" x="207.01" y="30.48"/>
 <instance part="C27" gate="G$1" x="130.81" y="40.64">
 <attribute name="MPN" x="130.81" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C28" gate="G$1" x="143.51" y="40.64">
-<attribute name="PN" x="143.51" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C28" gate="G$1" x="143.51" y="40.64"/>
 <instance part="+1V01" gate="G$1" x="242.57" y="67.31"/>
 <instance part="U6" gate="G$1" x="173.99" y="57.15">
 <attribute name="MPN" x="173.99" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="205.74" y="50.8">
-<attribute name="PN" x="205.74" y="50.8" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C22" gate="G$1" x="205.74" y="50.8"/>
 <instance part="R5" gate="G$1" x="208.28" y="64.77">
 <attribute name="MPN" x="208.28" y="64.77" size="1.778" layer="96" display="off"/>
 </instance>
@@ -6481,12 +6429,8 @@ input to an appropriate voltage for feeding into our low-noise LDOs: one for the
 <attribute name="MPN" x="172.72" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="TYPE" x="172.72" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="204.47" y="101.6">
-<attribute name="PN" x="204.47" y="101.6" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C9" gate="G$1" x="204.47" y="120.65">
-<attribute name="PN" x="204.47" y="120.65" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C20" gate="G$1" x="204.47" y="101.6"/>
+<instance part="C9" gate="G$1" x="204.47" y="120.65"/>
 <instance part="R2" gate="G$1" x="207.01" y="134.62">
 <attribute name="MPN" x="207.01" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
